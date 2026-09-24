@@ -52,6 +52,9 @@
     .logo-mark{background:var(--accent);color:#fff;font-weight:900;font-size:.68rem;letter-spacing:.09em;padding:3px 8px;border-radius:4px}
     .logo h1{font-size:1.1rem;font-weight:800;letter-spacing:-.02em}
     .logo-sub{font-size:.72rem;color:var(--text-3);margin-top:.1rem}
+    .hdr-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;justify-content:flex-end}
+    .prices-link{font-size:.78rem;font-weight:700;color:var(--accent);text-decoration:none;white-space:nowrap}
+    .prices-link:hover{text-decoration:underline}
     .theme-btn{background:var(--border);border:none;border-radius:999px;padding:.38rem .85rem;font-size:.78rem;color:var(--text-2);cursor:pointer;display:flex;align-items:center;gap:.4rem;transition:all .15s}
     .theme-btn:hover{background:var(--accent);color:#fff}
 
@@ -256,9 +259,12 @@
         <div class="logo-sub">2025 K-Series &amp; 2026 L-Series · 9 Models</div>
       </div>
     </div>
-    <button class="theme-btn" id="theme-btn">
-      <span id="tico">☀️</span><span id="tlbl">Light mode</span>
-    </button>
+    <div class="hdr-actions">
+      <a class="prices-link" href="prices/">Live Best Buy prices →</a>
+      <button class="theme-btn" id="theme-btn">
+        <span id="tico">☀️</span><span id="tlbl">Light mode</span>
+      </button>
+    </div>
   </div>
 </header>
 

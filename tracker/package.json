@@ -1,0 +1,13 @@
+{
+  "name": "tcl-prices-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetches current Best Buy prices, member deals, and sound bar packages for TCL TVs and sound bars into ../prices/data",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "PRICES_DATA_DIR=../prices/data node scripts/fetch-prices.mjs",
+    "serve": "python3 -m http.server 8080 --directory ..",
+    "test": "node --test test/*.test.mjs"
+  }
+}

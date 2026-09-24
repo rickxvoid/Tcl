@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TCL Prices at Best Buy</title>
+  <meta name="description" content="Current Best Buy prices for every TCL TV and sound bar, with My Best Buy member deals and sound bar bundle deals.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect x=%222%22 y=%225%22 width=%2228%22 height=%2218%22 rx=%222%22 fill=%22%230046be%22/%3E%3Crect x=%2210%22 y=%2225%22 width=%2212%22 height=%223%22 fill=%22%230046be%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="back-link" href="../">← TCL TV comparison</a>
+      <h1>TCL Prices at Best Buy</h1>
+      <p class="checked" id="checked">Loading prices…</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="tabs" role="tablist" aria-label="Product type">
+      <button role="tab" id="tab-tvs" aria-controls="panel" aria-selected="true" data-tab="tvs">TVs <span class="count" data-count="tvs"></span></button>
+      <button role="tab" id="tab-soundbars" aria-controls="panel" aria-selected="false" data-tab="soundbars">Sound bars <span class="count" data-count="soundbars"></span></button>
+      <button role="tab" id="tab-members" aria-controls="panel" aria-selected="false" data-tab="members">Member deals <span class="count" data-count="members"></span></button>
+      <button role="tab" id="tab-bundles" aria-controls="panel" aria-selected="false" data-tab="bundles">Sound bar bundles <span class="count" data-count="bundles"></span></button>
+    </nav>
+
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search model or name" aria-label="Search">
+      <label>Sort
+        <select id="sort">
+          <option value="default">Default</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="savings">Biggest savings</option>
+          <option value="size-desc">Screen size: large to small</option>
+          <option value="size-asc">Screen size: small to large</option>
+          <option value="name">Name</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="onsale"> Deals only</label>
+    </div>
+
+    <section class="filters" id="filters" aria-label="Filters">
+      <div class="fgroup price-group">
+        <label class="flabel" for="maxprice">Max price</label>
+        <div class="price-row">
+          <input type="range" id="maxprice" min="0" max="17" step="1" value="17" aria-describedby="maxprice-out">
+          <output id="maxprice-out" for="maxprice">Any price</output>
+        </div>
+      </div>
+      <div class="fgroup tv-only">
+        <span class="flabel" id="fl-size">Size</span>
+        <div class="chips" id="f-size" role="group" aria-labelledby="fl-size"></div>
+      </div>
+      <div class="fgroup tv-only">
+        <span class="flabel" id="fl-os">Operating system</span>
+        <div class="chips" id="f-os" role="group" aria-labelledby="fl-os"></div>
+      </div>
+      <div class="fgroup tv-only">
+        <span class="flabel" id="fl-panel">Panel type</span>
+        <div class="chips" id="f-panel" role="group" aria-labelledby="fl-panel"></div>
+      </div>
+      <div class="fgroup tv-only">
+        <span class="flabel" id="fl-year">Model year</span>
+        <div class="chips" id="f-year" role="group" aria-labelledby="fl-year"></div>
+      </div>
+      <div class="filter-foot">
+        <span id="result-count"></span>
+        <button type="button" class="clear-btn" id="clear-filters">Clear filters</button>
+      </div>
+    </section>
+
+    <p class="notice" id="member-notice" hidden></p>
+
+    <section id="panel" role="tabpanel" aria-live="polite"></section>
+
+    <footer class="foot">
+      <p>Prices are read from bestbuy.com at the time shown on each item and refreshed every 3 hours. Prices can change at any time, so confirm the final price on bestbuy.com before buying.
+        Only items sold by Best Buy are listed (marketplace sellers are excluded). Member prices are for My Best Buy Plus™ and My Best Buy Total™ members.
+        Store-specific pricing, open-box and trade-in offers aren't included. This site is not affiliated with Best Buy or TCL.</p>
+    </footer>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
