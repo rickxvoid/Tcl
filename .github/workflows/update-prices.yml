@@ -1,0 +1,79 @@
+name: Update TCL prices
+
+# Refreshes prices/data from bestbuy.com every 3 hours and republishes the site.
+# Scheduled runs use this file from the repository's default branch, so it always
+# checks out and updates `main`, the branch GitHub Pages publishes.
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['tracker/**', 'prices/*.html', 'prices/*.js', 'prices/*.css', '.github/workflows/update-prices.yml']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tracker
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm test
+
+      - name: Fetch prices from bestbuy.com
+        run: npm run fetch
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ../prices/data
+          if ! git diff --cached --quiet; then
+            git commit -m "Update prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+  # Publish the updated site. A push made by this workflow doesn't start other
+  # workflows, so deploy here rather than relying on deploy.yml.
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+      - if: steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        if: steps.pages.outcome == 'success'
+        uses: actions/deploy-pages@v4
+      - if: steps.pages.outcome != 'success'
+        run: |
+          echo "::warning::GitHub Pages isn't set up for GitHub Actions deploys, so this run didn't publish. If Pages deploys from the main branch instead, the data commit publishes it."
