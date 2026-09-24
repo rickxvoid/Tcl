@@ -105,7 +105,7 @@ function head(p, metaBits) {
   const url = safeUrl(p.url);
   const img = p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : '';
   const title = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name);
-  return `<div class="card-head">${img}<div><h2>${title}</h2><div class="meta">${metaBits
+  return `<div class="card-head">${img}<div><h3>${title}</h3><div class="meta">${metaBits
     .filter(Boolean)
     .map(esc)
     .join(' · ')}</div></div></div>`;
@@ -167,6 +167,38 @@ function itemsFor(tab) {
 
 const priceOf = (p) => p.salePrice ?? p.packagePrice ?? p.separateTotal ?? null;
 
+// Model series, e.g. "QM7K" from model number 65QM7K, or from the product name
+// ("TCL - 85\" Class QM8L Series ...") when Best Buy gives no model number.
+function tvSeries(p) {
+  const fromModel = /^\d{2,3}([A-Z].*)$/i.exec(p.modelNumber ?? '');
+  if (fromModel) return fromModel[1].toUpperCase();
+  const fromName = /\d+"\s+(?:Class\s+)?(.+?)[ -]Series/i.exec(p.name ?? '');
+  return fromName ? fromName[1].toUpperCase() : 'Other';
+}
+
+/**
+ * Default TV order: model series from the most expensive to the least (by each
+ * series' highest price), and within a series from the largest screen down.
+ * Returns [{ series, tvs }].
+ */
+function seriesGroups(tvs) {
+  const groups = new Map();
+  for (const p of tvs) {
+    const key = tvSeries(p);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(p);
+  }
+  const top = (list) => Math.max(...list.map((p) => priceOf(p) ?? 0));
+  return [...groups]
+    .map(([series, list]) => ({
+      series,
+      tvs: list.sort((a, b) => (b.screenSize ?? 0) - (a.screenSize ?? 0) || (priceOf(b) ?? 0) - (priceOf(a) ?? 0)),
+    }))
+    .sort((a, b) => top(b.tvs) - top(a.tvs) || a.series.localeCompare(b.series));
+}
+
+const groupedByModel = () => state.tab === 'tvs' && state.sort === 'default';
+
 function sorted(items) {
   const eff = (p) => p.memberPrice?.price ?? priceOf(p) ?? Infinity;
   const savings = (p) =>
@@ -180,6 +212,7 @@ function sorted(items) {
     case 'size-asc': return s.sort((a, b) => (a.screenSize ?? Infinity) - (b.screenSize ?? Infinity) || (priceOf(a) ?? 0) - (priceOf(b) ?? 0));
     case 'name': return s.sort((a, b) => (a.name ?? '').localeCompare(b.name ?? ''));
     default:
+      if (state.tab === 'tvs') return seriesGroups(s).flatMap((g) => g.tvs);
       return state.tab === 'members' ? s.sort((a, b) => eff(a) - eff(b)) : s;
   }
 }
@@ -276,9 +309,23 @@ function render() {
     $('#empty-clear')?.addEventListener('click', clearFilters);
     return;
   }
-  panel.innerHTML = `<div class="grid">${items
-    .map((p) => (p.items ? bundleCard(p) : productCard(p)))
-    .join('')}</div>`;
+  if (groupedByModel()) {
+    panel.innerHTML = `<div class="grid">${seriesGroups(items)
+      .map(({ series, tvs }) => {
+        const prices = tvs.map(priceOf).filter((n) => typeof n === 'number');
+        const low = Math.min(...prices);
+        const high = Math.max(...prices);
+        const range = low === high ? money(low) : `${money(low)} – ${money(high)}`;
+        const sizes = tvs.map((p) => (p.screenSize ? `${p.screenSize}"` : null)).filter(Boolean).join(' · ');
+        return `<h2 class="series-head"><span class="series-name">${esc(series)}</span>
+          <span class="series-meta">${esc(sizes)} · ${esc(range)}</span></h2>${tvs.map(productCard).join('')}`;
+      })
+      .join('')}</div>`;
+  } else {
+    panel.innerHTML = `<div class="grid">${items
+      .map((p) => (p.items ? bundleCard(p) : productCard(p)))
+      .join('')}</div>`;
+  }
   // Drop product photos that fail to load instead of showing a broken image.
   panel.querySelectorAll('img').forEach((img) => img.addEventListener('error', () => img.remove(), { once: true }));
 }
