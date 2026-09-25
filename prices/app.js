@@ -82,7 +82,6 @@ function tags(p) {
   const t = [];
   if (p.onSale) t.push('<span class="tag sale">On sale</span>');
   if (p.memberPrice) t.push('<span class="tag member-tag">Member deal</span>');
-  if (p.bundles?.length) t.push(`<span class="tag">${plural(p.bundles.length, 'package deal')}</span>`);
   if (p.freeGiftOffers) t.push(`<span class="tag">Free gift with purchase</span>`);
   if (p.atLowestTracked) t.push('<span class="tag good">Lowest price tracked</span>');
   if (typeof p.previousPrice === 'number' && p.previousPrice !== p.salePrice) {
@@ -111,6 +110,68 @@ function head(p, metaBits) {
     .join(' · ')}</div></div></div>`;
 }
 
+// Package deals ("bundles") pair a TV with a sound bar. The sound bar's price in
+// a package can differ from its own price, and depends on the TV it's paired with.
+const packagesWith = (sku) => (state.data?.bundles ?? []).filter((b) => b.items.some((i) => i.sku === sku));
+const findProduct = (sku) => [...(state.data?.tvs ?? []), ...(state.data?.soundbars ?? [])].find((p) => p.sku === sku);
+
+/** Short label like 65" QM6K for a TV, or S65K for a sound bar. */
+function shortName(item) {
+  const p = findProduct(item.sku);
+  if (p?.kind === 'tv') return `${p.screenSize ? `${p.screenSize}" ` : ''}${tvSeries(p)}`;
+  if (p?.modelNumber) return p.modelNumber;
+  return (p?.name ?? item.name ?? `SKU ${item.sku}`).replace(/^TCL - /, '');
+}
+
+const linkTo = (url, text) => (safeUrl(url) ? `<a href="${esc(safeUrl(url))}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text));
+
+/** Most the sound bar gets discounted in any pairing (0 if never). */
+function pairingSavings(p) {
+  if (p.kind !== 'soundbar') return 0;
+  return Math.max(0, ...packagesWith(p.sku).map((b) => {
+    const me = b.items.find((i) => i.sku === p.sku);
+    return me?.packageItemPrice != null ? p.salePrice - me.packageItemPrice : 0;
+  }));
+}
+
+/** On a sound bar card: its price when bought with each TV it's paired with. */
+function pairingBlock(p) {
+  const rows = packagesWith(p.sku)
+    .map((b) => {
+      const me = b.items.find((i) => i.sku === p.sku);
+      const tvs = b.items.filter((i) => i.sku !== p.sku);
+      const paired = me?.packageItemPrice ?? null;
+      const diff = paired != null ? p.salePrice - paired : 0;
+      const priceText = paired == null
+        ? '<span class="meta">price shown at Best Buy</span>'
+        : diff > 0
+          ? `<strong>${money(paired)}</strong> <span class="save">save ${money(diff)}</span>`
+          : `<strong>${money(paired)}</strong> <span class="meta">same as on its own</span>`;
+      const soundbarOffers = tvs.flatMap((t) => t.offers ?? []).filter((o) => /sound ?bar/i.test(o));
+      return { paired: paired ?? Infinity, html: `<li>
+          <div class="pair-row"><span>With ${tvs.map((t) => linkTo(t.url, shortName(t))).join(' + ')}</span><span>${priceText}</span></div>
+          <div class="meta">TV + sound bar ${b.packagePrice != null ? money(b.packagePrice) : money(b.separateTotal)} · ${linkTo(b.url, 'see package')}</div>
+          ${soundbarOffers.map((o) => `<div class="meta">${esc(o)}</div>`).join('')}
+        </li>` };
+    })
+    .sort((a, b) => a.paired - b.paired);
+  if (!rows.length) return '';
+  return `<p class="offers-title">Price when paired with a TV</p><ul class="pairs">${rows.map((r) => r.html).join('')}</ul>`;
+}
+
+/** On a TV card: the sound bars it's paired with and their price in that pairing. */
+function tvPairingLine(p) {
+  const bits = packagesWith(p.sku).flatMap((b) => b.items
+    .filter((i) => i.sku !== p.sku && findProduct(i.sku)?.kind === 'soundbar')
+    .map((i) => {
+      const price = i.packageItemPrice ?? i.salePrice;
+      const own = findProduct(i.sku)?.salePrice;
+      const save = own != null && price != null && own > price ? ` (save ${money(own - price)})` : '';
+      return `${linkTo(b.url, shortName(i))} ${money(price)}${save}`;
+    }));
+  return bits.length ? `<div class="pair-line"><span class="offers-title">Sound bar pairing</span> ${bits.join(' · ')}</div>` : '';
+}
+
 function productCard(p) {
   const meta = [
     p.modelNumber && `Model ${p.modelNumber}`,
@@ -122,37 +183,12 @@ function productCard(p) {
     ${priceBlock(p.salePrice, p.regularPrice)}
     ${memberBlock(p)}
     ${tags(p)}
+    ${p.kind === 'soundbar' ? pairingBlock(p) : tvPairingLine(p)}
     ${offerList('Offers', p.offers)}
     <div class="checked-at">Checked ${esc(when(p.checkedAt))}</div>
   </article>`;
 }
 
-function bundleCard(b) {
-  const items = b.items
-    .map((m) => {
-      const url = safeUrl(m.url);
-      const name = esc(m.name ?? `SKU ${m.sku}`);
-      const member = m.memberPrice != null ? ` <span class="meta">(members ${money(m.memberPrice)})</span>` : '';
-      const gifts = m.offers?.length ? `<div class="meta">Offers: ${m.offers.map(esc).join('; ')}</div>` : '';
-      const inPackage = m.packageItemPrice != null && m.packageItemPrice !== m.salePrice
-        ? ` <span class="save">${money(m.packageItemPrice)} in this package</span>` : '';
-      return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${name}</a>` : name} — ${money(m.salePrice)}${inPackage}${member}${gifts}</li>`;
-    })
-    .join('');
-  const lines = [];
-  if (b.packagePrice == null) lines.push('<span class="meta">Package price not available right now; see Best Buy.</span>');
-  if (b.bundleSavings > 0) lines.push(`<span class="save">Save ${money(b.bundleSavings)} vs. buying separately today</span>`);
-  else if (b.packagePrice != null && b.separateTotal != null) lines.push(`<span class="meta">Same as buying separately today (${money(b.separateTotal)})</span>`);
-  if (b.memberTotal != null && b.memberTotal < (b.packagePrice ?? b.separateTotal))
-    lines.push(`<span class="member-line">Plus/Total members: ${money(b.memberTotal)} when bought separately with member prices</span>`);
-  return `<article class="card">
-    ${head(b, ['Package deal'])}
-    ${priceBlock(b.packagePrice ?? b.separateTotal, b.regularTotal)}
-    ${lines.map((l) => `<div>${l}</div>`).join('')}
-    <p class="offers-title">Includes</p><ul class="members">${items}</ul>
-    <div class="checked-at">Checked ${esc(when(b.checkedAt))}</div>
-  </article>`;
-}
 
 const hasMemberDeal = (p) => Boolean(p.memberPrice);
 
@@ -161,7 +197,6 @@ function itemsFor(tab) {
   if (tab === 'tvs') return d.tvs;
   if (tab === 'soundbars') return d.soundbars;
   if (tab === 'members') return [...d.tvs, ...d.soundbars].filter(hasMemberDeal);
-  if (tab === 'bundles') return d.bundles;
   return [];
 }
 
@@ -202,7 +237,7 @@ const groupedByModel = () => state.tab === 'tvs' && state.sort === 'default';
 function sorted(items) {
   const eff = (p) => p.memberPrice?.price ?? priceOf(p) ?? Infinity;
   const savings = (p) =>
-    p.items ? Math.max(p.savingsVsRegular ?? 0, p.bundleSavings ?? 0) : Math.max(p.dollarSavings ?? 0, p.memberPrice?.savings ?? 0);
+    Math.max(p.dollarSavings ?? 0, p.memberPrice?.savings ?? 0, pairingSavings(p));
   const s = [...items];
   switch (state.sort) {
     case 'price-asc': return s.sort((a, b) => (priceOf(a) ?? Infinity) - (priceOf(b) ?? Infinity));
@@ -277,11 +312,11 @@ function render() {
   let items = itemsFor(state.tab).filter(
     (p) => !q || `${p.name} ${p.modelNumber ?? ''} ${p.sku ?? ''} ${(p.items ?? []).map((i) => i.name).join(' ')}`.toLowerCase().includes(q),
   );
-  if (state.onSale) items = items.filter((p) => p.onSale || p.memberPrice || p.bundleSavings > 0 || p.savingsVsRegular > 0);
+  if (state.onSale) items = items.filter((p) => p.onSale || p.memberPrice || pairingSavings(p) > 0);
   const total = items.length;
   items = sorted(items.filter(passesFilters));
   renderFilters();
-  const noun = { tvs: 'TV', soundbars: 'sound bar', members: 'member deal', bundles: 'package' }[state.tab];
+  const noun = { tvs: 'TV', soundbars: 'sound bar', members: 'member deal' }[state.tab];
   $('#result-count').textContent = items.length === total
     ? `Showing all ${plural(total, noun)}`
     : `Showing ${items.length} of ${plural(total, noun)}`;
@@ -290,7 +325,6 @@ function render() {
   const notice = $('#member-notice');
   const tips = {
     members: 'Member prices are for My Best Buy Plus™ and Total™ members, as shown to anyone browsing bestbuy.com. Membership is required at checkout.',
-    bundles: 'Package deals that include a TCL sound bar. The package price is what Best Buy charges for the package; offers are listed under each item as Best Buy shows them.',
   };
   notice.hidden = !tips[state.tab];
   notice.textContent = tips[state.tab] ?? '';
@@ -301,7 +335,6 @@ function render() {
       tvs: 'No TCL TVs match.',
       soundbars: 'No TCL sound bars match.',
       members: 'No member deals on TCL TVs or sound bars right now.',
-      bundles: 'No package deals with TCL sound bars right now.',
     }[state.tab];
     panel.innerHTML = filtersActive()
       ? `<div class="empty">Nothing matches these filters. <button type="button" class="clear-btn" id="empty-clear">Clear filters</button></div>`
@@ -323,7 +356,7 @@ function render() {
       .join('')}</div>`;
   } else {
     panel.innerHTML = `<div class="grid">${items
-      .map((p) => (p.items ? bundleCard(p) : productCard(p)))
+      .map(productCard)
       .join('')}</div>`;
   }
   // Drop product photos that fail to load instead of showing a broken image.
@@ -353,7 +386,6 @@ async function init() {
     tvs: d.tvs.length,
     soundbars: d.soundbars.length,
     members: [...d.tvs, ...d.soundbars].filter(hasMemberDeal).length,
-    bundles: d.bundles.length,
   };
   document.querySelectorAll('[data-count]').forEach((el) => (el.textContent = `(${counts[el.dataset.count]})`));
 
