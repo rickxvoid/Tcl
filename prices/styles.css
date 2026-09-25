@@ -57,6 +57,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -186,3 +187,9 @@ a { color: var(--accent); }
 .series-head:first-child { margin-top: 0; }
 .series-name { font-weight: 800; letter-spacing: .01em; }
 .series-meta { font-size: .85rem; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* Sound bar prices when paired with a TV */
+.pairs { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: .9rem; }
+.pairs li { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; display: grid; gap: 2px; }
+.pair-row { display: flex; justify-content: space-between; align-items: baseline; gap: 4px 10px; flex-wrap: wrap; }
+.pair-line { font-size: .88rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
