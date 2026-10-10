@@ -1,7 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { apolloPayloads, parseSearchPage, parseComboPage, memberPricing, normalizeProduct } from '../scripts/lib/bestbuy-page.mjs';
-import { kindOf, isTcl, screenSize } from '../scripts/lib/classify.mjs';
+import { kindOf, screenSize } from '../scripts/lib/classify.mjs';
+import tcl from '../brands/tcl.mjs';
+import sony from '../brands/sony.mjs';
 import { updateHistory } from '../scripts/lib/history.mjs';
 import { searchUrl } from '../scripts/lib/http.mjs';
 
@@ -123,8 +125,13 @@ test('classify', () => {
   assert.equal(kindOf({ whatItIs: ['Soundbar'] }), 'soundbar');
   assert.equal(kindOf({ name: 'TCL - Q Class Premium 3.1 Channel Sound Bar - Black' }), 'soundbar');
   assert.equal(kindOf({ name: 'TCL - Full-Motion TV Wall Mount' }), null);
-  assert.ok(isTcl({ brand: 'TCL' }));
-  assert.ok(!isTcl({ brand: 'Hisense', name: 'Hisense - 65" TV' }));
+  assert.ok(tcl.isBrand({ brand: 'TCL' }));
+  assert.ok(!tcl.isBrand({ brand: 'Hisense', name: 'Hisense - 65" TV' }));
+  assert.ok(sony.isBrand({ name: 'Sony - 65" Class BRAVIA 7 II' }));
+  // Sony's site also counts home theater systems, subwoofers and rear speakers as audio.
+  assert.equal(kindOf({ whatItIs: ['Home Theater System'] }, sony.audioTypes), 'soundbar');
+  assert.equal(kindOf({ whatItIs: ['Subwoofer'] }, sony.audioTypes), 'soundbar');
+  assert.equal(kindOf({ whatItIs: ['Subwoofer'] }, tcl.audioTypes), null);
   assert.equal(screenSize('TCL - 65" Class QM6K'), 65);
 });
 
