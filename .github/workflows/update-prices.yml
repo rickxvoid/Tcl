@@ -1,12 +1,15 @@
 name: Update TCL prices
 
-# Refreshes prices/data from bestbuy.com every 3 hours and republishes the site.
-# Scheduled runs use this file from the repository's default branch, so it always
-# checks out and updates `main`, the branch GitHub Pages publishes.
+# Refreshes prices/data from bestbuy.com about every hour. GitHub Pages publishes
+# from `main`, so each data commit republishes the site. Scheduled runs use this
+# file from the repository's default branch, so it always checks out and updates
+# `main`.
 
 on:
   schedule:
-    - cron: '17 */3 * * *'
+    # Hourly: GitHub skips many scheduled runs when it's busy, so an hourly
+    # schedule is what reliably refreshes prices every few hours.
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -14,8 +17,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update-prices
@@ -51,29 +52,3 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-
-  # Publish the updated site. A push made by this workflow doesn't start other
-  # workflows, so deploy here rather than relying on deploy.yml.
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - id: pages
-        uses: actions/configure-pages@v5
-        continue-on-error: true
-      - if: steps.pages.outcome == 'success'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deploy
-        if: steps.pages.outcome == 'success'
-        uses: actions/deploy-pages@v4
-      - if: steps.pages.outcome != 'success'
-        run: |
-          echo "::warning::GitHub Pages isn't set up for GitHub Actions deploys, so this run didn't publish. If Pages deploys from the main branch instead, the data commit publishes it."
