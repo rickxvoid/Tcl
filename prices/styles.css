@@ -175,9 +175,8 @@ a { color: var(--accent); }
   .filter-foot { grid-column: 1 / -1; }
 }
 
-.site-nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: .85rem; margin-bottom: 4px; }
-.site-nav a { color: var(--accent); text-decoration: none; }
-.site-nav a:hover { text-decoration: underline; }
+.back-link { display: inline-block; font-size: .85rem; color: var(--accent); text-decoration: none; margin-bottom: 4px; }
+.back-link:hover { text-decoration: underline; }
 
 /* Model series headings in the default TV order */
 .series-head {
