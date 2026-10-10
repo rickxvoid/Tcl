@@ -1,8 +1,8 @@
 {
- "checkedAt": "2026-10-09T18:26:50.827Z",
+ "checkedAt": "2026-10-10T01:00:05.162Z",
  "source": "bestbuy.com",
  "counts": {
-  "tvs": 102,
+  "tvs": 103,
   "soundbars": 9,
   "bundles": 4
  },
@@ -50,7 +50,7 @@
    "rating": 4.5,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:28.845Z",
+   "checkedAt": "2026-10-10T00:59:14.756Z",
    "lowestSeen": 9999.99,
    "previousPrice": 13999.99,
    "atLowestTracked": true
@@ -83,7 +83,7 @@
    "rating": 4.3,
    "reviewCount": 9,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:33.722Z",
+   "checkedAt": "2026-10-10T00:59:27.531Z",
    "lowestSeen": 11999.99,
    "previousPrice": 17999.99,
    "atLowestTracked": true
@@ -116,7 +116,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:33.722Z",
+   "checkedAt": "2026-10-10T00:58:47.594Z",
    "lowestSeen": 19999.99,
    "previousPrice": 24999.99,
    "atLowestTracked": true
@@ -142,7 +142,7 @@
    "rating": 4.6,
    "reviewCount": 185,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:36.278Z",
+   "checkedAt": "2026-10-10T00:58:50.366Z",
    "lowestSeen": 1199.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -168,7 +168,7 @@
    "rating": 4.7,
    "reviewCount": 575,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:28.845Z",
+   "checkedAt": "2026-10-10T00:59:02.247Z",
    "lowestSeen": 1299.99,
    "previousPrice": 2153.99,
    "atLowestTracked": true
@@ -194,7 +194,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:30.638Z",
+   "checkedAt": "2026-10-10T00:59:45.141Z",
    "lowestSeen": 1399.99,
    "previousPrice": 2499.99,
    "atLowestTracked": true
@@ -220,7 +220,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:41.083Z",
+   "checkedAt": "2026-10-10T00:59:29.906Z",
    "lowestSeen": 1599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -253,7 +253,7 @@
    "rating": 4.7,
    "reviewCount": 179,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:28.845Z",
+   "checkedAt": "2026-10-10T00:59:07.600Z",
    "lowestSeen": 1799.99,
    "previousPrice": 2199.99,
    "atLowestTracked": true
@@ -286,7 +286,7 @@
    "rating": 4.7,
    "reviewCount": 21,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:43.320Z",
+   "checkedAt": "2026-10-10T00:58:57.327Z",
    "lowestSeen": 2199.99,
    "previousPrice": 2499.99,
    "atLowestTracked": true
@@ -319,7 +319,7 @@
    "rating": 4.6,
    "reviewCount": 43,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:38.611Z",
+   "checkedAt": "2026-10-10T00:57:52.791Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -352,7 +352,7 @@
    "rating": 4.8,
    "reviewCount": 482,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:36.323Z",
+   "checkedAt": "2026-10-10T00:57:50.060Z",
    "lowestSeen": 1999.99,
    "previousPrice": 1999.99,
    "atLowestTracked": false
@@ -385,7 +385,7 @@
    "rating": 4.3,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:43.320Z",
+   "checkedAt": "2026-10-10T00:58:57.327Z",
    "lowestSeen": 2999.99,
    "previousPrice": 5999.99,
    "atLowestTracked": true
@@ -411,7 +411,7 @@
    "rating": 5,
    "reviewCount": 8,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:38.114Z",
+   "checkedAt": "2026-10-10T00:59:49.746Z",
    "lowestSeen": 5099.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -444,7 +444,7 @@
    "rating": 4.8,
    "reviewCount": 5,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:38.611Z",
+   "checkedAt": "2026-10-10T00:57:52.791Z",
    "lowestSeen": 6999.99,
    "previousPrice": 9999.99,
    "atLowestTracked": true
@@ -477,7 +477,7 @@
    "rating": 5,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:08.637Z",
+   "checkedAt": "2026-10-10T00:58:42.719Z",
    "lowestSeen": 7639.99,
    "previousPrice": 7639.99,
    "atLowestTracked": false
@@ -503,7 +503,7 @@
    "rating": 4.6,
    "reviewCount": 304,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:08.637Z",
+   "checkedAt": "2026-10-10T00:59:19.915Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -529,7 +529,7 @@
    "rating": 4.6,
    "reviewCount": 8,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:50.962Z",
+   "checkedAt": "2026-10-10T00:58:45.077Z",
    "lowestSeen": 679.99,
    "previousPrice": 699.99,
    "atLowestTracked": true
@@ -555,7 +555,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:56.363Z",
+   "checkedAt": "2026-10-10T00:59:39.909Z",
    "lowestSeen": 679.99,
    "previousPrice": 1199.99,
    "atLowestTracked": true
@@ -581,7 +581,7 @@
    "rating": 4.8,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:53.349Z",
+   "checkedAt": "2026-10-10T00:59:04.933Z",
    "lowestSeen": 729.99,
    "previousPrice": 749.99,
    "atLowestTracked": true
@@ -607,7 +607,7 @@
    "rating": 4.6,
    "reviewCount": 164,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:33.158Z",
+   "checkedAt": "2026-10-10T00:58:10.766Z",
    "lowestSeen": 749.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -633,7 +633,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:23.666Z",
+   "checkedAt": "2026-10-10T00:58:37.857Z",
    "lowestSeen": 799.99,
    "previousPrice": 1699.99,
    "atLowestTracked": true
@@ -659,7 +659,7 @@
    "rating": 4.7,
    "reviewCount": 595,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:50.962Z",
+   "checkedAt": "2026-10-10T00:59:09.741Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -685,7 +685,7 @@
    "rating": 4.5,
    "reviewCount": 57,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:06.045Z",
+   "checkedAt": "2026-10-10T00:59:19.915Z",
    "lowestSeen": 849.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -711,7 +711,7 @@
    "rating": 4.7,
    "reviewCount": 638,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:26.443Z",
+   "checkedAt": "2026-10-10T00:57:40.161Z",
    "lowestSeen": 899.99,
    "previousPrice": 1675.99,
    "atLowestTracked": true
@@ -737,7 +737,7 @@
    "rating": 4.8,
    "reviewCount": 32,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:48.319Z",
+   "checkedAt": "2026-10-10T00:58:37.857Z",
    "lowestSeen": 1499.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -763,7 +763,7 @@
    "rating": 4.3,
    "reviewCount": 18,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:06.045Z",
+   "checkedAt": "2026-10-10T00:59:17.464Z",
    "lowestSeen": 1499.99,
    "previousPrice": 2799.99,
    "atLowestTracked": true
@@ -789,7 +789,7 @@
    "rating": 4.7,
    "reviewCount": 171,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:13.515Z",
+   "checkedAt": "2026-10-10T00:59:27.531Z",
    "lowestSeen": 999.99,
    "previousPrice": 999.99,
    "atLowestTracked": false
@@ -815,10 +815,36 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:56.251Z",
+   "checkedAt": "2026-10-10T00:58:10.766Z",
    "lowestSeen": 1599.99,
    "previousPrice": 1799.99,
    "atLowestTracked": true
+  },
+  {
+   "sku": "6579455",
+   "kind": "tv",
+   "name": "TCL - 85\" Class QM7-Series 4K UHD HDR QD Mini LED Smart Google TV (2024)",
+   "modelNumber": "85QM751G",
+   "url": "https://www.bestbuy.com/product/tcl-85-class-qm7-series-4k-uhd-hdr-qd-mini-led-smart-google-tv-2024/J36QYTWHWR/sku/6579455",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4674ece7-2d25-4ded-888a-ee5bb0894213.jpg",
+   "screenSize": 85,
+   "regularPrice": 1799.99,
+   "salePrice": 1709.99,
+   "onSale": true,
+   "dollarSavings": 90,
+   "percentSavings": 5,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 3,
+   "availability": "NOT_AVAILABLE",
+   "rating": 4.7,
+   "reviewCount": 113,
+   "bundles": [],
+   "checkedAt": "2026-10-10T00:58:50.366Z",
+   "lowestSeen": 1709.99,
+   "previousPrice": null,
+   "atLowestTracked": false
   },
   {
    "sku": "6635428",
@@ -841,7 +867,7 @@
    "rating": 4.2,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:11.279Z",
+   "checkedAt": "2026-10-10T00:59:22.330Z",
    "lowestSeen": 1999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -867,7 +893,7 @@
    "rating": 4.8,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:25.948Z",
+   "checkedAt": "2026-10-10T00:58:40.093Z",
    "lowestSeen": 2147.99,
    "previousPrice": 2147.99,
    "atLowestTracked": false
@@ -893,7 +919,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:58.335Z",
+   "checkedAt": "2026-10-10T00:59:12.574Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -919,7 +945,7 @@
    "rating": 4.4,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:33.722Z",
+   "checkedAt": "2026-10-10T00:59:27.531Z",
    "lowestSeen": 4999.99,
    "previousPrice": 5999.99,
    "atLowestTracked": true
@@ -945,7 +971,7 @@
    "rating": 4.9,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:11.279Z",
+   "checkedAt": "2026-10-10T00:59:22.330Z",
    "lowestSeen": 4999.99,
    "previousPrice": 4999.99,
    "atLowestTracked": false
@@ -971,7 +997,7 @@
    "rating": 4.8,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:31.780Z",
+   "checkedAt": "2026-10-10T00:58:45.077Z",
    "lowestSeen": 479.99,
    "previousPrice": 499.99,
    "atLowestTracked": true
@@ -997,7 +1023,7 @@
    "rating": 4.6,
    "reviewCount": 257,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:01.167Z",
+   "checkedAt": "2026-10-10T00:59:14.756Z",
    "lowestSeen": 479.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1023,7 +1049,7 @@
    "rating": 4.8,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:56.363Z",
+   "checkedAt": "2026-10-10T00:59:07.600Z",
    "lowestSeen": 529.99,
    "previousPrice": 549.99,
    "atLowestTracked": true
@@ -1049,7 +1075,7 @@
    "rating": 4.7,
    "reviewCount": 489,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:01.167Z",
+   "checkedAt": "2026-10-10T00:59:12.574Z",
    "lowestSeen": 559.99,
    "previousPrice": 579.99,
    "atLowestTracked": true
@@ -1075,7 +1101,7 @@
    "rating": 4.6,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:23.491Z",
+   "checkedAt": "2026-10-10T00:57:40.161Z",
    "lowestSeen": 629.99,
    "previousPrice": 699.99,
    "atLowestTracked": true
@@ -1101,7 +1127,7 @@
    "rating": 4.7,
    "reviewCount": 559,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:56.363Z",
+   "checkedAt": "2026-10-10T00:59:09.741Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1127,7 +1153,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:41.083Z",
+   "checkedAt": "2026-10-10T00:59:29.906Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1153,7 +1179,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:16.172Z",
+   "checkedAt": "2026-10-10T00:59:32.359Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1179,7 +1205,7 @@
    "rating": 4.7,
    "reviewCount": 464,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:48.319Z",
+   "checkedAt": "2026-10-10T00:59:02.247Z",
    "lowestSeen": 849.99,
    "previousPrice": 899.99,
    "atLowestTracked": true
@@ -1205,7 +1231,7 @@
    "rating": 4.7,
    "reviewCount": 59,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:48.319Z",
+   "checkedAt": "2026-10-10T00:59:37.293Z",
    "lowestSeen": 1199.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1231,7 +1257,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:58.503Z",
+   "checkedAt": "2026-10-10T00:58:47.594Z",
    "lowestSeen": 1199.99,
    "previousPrice": 1399.99,
    "atLowestTracked": true
@@ -1257,7 +1283,7 @@
    "rating": 4.7,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:33.158Z",
+   "checkedAt": "2026-10-10T00:59:17.464Z",
    "lowestSeen": 1199.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1279,11 +1305,11 @@
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 3,
-   "availability": "CHECK_STORES",
+   "availability": "SOLD_OUT",
    "rating": 4.7,
    "reviewCount": 374,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:31.780Z",
+   "checkedAt": "2026-10-10T00:59:47.273Z",
    "lowestSeen": 1234.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1309,7 +1335,7 @@
    "rating": 4.3,
    "reviewCount": 39,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:03.380Z",
+   "checkedAt": "2026-10-10T00:58:42.719Z",
    "lowestSeen": 1299.99,
    "previousPrice": 1699.99,
    "atLowestTracked": true
@@ -1335,7 +1361,7 @@
    "rating": 4.8,
    "reviewCount": 123,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:01.167Z",
+   "checkedAt": "2026-10-10T00:59:17.464Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1361,7 +1387,7 @@
    "rating": 4.8,
    "reviewCount": 36,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:43.320Z",
+   "checkedAt": "2026-10-10T00:58:57.327Z",
    "lowestSeen": 1499.99,
    "previousPrice": 2999.99,
    "atLowestTracked": true
@@ -1387,7 +1413,7 @@
    "rating": 4.8,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:58.335Z",
+   "checkedAt": "2026-10-10T00:58:07.622Z",
    "lowestSeen": 1199.99,
    "previousPrice": 1199.99,
    "atLowestTracked": false
@@ -1413,7 +1439,7 @@
    "rating": 4.7,
    "reviewCount": 11,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:03.380Z",
+   "checkedAt": "2026-10-10T00:59:45.141Z",
    "lowestSeen": 2999.99,
    "previousPrice": 3999.99,
    "atLowestTracked": true
@@ -1439,7 +1465,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:26.443Z",
+   "checkedAt": "2026-10-10T00:57:40.161Z",
    "lowestSeen": 279.99,
    "previousPrice": 399.99,
    "atLowestTracked": true
@@ -1465,7 +1491,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:03.380Z",
+   "checkedAt": "2026-10-10T00:59:07.600Z",
    "lowestSeen": 349.99,
    "previousPrice": 369.99,
    "atLowestTracked": true
@@ -1491,7 +1517,7 @@
    "rating": 4.6,
    "reviewCount": 327,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:13.515Z",
+   "checkedAt": "2026-10-10T00:58:47.594Z",
    "lowestSeen": 349.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1517,7 +1543,7 @@
    "rating": 4.9,
    "reviewCount": 9,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:45.853Z",
+   "checkedAt": "2026-10-10T00:57:42.884Z",
    "lowestSeen": 379.99,
    "previousPrice": 399.99,
    "atLowestTracked": true
@@ -1543,7 +1569,7 @@
    "rating": 4.7,
    "reviewCount": 862,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:50.962Z",
+   "checkedAt": "2026-10-10T00:59:02.247Z",
    "lowestSeen": 399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1569,7 +1595,7 @@
    "rating": 4.8,
    "reviewCount": 18,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:21.074Z",
+   "checkedAt": "2026-10-10T00:58:34.979Z",
    "lowestSeen": 449.99,
    "previousPrice": 499.99,
    "atLowestTracked": true
@@ -1595,7 +1621,7 @@
    "rating": 4.7,
    "reviewCount": 505,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:36.323Z",
+   "checkedAt": "2026-10-10T00:59:19.915Z",
    "lowestSeen": 449.99,
    "previousPrice": 499.99,
    "atLowestTracked": true
@@ -1621,7 +1647,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:25.948Z",
+   "checkedAt": "2026-10-10T00:59:29.906Z",
    "lowestSeen": 549.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1647,7 +1673,7 @@
    "rating": 4.7,
    "reviewCount": 948,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:43.320Z",
+   "checkedAt": "2026-10-10T00:58:37.857Z",
    "lowestSeen": 649.99,
    "previousPrice": 699.99,
    "atLowestTracked": true
@@ -1669,11 +1695,11 @@
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 2,
-   "availability": "SOLD_OUT",
+   "availability": "ADD_TO_CART",
    "rating": 4.6,
    "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:06.045Z",
+   "checkedAt": "2026-10-10T00:58:45.077Z",
    "lowestSeen": 695.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1699,7 +1725,7 @@
    "rating": 4.8,
    "reviewCount": 320,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:35.901Z",
+   "checkedAt": "2026-10-10T00:58:47.594Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1725,35 +1751,9 @@
    "rating": 4.6,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:21.074Z",
+   "checkedAt": "2026-10-10T00:58:34.979Z",
    "lowestSeen": 899.99,
    "previousPrice": 999.99,
-   "atLowestTracked": true
-  },
-  {
-   "sku": "6686905",
-   "kind": "tv",
-   "name": "TCL - 65\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
-   "modelNumber": "65A400U",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHPTZ/sku/6686905",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
-   "screenSize": 65,
-   "regularPrice": 1399.99,
-   "salePrice": 899.99,
-   "onSale": true,
-   "dollarSavings": 500,
-   "percentSavings": 35,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
-   "bundles": [],
-   "checkedAt": "2026-10-09T18:24:31.617Z",
-   "lowestSeen": 899.99,
-   "previousPrice": 1199.99,
    "atLowestTracked": true
   },
   {
@@ -1777,10 +1777,36 @@
    "rating": 4.7,
    "reviewCount": 263,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:31.617Z",
+   "checkedAt": "2026-10-10T00:59:07.600Z",
    "lowestSeen": 899.99,
    "previousPrice": null,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6686905",
+   "kind": "tv",
+   "name": "TCL - 65\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
+   "modelNumber": "65A400U",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHPTZ/sku/6686905",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
+   "screenSize": 65,
+   "regularPrice": 1399.99,
+   "salePrice": 899.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 35,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 0,
+   "reviewCount": 0,
+   "bundles": [],
+   "checkedAt": "2026-10-10T00:57:45.370Z",
+   "lowestSeen": 899.99,
+   "previousPrice": 1199.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6590123",
@@ -1803,33 +1829,7 @@
    "rating": 4.6,
    "reviewCount": 300,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:53.349Z",
-   "lowestSeen": 849.99,
-   "previousPrice": 849.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673197",
-   "kind": "tv",
-   "name": "TCL - 65\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
-   "modelNumber": "65A300L",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCQ/sku/6673197",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
-   "screenSize": 65,
-   "regularPrice": 1499.99,
-   "salePrice": 999.99,
-   "onSale": true,
-   "dollarSavings": 500,
-   "percentSavings": 33,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 4.1,
-   "reviewCount": 10,
-   "bundles": [],
-   "checkedAt": "2026-10-09T18:25:58.335Z",
+   "checkedAt": "2026-10-10T00:59:09.741Z",
    "lowestSeen": 849.99,
    "previousPrice": 849.99,
    "atLowestTracked": false
@@ -1855,9 +1855,35 @@
    "rating": 4.7,
    "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:58.335Z",
+   "checkedAt": "2026-10-10T00:59:12.574Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6673197",
+   "kind": "tv",
+   "name": "TCL - 65\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
+   "modelNumber": "65A300L",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCQ/sku/6673197",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
+   "screenSize": 65,
+   "regularPrice": 1499.99,
+   "salePrice": 999.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 33,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 4.1,
+   "reviewCount": 10,
+   "bundles": [],
+   "checkedAt": "2026-10-10T00:57:47.761Z",
+   "lowestSeen": 849.99,
+   "previousPrice": 849.99,
    "atLowestTracked": false
   },
   {
@@ -1881,7 +1907,7 @@
    "rating": 4.9,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:26.443Z",
+   "checkedAt": "2026-10-10T00:58:57.327Z",
    "lowestSeen": 1077.99,
    "previousPrice": 1077.99,
    "atLowestTracked": false
@@ -1907,7 +1933,7 @@
    "rating": 4.6,
    "reviewCount": 323,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:11.279Z",
+   "checkedAt": "2026-10-10T00:59:25.057Z",
    "lowestSeen": 269.99,
    "previousPrice": 279.99,
    "atLowestTracked": true
@@ -1933,7 +1959,7 @@
    "rating": 4.8,
    "reviewCount": 133,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:45.853Z",
+   "checkedAt": "2026-10-10T00:58:40.093Z",
    "lowestSeen": 199.99,
    "previousPrice": 239.99,
    "atLowestTracked": true
@@ -1959,7 +1985,7 @@
    "rating": 4.5,
    "reviewCount": 2579,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:06.045Z",
+   "checkedAt": "2026-10-10T00:59:19.915Z",
    "lowestSeen": 239.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1985,7 +2011,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:31.780Z",
+   "checkedAt": "2026-10-10T00:59:42.208Z",
    "lowestSeen": 249.99,
    "previousPrice": 249.99,
    "atLowestTracked": false
@@ -2011,7 +2037,7 @@
    "rating": 4.6,
    "reviewCount": 21,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:48.319Z",
+   "checkedAt": "2026-10-10T00:58:59.851Z",
    "lowestSeen": 289.99,
    "previousPrice": 299.99,
    "atLowestTracked": true
@@ -2037,7 +2063,7 @@
    "rating": 4.7,
    "reviewCount": 982,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:50.962Z",
+   "checkedAt": "2026-10-10T00:59:04.933Z",
    "lowestSeen": 319.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2059,11 +2085,11 @@
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 3,
-   "availability": "SOLD_OUT",
+   "availability": "CHECK_STORES",
    "rating": 4.7,
    "reviewCount": 691,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:01.167Z",
+   "checkedAt": "2026-10-10T00:58:40.093Z",
    "lowestSeen": 349.99,
    "previousPrice": 399.99,
    "atLowestTracked": true
@@ -2089,7 +2115,7 @@
    "rating": 4.7,
    "reviewCount": 19,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:23.666Z",
+   "checkedAt": "2026-10-10T00:58:57.327Z",
    "lowestSeen": 379.99,
    "previousPrice": 429.99,
    "atLowestTracked": true
@@ -2115,7 +2141,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:25.948Z",
+   "checkedAt": "2026-10-10T00:58:12.583Z",
    "lowestSeen": 449.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2141,7 +2167,7 @@
    "rating": 4.7,
    "reviewCount": 731,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:21.074Z",
+   "checkedAt": "2026-10-10T00:58:34.979Z",
    "lowestSeen": 499.99,
    "previousPrice": 549.99,
    "atLowestTracked": true
@@ -2167,7 +2193,7 @@
    "rating": 4.7,
    "reviewCount": 535,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:23.666Z",
+   "checkedAt": "2026-10-10T00:59:12.574Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2193,35 +2219,9 @@
    "rating": 4.8,
    "reviewCount": 54,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:28.514Z",
+   "checkedAt": "2026-10-10T00:57:42.884Z",
    "lowestSeen": 699.99,
    "previousPrice": 799.99,
-   "atLowestTracked": true
-  },
-  {
-   "sku": "6590118",
-   "kind": "tv",
-   "name": "TCL - 55\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
-   "modelNumber": "55A300W",
-   "url": "https://www.bestbuy.com/product/tcl-55-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HY/sku/6590118",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
-   "screenSize": 55,
-   "regularPrice": 999.99,
-   "salePrice": 699.99,
-   "onSale": true,
-   "dollarSavings": 300,
-   "percentSavings": 30,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 3,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 206,
-   "bundles": [],
-   "checkedAt": "2026-10-09T18:24:33.688Z",
-   "lowestSeen": 699.99,
-   "previousPrice": 999.99,
    "atLowestTracked": true
   },
   {
@@ -2245,10 +2245,36 @@
    "rating": 4.8,
    "reviewCount": 47,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:28.845Z",
+   "checkedAt": "2026-10-10T00:58:42.719Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6590118",
+   "kind": "tv",
+   "name": "TCL - 55\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
+   "modelNumber": "55A300W",
+   "url": "https://www.bestbuy.com/product/tcl-55-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HY/sku/6590118",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
+   "screenSize": 55,
+   "regularPrice": 999.99,
+   "salePrice": 699.99,
+   "onSale": true,
+   "dollarSavings": 300,
+   "percentSavings": 30,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 3,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 206,
+   "bundles": [],
+   "checkedAt": "2026-10-10T00:59:14.756Z",
+   "lowestSeen": 699.99,
+   "previousPrice": 999.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6686904",
@@ -2271,7 +2297,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:31.780Z",
+   "checkedAt": "2026-10-10T00:58:45.077Z",
    "lowestSeen": 699.99,
    "previousPrice": 899.99,
    "atLowestTracked": true
@@ -2297,7 +2323,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:30.638Z",
+   "checkedAt": "2026-10-10T00:59:09.741Z",
    "lowestSeen": 799.99,
    "previousPrice": 999.99,
    "atLowestTracked": true
@@ -2323,7 +2349,7 @@
    "rating": 4.4,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:08.637Z",
+   "checkedAt": "2026-10-10T00:59:22.330Z",
    "lowestSeen": 699.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -2349,7 +2375,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:33.688Z",
+   "checkedAt": "2026-10-10T00:59:14.756Z",
    "lowestSeen": 239.99,
    "previousPrice": 249.99,
    "atLowestTracked": true
@@ -2375,7 +2401,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:25.717Z",
+   "checkedAt": "2026-10-10T00:58:37.857Z",
    "lowestSeen": 259.99,
    "previousPrice": 279.99,
    "atLowestTracked": true
@@ -2401,36 +2427,10 @@
    "rating": 4.6,
    "reviewCount": 489,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:53.349Z",
+   "checkedAt": "2026-10-10T00:59:04.933Z",
    "lowestSeen": 279.99,
    "previousPrice": 299.99,
    "atLowestTracked": true
-  },
-  {
-   "sku": "6593222",
-   "kind": "tv",
-   "name": "TCL - 50\" Class Q5-Series 4K UHD HDR PRO+ QLED Smart Fire TV (2024)",
-   "modelNumber": "50Q550F",
-   "url": "https://www.bestbuy.com/product/tcl-50-class-q5-series-4k-uhd-hdr-pro-qled-smart-fire-tv-2024/J36QYTK8G3/sku/6593222",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5c0038f6-da0d-4bdb-9516-b41466e138ab.jpg",
-   "screenSize": 50,
-   "regularPrice": 399.99,
-   "salePrice": 279.99,
-   "onSale": true,
-   "dollarSavings": 120,
-   "percentSavings": 30,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "NOT_AVAILABLE",
-   "rating": 4.4,
-   "reviewCount": 588,
-   "bundles": [],
-   "checkedAt": "2026-10-09T18:26:16.172Z",
-   "lowestSeen": 279.99,
-   "previousPrice": null,
-   "atLowestTracked": false
   },
   {
    "sku": "6684148",
@@ -2453,7 +2453,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:28.160Z",
+   "checkedAt": "2026-10-10T00:59:39.909Z",
    "lowestSeen": 329.99,
    "previousPrice": 379.99,
    "atLowestTracked": true
@@ -2479,7 +2479,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:24:58.503Z",
+   "checkedAt": "2026-10-10T00:58:12.583Z",
    "lowestSeen": 399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2505,9 +2505,35 @@
    "rating": 4.9,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:45.853Z",
+   "checkedAt": "2026-10-10T00:58:59.851Z",
    "lowestSeen": 417.99,
    "previousPrice": 417.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6635425",
+   "kind": "tv",
+   "name": "TCL - 43\" Class F35 Series 4K UHD HDR LED Smart Fire TV (2025)",
+   "modelNumber": "43F35",
+   "url": "https://www.bestbuy.com/product/tcl-43-class-f35-series-4k-uhd-hdr-led-smart-fire-tv-2025/J36QYTH74W/sku/6635425",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/29d88038-332f-48c7-a8b1-ea1d3db536dc.jpg",
+   "screenSize": 43,
+   "regularPrice": 249.99,
+   "salePrice": 149.99,
+   "onSale": true,
+   "dollarSavings": 100,
+   "percentSavings": 40,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 2,
+   "availability": "NOT_AVAILABLE",
+   "rating": 4.6,
+   "reviewCount": 453,
+   "bundles": [],
+   "checkedAt": "2026-10-10T00:58:50.366Z",
+   "lowestSeen": 149.99,
+   "previousPrice": null,
    "atLowestTracked": false
   },
   {
@@ -2531,7 +2557,7 @@
    "rating": 4.7,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:53.349Z",
+   "checkedAt": "2026-10-10T00:59:02.247Z",
    "lowestSeen": 199.99,
    "previousPrice": 219.99,
    "atLowestTracked": true
@@ -2557,7 +2583,7 @@
    "rating": 4.7,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:23.491Z",
+   "checkedAt": "2026-10-10T00:59:37.293Z",
    "lowestSeen": 219.99,
    "previousPrice": 219.99,
    "atLowestTracked": false
@@ -2583,7 +2609,7 @@
    "rating": 4.6,
    "reviewCount": 932,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:45.853Z",
+   "checkedAt": "2026-10-10T00:58:59.851Z",
    "lowestSeen": 229.99,
    "previousPrice": 239.99,
    "atLowestTracked": true
@@ -2605,11 +2631,11 @@
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 3,
-   "availability": "SOLD_OUT",
+   "availability": "ADD_TO_CART",
    "rating": 4.4,
    "reviewCount": 1299,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:25.948Z",
+   "checkedAt": "2026-10-10T00:58:40.093Z",
    "lowestSeen": 119.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2635,7 +2661,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:25.717Z",
+   "checkedAt": "2026-10-10T00:59:04.933Z",
    "lowestSeen": 149.99,
    "previousPrice": 299.99,
    "atLowestTracked": true
@@ -2661,7 +2687,7 @@
    "rating": 4.5,
    "reviewCount": 621,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:21.074Z",
+   "checkedAt": "2026-10-10T00:58:34.979Z",
    "lowestSeen": 159.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2687,7 +2713,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:56.363Z",
+   "checkedAt": "2026-10-10T00:58:42.719Z",
    "lowestSeen": 169.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2713,7 +2739,7 @@
    "rating": 4.4,
    "reviewCount": 332,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:23.666Z",
+   "checkedAt": "2026-10-10T00:58:59.851Z",
    "lowestSeen": 139.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2739,7 +2765,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:28.160Z",
+   "checkedAt": "2026-10-10T00:59:42.208Z",
    "lowestSeen": 149.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2767,7 +2793,7 @@
    "rating": 4.6,
    "reviewCount": 275,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:18.277Z",
+   "checkedAt": "2026-10-10T00:58:55.370Z",
    "lowestSeen": 79.99,
    "previousPrice": 99.99,
    "atLowestTracked": true
@@ -2793,7 +2819,7 @@
    "rating": 4.6,
    "reviewCount": 698,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:40.862Z",
+   "checkedAt": "2026-10-10T00:58:55.370Z",
    "lowestSeen": 109.99,
    "previousPrice": 139.99,
    "atLowestTracked": true
@@ -2819,7 +2845,7 @@
    "rating": 4.4,
    "reviewCount": 27,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:40.862Z",
+   "checkedAt": "2026-10-10T00:58:15.385Z",
    "lowestSeen": 169.99,
    "previousPrice": 199.99,
    "atLowestTracked": true
@@ -2848,7 +2874,7 @@
     "595e3d74-b7fe-4c32-882a-3aed54946dc8",
     "4aca7f70-9c7a-424b-95a0-f585640aacbd"
    ],
-   "checkedAt": "2026-10-09T18:25:40.862Z",
+   "checkedAt": "2026-10-10T00:58:55.370Z",
    "lowestSeen": 249.99,
    "previousPrice": 279.99,
    "atLowestTracked": true
@@ -2879,7 +2905,7 @@
    "rating": 4.6,
    "reviewCount": 208,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:25:10.719Z",
+   "checkedAt": "2026-10-10T00:58:24.773Z",
    "lowestSeen": 349.99,
    "previousPrice": 349.99,
    "atLowestTracked": false
@@ -2905,7 +2931,7 @@
    "rating": 4.5,
    "reviewCount": 28,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:18.277Z",
+   "checkedAt": "2026-10-10T00:59:32.359Z",
    "lowestSeen": 399.99,
    "previousPrice": 499.99,
    "atLowestTracked": true
@@ -2934,7 +2960,7 @@
     "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
     "2762a7bf-8fe8-439b-be2c-c255808197cd"
    ],
-   "checkedAt": "2026-10-09T18:25:40.862Z",
+   "checkedAt": "2026-10-10T00:58:55.370Z",
    "lowestSeen": 599.99,
    "previousPrice": 699.99,
    "atLowestTracked": true
@@ -2960,7 +2986,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:21.179Z",
+   "checkedAt": "2026-10-10T00:59:34.736Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2986,7 +3012,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-09T18:26:21.179Z",
+   "checkedAt": "2026-10-10T00:59:34.736Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -3030,7 +3056,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-09T18:26:43.328Z"
+   "checkedAt": "2026-10-10T00:59:57.662Z"
   },
   {
    "id": "4aca7f70-9c7a-424b-95a0-f585640aacbd",
@@ -3069,7 +3095,7 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-09T18:26:50.826Z"
+   "checkedAt": "2026-10-10T01:00:05.160Z"
   },
   {
    "id": "2762a7bf-8fe8-439b-be2c-c255808197cd",
@@ -3109,7 +3135,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-09T18:26:48.568Z"
+   "checkedAt": "2026-10-10T01:00:02.930Z"
   },
   {
    "id": "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
@@ -3149,11 +3175,11 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-09T18:26:45.969Z"
+   "checkedAt": "2026-10-10T01:00:00.290Z"
   }
  ],
  "warnings": [
-  "No price found for 2 listed SKUs: 6625833, 6579460",
+  "No price found for 2 listed SKUs: 6551175, 6625833",
   "Regular price unknown (shown as not on sale) for: 6622646"
  ]
 }
