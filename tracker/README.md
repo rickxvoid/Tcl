@@ -2,7 +2,7 @@
 
 Fetches the current bestbuy.com price of every TCL TV and sound bar, My Best Buy Plus/Total member prices, and package deals that include a TCL sound bar, and writes them to `../prices/data/`. The page in `../prices/` shows them, with filters for price, size, operating system, panel type and model year.
 
-The **Update TCL prices** workflow (`.github/workflows/update-prices.yml`) runs this every 3 hours, commits the new data to `main` and publishes the site to GitHub Pages at `/prices/`. No API key is needed; everything is read from bestbuy.com search and package pages.
+The **Update TCL prices** workflow (`.github/workflows/update-prices.yml`) runs this about every hour (GitHub skips some scheduled runs when it's busy) and commits the new data to `main`. GitHub Pages publishes from `main`, so each data commit updates the site at `/prices/`. No API key is needed; everything is read from bestbuy.com search and package pages.
 
 ```sh
 cd tracker
