@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-// Fetch current bestbuy.com prices for every TV and sound bar (or home theater
-// audio product) of one brand, their My Best Buy Plus/Total member prices, and
-// package deals that pair a TV with that brand's audio. Writes <dataDir>/prices.json
-// and appends price changes to <dataDir>/history.json.
+// Fetch current bestbuy.com prices for every TCL TV and sound bar, their My Best
+// Buy Plus/Total member prices, and package deals that include a TCL sound bar.
+// Writes site/data/prices.json and appends price changes to site/data/history.json.
 //
-//   node scripts/fetch-prices.mjs --brand tcl     (or --brand sony; see brands/)
+//   node scripts/fetch-prices.mjs
 //
 // No API key is needed: everything comes from bestbuy.com search and package
 // pages (see scripts/lib/bestbuy-page.mjs for how they're parsed).
@@ -14,22 +13,42 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getHtml, searchUrl } from './lib/http.mjs';
 import { parseSearchPage, parseComboPage } from './lib/bestbuy-page.mjs';
-import { kindOf as classify, screenSize } from './lib/classify.mjs';
+import { kindOf, isTcl, screenSize } from './lib/classify.mjs';
 import { updateHistory } from './lib/history.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+// Where the site's data files live; override with PRICES_DATA_DIR (relative to
+// the current directory) when the site is in a different folder.
+const DATA_DIR = process.env.PRICES_DATA_DIR ? resolve(process.env.PRICES_DATA_DIR) : join(ROOT, 'site', 'data');
 
-// Which brand to fetch: `--brand sony` (default: tcl). Each brand's searches and
-// settings live in brands/<name>.mjs.
-const brandArg = process.argv.find((a) => a.startsWith('--brand='))?.split('=')[1]
-  ?? process.argv[process.argv.indexOf('--brand') + 1 || -1]
-  ?? 'tcl';
-const cfg = (await import(`../brands/${brandArg.toLowerCase()}.mjs`)).default;
-const kindOf = (p) => classify(p, cfg.audioTypes, cfg.audioNames);
+const MEMBER_FACET = 'currentoffers_facet=Current Deals~Plus & Total Member Deals';
+const PACKAGE_FACET = 'currentoffers_facet=Current Deals~Package Deals';
+const TCL_FACET = 'brand_facet=Brand~TCL';
 
-// Where the site's data files live; PRICES_DATA_DIR (relative to the current
-// directory) overrides the brand's default.
-const DATA_DIR = process.env.PRICES_DATA_DIR ? resolve(process.env.PRICES_DATA_DIR) : resolve(ROOT, cfg.dataDir);
+// Listing pages that together cover every TCL TV and sound bar.
+const LISTINGS = [
+  { label: 'TCL TVs (category)', browsedCategory: 'abcat0101000', id: 'pcat17071', qp: TCL_FACET, st: 'categoryid$abcat0101000' },
+  { label: 'TCL TVs (search)', id: 'pcat17071', st: 'tcl tv' },
+  { label: 'TCL sound bars (category)', browsedCategory: 'abcat0205007', id: 'pcat17071', qp: TCL_FACET, st: 'categoryid$abcat0205007' },
+  { label: 'TCL sound bars (search)', st: 'tcl sound bar' },
+  { label: 'TCL soundbars (search)', st: 'tcl soundbar' },
+];
+// Best Buy's own "Plus & Total Member Deals" and "Package Deals" filters.
+const MEMBER_LISTINGS = [
+  { id: 'pcat17071', st: 'tcl tv', qp: MEMBER_FACET },
+  { st: 'tcl sound bar', qp: MEMBER_FACET },
+];
+// Best Buy's "Sold & shipped by: Best Buy" filter, used to tell Best Buy's own
+// listings from marketplace ones when a page doesn't say who the seller is.
+const BBY_FACET = 'bbyonly_facet=Sold & shipped by~Best Buy';
+const SOLD_BY_BBY_LISTINGS = [
+  { label: 'TCL TVs sold by Best Buy', id: 'pcat17071', st: 'tcl tv', qp: BBY_FACET },
+  { label: 'TCL sound bars sold by Best Buy', st: 'tcl sound bar', qp: BBY_FACET },
+];
+const PACKAGE_LISTINGS = [
+  { st: 'tcl sound bar', qp: PACKAGE_FACET },
+  { id: 'pcat17071', st: 'tcl tv', qp: PACKAGE_FACET },
+];
 
 const RESULTS_PER_PAGE = 18;
 const MAX_PAGES = 12;
@@ -137,26 +156,26 @@ const round = (n) => Math.round(n * 100) / 100;
 const tidyOffer = (s) => s.replace(/\b(test|dotcom)\b/gi, '').replace(/\bGWP\b/g, '').replace(/\s+/g, ' ').trim();
 
 async function main() {
-  console.log(`Fetching ${cfg.brand} listings from bestbuy.com…`);
+  console.log('Fetching TCL listings from bestbuy.com…');
   const listed = new Set();
-  for (const q of cfg.listings) {
+  for (const q of LISTINGS) {
     const { skus, count } = await fetchListing(q);
     skus.forEach((s) => listed.add(s));
     console.log(`  ${q.label}: ${skus.size} results (Best Buy reports ${count ?? '?'})`);
   }
-  for (const q of cfg.memberListings) {
+  for (const q of MEMBER_LISTINGS) {
     const { skus } = await fetchListing(q);
     skus.forEach((s) => {
       memberTagged.add(s);
       listed.add(s);
     });
   }
-  for (const q of cfg.packageListings) await fetchListing(q);
+  for (const q of PACKAGE_LISTINGS) await fetchListing(q);
   // Only rely on the seller filter if it clearly worked: it returned results, and
   // fewer than the unfiltered search (which includes marketplace listings).
   const soldByBestBuy = new Set();
   let sellerFilterWorked = true;
-  for (const q of cfg.soldByListings) {
+  for (const q of SOLD_BY_BBY_LISTINGS) {
     const unfiltered = (await fetchListing({ ...q, qp: undefined }, { allPages: false })).count;
     const { skus, count } = await fetchListing(q);
     skus.forEach((s) => soldByBestBuy.add(s));
@@ -165,10 +184,6 @@ async function main() {
     if (!ok) sellerFilterWorked = false;
   }
   if (!sellerFilterWorked) warnings.push('"Sold by Best Buy" filter returned nothing usable; only listings marked as marketplace were skipped');
-  // Best Buy's product types among the listed SKUs, to check what counts as audio.
-  const types = new Map();
-  for (const s of listed) for (const t of known.get(s) ?? ['(unknown)']) types.set(t, (types.get(t) ?? 0) + 1);
-  console.log(`  Product types: ${[...types].sort((a, b) => b[1] - a[1]).map(([t, n]) => `${t} ${n}`).join(', ')}`);
   console.log(`  ${listed.size} SKUs listed, ${[...listed].filter((s) => priced.has(s)).length} priced so far, ${combos.size} packages`);
 
   // Only chase prices for SKUs that look like TVs or sound bars.
@@ -181,8 +196,7 @@ async function main() {
   const marketplaceSkipped = [];
   for (const sku of listed) {
     const p = priced.get(sku);
-    // Refurbished listings aren't the new product's price, so leave them out.
-    if (!p || !cfg.isBrand(p) || /\brefurbished\b/i.test(p.name ?? '')) continue;
+    if (!p || !isTcl(p)) continue;
     const kind = kindOf(p);
     if (!kind) continue;
     const marketplace = p.seller === '3P' || (p.seller == null && sellerFilterWorked && !soldByBestBuy.has(sku));
@@ -198,11 +212,11 @@ async function main() {
   if (noPrice.length) warnings.push(`No price found for ${noPrice.length} listed SKUs: ${noPrice.join(', ')}`);
   if (noRegular.length) warnings.push(`Regular price unknown (shown as not on sale) for: ${noRegular.join(', ')}`);
 
-  // Package deals that include one of this brand's audio products.
+  // Package deals that include a TCL sound bar.
   const soundbarSkus = new Set(soundbars.map((s) => s.sku));
   const bundles = [];
   for (const c of combos.values()) {
-    if (!c.skus.some((s) => soundbarSkus.has(s)) && !c.driverKind.some((k) => cfg.audioTypes.test(k))) continue;
+    if (!c.skus.some((s) => soundbarSkus.has(s)) && !c.driverKind.some((k) => /sound ?bar/i.test(k))) continue;
     let page = null;
     try {
       if (c.url) page = parseComboPage(await getHtml(c.url));
@@ -286,7 +300,6 @@ async function main() {
   }
 
   const output = {
-    brand: cfg.brand,
     checkedAt,
     source: 'bestbuy.com',
     counts: { tvs: tvs.length, soundbars: soundbars.length, bundles: bundles.length },
