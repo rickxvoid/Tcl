@@ -132,6 +132,9 @@ test('classify', () => {
   assert.equal(kindOf({ whatItIs: ['Home Theater System'] }, sony.audioTypes), 'soundbar');
   assert.equal(kindOf({ whatItIs: ['Subwoofer'] }, sony.audioTypes), 'soundbar');
   assert.equal(kindOf({ whatItIs: ['Subwoofer'] }, tcl.audioTypes), null);
+  assert.equal(kindOf({ whatItIs: ['RGB TV'], name: 'Sony - 65" Class BRAVIA 7 II True RGB' }), 'tv');
+  assert.equal(kindOf({ whatItIs: ['Speaker'], name: 'Sony - SA-RS5 Wireless Rear Speakers' }, sony.audioTypes, sony.audioNames), 'soundbar');
+  assert.equal(kindOf({ whatItIs: ['Speaker'], name: 'Sony - ULT TOWER 9 Party Speaker' }, sony.audioTypes, sony.audioNames), null);
   assert.equal(screenSize('TCL - 65" Class QM6K'), 65);
 });
 

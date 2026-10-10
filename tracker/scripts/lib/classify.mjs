@@ -5,12 +5,17 @@ const ACCESSORY = /\b(mount|remote|stand|cable|bracket|subwoofer only|replacemen
 
 /**
  * Returns 'tv' | 'soundbar' | null. `whatItIs` is Best Buy's own product type;
- * `audioTypes` says which types count as audio (kind 'soundbar').
+ * `audioTypes` says which types count as audio (kind 'soundbar'), and
+ * `audioNames` which product names do when the type is too generic.
  */
-export function kindOf({ name = '', whatItIs = [] }, audioTypes = /sound ?bar/i) {
+export function kindOf({ name = '', whatItIs = [] }, audioTypes = /sound ?bar/i, audioNames = null) {
   const types = whatItIs.join(' ');
-  if (/television/i.test(types)) return 'tv';
+  // Best Buy files some TVs under other types, e.g. Sony's "RGB TV".
+  if (/television|\bRGB TV\b/i.test(types) && !/portable/i.test(types)) return 'tv';
   if (types && audioTypes.test(types)) return 'soundbar';
+  // Generic types like "Speaker" count only when the name says it's home theater
+  // gear (e.g. rear speakers), not a party or bookshelf speaker.
+  if (types && audioNames?.test(name)) return 'soundbar';
   if (types) return null;
   if (ACCESSORY.test(name)) return null;
   if (audioTypes.test(name)) return 'soundbar';

@@ -25,7 +25,7 @@ const brandArg = process.argv.find((a) => a.startsWith('--brand='))?.split('=')[
   ?? process.argv[process.argv.indexOf('--brand') + 1 || -1]
   ?? 'tcl';
 const cfg = (await import(`../brands/${brandArg.toLowerCase()}.mjs`)).default;
-const kindOf = (p) => classify(p, cfg.audioTypes);
+const kindOf = (p) => classify(p, cfg.audioTypes, cfg.audioNames);
 
 // Where the site's data files live; PRICES_DATA_DIR (relative to the current
 // directory) overrides the brand's default.
@@ -181,7 +181,8 @@ async function main() {
   const marketplaceSkipped = [];
   for (const sku of listed) {
     const p = priced.get(sku);
-    if (!p || !cfg.isBrand(p)) continue;
+    // Refurbished listings aren't the new product's price, so leave them out.
+    if (!p || !cfg.isBrand(p) || /\brefurbished\b/i.test(p.name ?? '')) continue;
     const kind = kindOf(p);
     if (!kind) continue;
     const marketplace = p.seller === '3P' || (p.seller == null && sellerFilterWorked && !soldByBestBuy.has(sku));

@@ -9,6 +9,12 @@ const state = {
   f: { size: new Set(), os: new Set(), panel: new Set(), year: new Set() },
 };
 
+// Brand and audio wording. The brand comes from the data; the page says what
+// its audio products are called (e.g. "sound bar", or "home theater product").
+const brand = () => state.data?.brand ?? 'TCL';
+const audioNoun = () => document.body.dataset.audioNoun || 'sound bar';
+const capital = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
 // Max-price slider stops. Prices run from about $100 to $25,000, so the stops
 // are closer together at the low end where most TVs are.
 const PRICE_STEPS = [200, 300, 400, 500, 600, 700, 800, 1000, 1250, 1500, 2000, 2500, 3000, 4000, 5000, 7500, 10000, Infinity];
@@ -18,6 +24,8 @@ const tvOs = (name) =>
   /google tv/i.test(name) ? 'Google TV' : /\broku\b/i.test(name) ? 'Roku TV' : /fire tv/i.test(name) ? 'Fire TV' : 'Not listed';
 const tvPanel = (name) =>
   /RGB[- ]Mini/i.test(name) ? 'RGB Mini LED'
+    : /\bTrue RGB\b|\bRGB LED\b/i.test(name) ? 'RGB LED'
+    : /\bOLED\b/i.test(name) ? 'OLED'
     : /SQD[- ]Mini/i.test(name) ? 'SQD-Mini LED'
       : /QD[- ]Mini/i.test(name) ? 'QD-Mini LED'
         : /Mini[- ]LED/i.test(name) ? 'Mini LED'
@@ -31,7 +39,7 @@ const FILTER_GROUPS = {
     el: '#f-panel',
     of: (p) => tvPanel(p.name),
     label: (v) => v,
-    order: ['LED', 'QLED', 'Mini LED', 'QD-Mini LED', 'SQD-Mini LED', 'RGB Mini LED'],
+    order: ['LED', 'QLED', 'Mini LED', 'QD-Mini LED', 'SQD-Mini LED', 'RGB Mini LED', 'RGB LED', 'OLED'],
   },
   year: { el: '#f-year', of: (p) => tvYear(p.name), label: (v) => v, order: (a, b) => b.localeCompare(a) },
 };
@@ -63,12 +71,22 @@ function offerList(title, offers) {
       const text = typeof o === 'string' ? o : o.text;
       const url = safeUrl(o.url);
       const label = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
-      return `<li>${label}${o.endDate ? ` <span class="meta">(ends ${esc(day(o.endDate))})</span>` : ''}</li>`;
+      return `<li>${label}${day(o.endDate) ? ` <span class="meta">(ends ${esc(day(o.endDate))})</span>` : ''}</li>`;
     })
     .join('')}</ul>`;
 }
 
-const day = (iso) => new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+// Dates from Best Buy come as ISO ("2026-09-28T04:45Z") or with a US time zone
+// name ("2026-10-11T23:59:59 CDT") that browsers can't parse; for the latter, use
+// the calendar date as written. Returns '' when there's no usable date.
+function day(value) {
+  if (!value) return '';
+  const opts = { month: 'short', day: 'numeric', year: 'numeric' };
+  const d = new Date(value);
+  if (!Number.isNaN(d.getTime())) return d.toLocaleDateString(undefined, opts);
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(value ?? '');
+  return m ? new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3])).toLocaleDateString(undefined, opts) : '';
+}
 
 function priceBlock(price, regular) {
   const sale = typeof regular === 'number' && typeof price === 'number' && regular > price;
@@ -96,7 +114,7 @@ function tags(p) {
   };
   if (availability[p.availability])
     t.push(`<span class="tag">${esc(availability[p.availability])}</span>`);
-  if (p.dealEnds) t.push(`<span class="tag sale">Deal ends ${esc(day(p.dealEnds))}</span>`);
+  if (day(p.dealEnds)) t.push(`<span class="tag sale">Deal ends ${esc(day(p.dealEnds))}</span>`);
   return t.length ? `<div class="tags">${t.join('')}</div>` : '';
 }
 
@@ -120,7 +138,11 @@ function shortName(item) {
   const p = findProduct(item.sku);
   if (p?.kind === 'tv') return `${p.screenSize ? `${p.screenSize}" ` : ''}${tvSeries(p)}`;
   if (p?.modelNumber) return p.modelNumber;
-  return (p?.name ?? item.name ?? `SKU ${item.sku}`).replace(/^TCL - /, '');
+  // Not one of this site's products (e.g. an accessory): a shortened name.
+  return (p?.name ?? item.name ?? `SKU ${item.sku}`)
+    .replace(new RegExp(`^${brand()} - `), '')
+    .replace(/\s+-\s+(Black|Gray|Grey|White|Silver|Charcoal)$/i, '')
+    .replace(/\s+(with|for)\s.*$/i, '');
 }
 
 const linkTo = (url, text) => (safeUrl(url) ? `<a href="${esc(safeUrl(url))}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text));
@@ -148,15 +170,16 @@ function pairingBlock(p) {
           ? `<strong>${money(paired)}</strong> <span class="save">save ${money(diff)}</span>`
           : `<strong>${money(paired)}</strong> <span class="meta">same as on its own</span>`;
       const soundbarOffers = tvs.flatMap((t) => t.offers ?? []).filter((o) => /sound ?bar/i.test(o));
-      return { paired: paired ?? Infinity, html: `<li>
+      return { paired: paired ?? Infinity, withTv: tvs.some((t) => findProduct(t.sku)?.kind === 'tv'), html: `<li>
           <div class="pair-row"><span>With ${tvs.map((t) => linkTo(t.url, shortName(t))).join(' + ')}</span><span>${priceText}</span></div>
-          <div class="meta">TV + sound bar ${b.packagePrice != null ? money(b.packagePrice) : money(b.separateTotal)} · ${linkTo(b.url, 'see package')}</div>
+          <div class="meta">Package total ${b.packagePrice != null ? money(b.packagePrice) : money(b.separateTotal)} · ${linkTo(b.url, 'see package')}</div>
           ${soundbarOffers.map((o) => `<div class="meta">${esc(o)}</div>`).join('')}
         </li>` };
     })
     .sort((a, b) => a.paired - b.paired);
   if (!rows.length) return '';
-  return `<p class="offers-title">Price when paired with a TV</p><ul class="pairs">${rows.map((r) => r.html).join('')}</ul>`;
+  const title = rows.every((r) => r.withTv) ? 'Price when paired with a TV' : 'Package prices';
+  return `<p class="offers-title">${title}</p><ul class="pairs">${rows.map((r) => r.html).join('')}</ul>`;
 }
 
 /** On a TV card: the sound bars it's paired with and their price in that pairing. */
@@ -169,7 +192,7 @@ function tvPairingLine(p) {
       const save = own != null && price != null && own > price ? ` (save ${money(own - price)})` : '';
       return `${linkTo(b.url, shortName(i))} ${money(price)}${save}`;
     }));
-  return bits.length ? `<div class="pair-line"><span class="offers-title">Sound bar pairing</span> ${bits.join(' · ')}</div>` : '';
+  return bits.length ? `<div class="pair-line"><span class="offers-title">${esc(capital(audioNoun()))} pairing</span> ${bits.join(' · ')}</div>` : '';
 }
 
 function productCard(p) {
@@ -202,10 +225,15 @@ function itemsFor(tab) {
 
 const priceOf = (p) => p.salePrice ?? p.packagePrice ?? p.separateTotal ?? null;
 
-// Model series, e.g. "QM7K" from model number 65QM7K, or from the product name
+// Model series, e.g. "QM7K" from model number 65QM7K, "BRAVIA 7 II" from a Sony
+// name, or from the product name
 // ("TCL - 85\" Class QM8L Series ...") when Best Buy gives no model number.
 function tvSeries(p) {
-  const fromModel = /^\d{2,3}([A-Z].*)$/i.exec(p.modelNumber ?? '');
+  // Sony: the marketing name ("BRAVIA 7 II", "BRAVIA 8", "BRAVIA A95L").
+  const bravia = /\bBRAVIA\s+(?:XR\s+)?(\d+(?:\s+II)?|[A-Z]+\d+[A-Z]*)\b/i.exec(p.name ?? '');
+  if (bravia) return `BRAVIA ${bravia[1].toUpperCase()}`;
+  // Model number minus any letter prefix and the screen size: 65QM6K -> QM6K, KD32W830K -> W830K.
+  const fromModel = /^[A-Z]{0,3}-?\d{2,3}([A-Z].*)$/i.exec(p.modelNumber ?? '');
   if (fromModel) return fromModel[1].toUpperCase();
   const fromName = /\d+"\s+(?:Class\s+)?(.+?)[ -]Series/i.exec(p.name ?? '');
   return fromName ? fromName[1].toUpperCase() : 'Other';
@@ -316,7 +344,7 @@ function render() {
   const total = items.length;
   items = sorted(items.filter(passesFilters));
   renderFilters();
-  const noun = { tvs: 'TV', soundbars: 'sound bar', members: 'member deal' }[state.tab];
+  const noun = { tvs: 'TV', soundbars: audioNoun(), members: 'member deal' }[state.tab];
   $('#result-count').textContent = items.length === total
     ? `Showing all ${plural(total, noun)}`
     : `Showing ${items.length} of ${plural(total, noun)}`;
@@ -332,9 +360,9 @@ function render() {
   const panel = $('#panel');
   if (!items.length) {
     const msg = {
-      tvs: 'No TCL TVs match.',
-      soundbars: 'No TCL sound bars match.',
-      members: 'No member deals on TCL TVs or sound bars right now.',
+      tvs: `No ${brand()} TVs match.`,
+      soundbars: `No ${brand()} ${audioNoun()}s match.`,
+      members: `No member deals on ${brand()} TVs or ${audioNoun()}s right now.`,
     }[state.tab];
     panel.innerHTML = filtersActive()
       ? `<div class="empty">Nothing matches these filters. <button type="button" class="clear-btn" id="empty-clear">Clear filters</button></div>`
@@ -381,7 +409,7 @@ async function init() {
     return;
   }
   const d = state.data;
-  $('#checked').innerHTML = `Prices checked <strong>${esc(when(d.checkedAt))}</strong> · ${plural(d.counts.tvs, 'TV')} · ${plural(d.counts.soundbars, 'sound bar')}`;
+  $('#checked').innerHTML = `Prices checked <strong>${esc(when(d.checkedAt))}</strong> · ${plural(d.counts.tvs, 'TV')} · ${plural(d.counts.soundbars, audioNoun())}`;
   const counts = {
     tvs: d.tvs.length,
     soundbars: d.soundbars.length,

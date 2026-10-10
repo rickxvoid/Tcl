@@ -10,6 +10,8 @@ export default {
   brand: 'Sony',
   isBrand: (p) => /^sony$/i.test(p.brand ?? '') || /^Sony\b/.test(p.name ?? ''),
   audioTypes: /sound ?bar|home theater|home theatre|subwoofer|surround|rear speaker|speaker system/i,
+  // Rear and surround speakers are typed plain "Speaker" by Best Buy.
+  audioNames: /rear speaker|surround speaker|BRAVIA Theater|home theat(er|re)/i,
   dataDir: '../sony/data',
   listings: [
     { label: 'Sony TVs (category)', browsedCategory: 'abcat0101000', id: 'pcat17071', qp: BRAND_FACET, st: 'categoryid$abcat0101000' },
