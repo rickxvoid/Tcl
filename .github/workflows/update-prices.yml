@@ -1,6 +1,7 @@
-name: Update TCL prices
+name: Update prices (TCL & Sony)
 
-# Refreshes prices/data from bestbuy.com every 3 hours and republishes the site.
+# Refreshes prices/data (TCL) and sony/data (Sony) from bestbuy.com every 3 hours
+# and republishes the site.
 # Scheduled runs use this file from the repository's default branch, so it always
 # checks out and updates `main`, the branch GitHub Pages publishes.
 
@@ -10,7 +11,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['tracker/**', 'prices/*.html', 'prices/*.js', 'prices/*.css', '.github/workflows/update-prices.yml']
+    paths: ['tracker/**', 'prices/*.html', 'prices/*.js', 'prices/*.css', 'sony/*.html', '.github/workflows/update-prices.yml']
 
 permissions:
   contents: write
@@ -38,24 +39,41 @@ jobs:
 
       - run: npm test
 
-      - name: Fetch prices from bestbuy.com
+      # Each brand is fetched separately, so one failing doesn't lose the other's
+      # prices. A failure still fails the run (last step).
+      - name: Fetch TCL prices from bestbuy.com
+        id: tcl
+        continue-on-error: true
         run: npm run fetch
+
+      - name: Fetch Sony prices from bestbuy.com
+        id: sony
+        continue-on-error: true
+        run: npm run fetch:sony
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ../prices/data
+          git add ../prices/data ../sony/data
           if ! git diff --cached --quiet; then
             git commit -m "Update prices $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
 
+      - name: Fail if a brand's fetch failed
+        if: steps.tcl.outcome == 'failure' || steps.sony.outcome == 'failure'
+        run: |
+          echo "::error::Price fetch failed for: ${{ steps.tcl.outcome == 'failure' && 'TCL ' || '' }}${{ steps.sony.outcome == 'failure' && 'Sony' || '' }}. The other brand's prices were still saved."
+          exit 1
+
   # Publish the updated site. A push made by this workflow doesn't start other
   # workflows, so deploy here rather than relying on deploy.yml.
   deploy:
     needs: update
+    # Publish even if one brand's fetch failed; the other brand's prices are new.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
