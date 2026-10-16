@@ -1,18 +1,18 @@
 {
- "checkedAt": "2026-10-16T18:10:29.729Z",
+ "checkedAt": "2026-10-16T21:22:09.069Z",
  "source": "bestbuy.com",
  "counts": {
-  "tvs": 95,
+  "tvs": 96,
   "soundbars": 5,
-  "bundles": 3
+  "bundles": 14
  },
  "marketplaceSkipped": [
-  "12848585",
-  "12848599",
-  "12848598",
+  "13101802",
+  "13101652",
+  "13101661",
   "12848575",
-  "12848574",
-  "12889525",
+  "13101651",
+  "13101800",
   "12889515",
   "12254953",
   "11029128",
@@ -24,6 +24,7 @@
   "11915386",
   "12294327",
   "12294330",
+  "12889525",
   "13074654",
   "12139690"
  ],
@@ -56,7 +57,7 @@
    "rating": 4.3,
    "reviewCount": 9,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:24.924Z",
+   "checkedAt": "2026-10-16T21:19:29.697Z",
    "lowestSeen": 11999.99,
    "previousPrice": 17999.99,
    "atLowestTracked": true
@@ -94,7 +95,7 @@
    "rating": 4.5,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:54.916Z",
+   "checkedAt": "2026-10-16T21:21:07.091Z",
    "lowestSeen": 9999.99,
    "previousPrice": 9999.99,
    "atLowestTracked": false
@@ -127,7 +128,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:20.254Z",
+   "checkedAt": "2026-10-16T21:20:32.458Z",
    "lowestSeen": 19999.99,
    "previousPrice": 19999.99,
    "atLowestTracked": false
@@ -153,7 +154,7 @@
    "rating": 4.7,
    "reviewCount": 577,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:07.338Z",
+   "checkedAt": "2026-10-16T21:20:19.530Z",
    "lowestSeen": 1299.99,
    "previousPrice": 2153.99,
    "atLowestTracked": true
@@ -179,7 +180,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:47.467Z",
+   "checkedAt": "2026-10-16T21:21:26.647Z",
    "lowestSeen": 1399.99,
    "previousPrice": 2499.99,
    "atLowestTracked": true
@@ -205,7 +206,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:19.617Z",
+   "checkedAt": "2026-10-16T21:21:07.091Z",
    "lowestSeen": 1599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -238,7 +239,7 @@
    "rating": 4.7,
    "reviewCount": 179,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:30.047Z",
+   "checkedAt": "2026-10-16T21:19:34.686Z",
    "lowestSeen": 1799.99,
    "previousPrice": 1799.99,
    "atLowestTracked": false
@@ -271,7 +272,7 @@
    "rating": 4.6,
    "reviewCount": 43,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:17.104Z",
+   "checkedAt": "2026-10-16T21:21:29.464Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -304,7 +305,7 @@
    "rating": 4.8,
    "reviewCount": 483,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:12.885Z",
+   "checkedAt": "2026-10-16T21:20:24.664Z",
    "lowestSeen": 1999.99,
    "previousPrice": 1999.99,
    "atLowestTracked": false
@@ -337,7 +338,7 @@
    "rating": 4.3,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:34.794Z",
+   "checkedAt": "2026-10-16T21:19:37.070Z",
    "lowestSeen": 2999.99,
    "previousPrice": 2999.99,
    "atLowestTracked": false
@@ -370,7 +371,7 @@
    "rating": 4.6,
    "reviewCount": 166,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:20.254Z",
+   "checkedAt": "2026-10-16T21:20:32.458Z",
    "lowestSeen": 2999.99,
    "previousPrice": 2999.99,
    "atLowestTracked": false
@@ -406,9 +407,9 @@
    "freeGiftOffers": 2,
    "availability": "ADD_TO_CART",
    "rating": 4.8,
-   "reviewCount": 24,
+   "reviewCount": 25,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:07.338Z",
+   "checkedAt": "2026-10-16T21:20:19.530Z",
    "lowestSeen": 2199.99,
    "previousPrice": 2199.99,
    "atLowestTracked": false
@@ -434,10 +435,43 @@
    "rating": 5,
    "reviewCount": 8,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:19.617Z",
+   "checkedAt": "2026-10-16T21:21:31.774Z",
    "lowestSeen": 5099.99,
    "previousPrice": null,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6673200",
+   "kind": "tv",
+   "name": "TCL - 98\" Class RM9L Series 4K UHD HDR RGB-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "98RM9L",
+   "url": "https://www.bestbuy.com/product/tcl-98-class-rm9l-series-4k-uhd-hdr-rgb-mini-led-smart-tv-with-google-tv-2026/J36QYTH8S8/sku/6673200",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/01019520-4870-481e-9c0f-50e4e6fa42b0.jpg",
+   "screenSize": 98,
+   "regularPrice": 9999.99,
+   "salePrice": 6999.99,
+   "onSale": true,
+   "dollarSavings": 3000,
+   "percentSavings": 30,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [
+    {
+     "text": "Free installation",
+     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
+     "startDate": "2026-10-05T05:00Z",
+     "endDate": "2027-01-01T05:45Z"
+    }
+   ],
+   "freeGiftOffers": 2,
+   "availability": "ADD_TO_CART",
+   "rating": 4.8,
+   "reviewCount": 5,
+   "bundles": [],
+   "checkedAt": "2026-10-16T21:19:27.117Z",
+   "lowestSeen": 6999.99,
+   "previousPrice": 9999.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6668233",
@@ -467,7 +501,7 @@
    "rating": 5,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:17.657Z",
+   "checkedAt": "2026-10-16T21:20:29.906Z",
    "lowestSeen": 7639.99,
    "previousPrice": 7639.99,
    "atLowestTracked": false
@@ -493,7 +527,7 @@
    "rating": 4.6,
    "reviewCount": 304,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:27.595Z",
+   "checkedAt": "2026-10-16T21:19:32.240Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -519,7 +553,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:12.079Z",
+   "checkedAt": "2026-10-16T21:20:29.906Z",
    "lowestSeen": 679.99,
    "previousPrice": 1199.99,
    "atLowestTracked": true
@@ -545,7 +579,7 @@
    "rating": 4.7,
    "reviewCount": 9,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:39.830Z",
+   "checkedAt": "2026-10-16T21:20:54.609Z",
    "lowestSeen": 679.99,
    "previousPrice": 679.99,
    "atLowestTracked": false
@@ -571,7 +605,7 @@
    "rating": 4.9,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:34.794Z",
+   "checkedAt": "2026-10-16T21:20:49.556Z",
    "lowestSeen": 729.99,
    "previousPrice": 729.99,
    "atLowestTracked": false
@@ -597,7 +631,7 @@
    "rating": 4.6,
    "reviewCount": 164,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:44.928Z",
+   "checkedAt": "2026-10-16T21:20:57.086Z",
    "lowestSeen": 749.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -623,7 +657,7 @@
    "rating": 4.7,
    "reviewCount": 598,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:37.809Z",
+   "checkedAt": "2026-10-16T21:20:29.906Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -649,7 +683,7 @@
    "rating": 4.5,
    "reviewCount": 57,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:42.325Z",
+   "checkedAt": "2026-10-16T21:19:47.488Z",
    "lowestSeen": 849.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -675,7 +709,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:27.595Z",
+   "checkedAt": "2026-10-16T21:19:32.240Z",
    "lowestSeen": 799.99,
    "previousPrice": 799.99,
    "atLowestTracked": false
@@ -696,12 +730,12 @@
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 3,
+   "freeGiftOffers": 0,
    "availability": "SEE_ALL_OPTIONS",
    "rating": 4.7,
    "reviewCount": 638,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:15.049Z",
+   "checkedAt": "2026-10-16T21:20:41.849Z",
    "lowestSeen": 899.99,
    "previousPrice": 1675.99,
    "atLowestTracked": true
@@ -727,7 +761,7 @@
    "rating": 4.7,
    "reviewCount": 171,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:52.426Z",
+   "checkedAt": "2026-10-16T21:21:04.523Z",
    "lowestSeen": 999.99,
    "previousPrice": 999.99,
    "atLowestTracked": false
@@ -753,7 +787,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:52.426Z",
+   "checkedAt": "2026-10-16T21:21:07.091Z",
    "lowestSeen": 1599.99,
    "previousPrice": 1599.99,
    "atLowestTracked": false
@@ -779,7 +813,7 @@
    "rating": 4.2,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:20.254Z",
+   "checkedAt": "2026-10-16T21:20:32.458Z",
    "lowestSeen": 1999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -805,7 +839,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:47.467Z",
+   "checkedAt": "2026-10-16T21:21:02.112Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -831,7 +865,7 @@
    "rating": 4.8,
    "reviewCount": 15,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:20.124Z",
+   "checkedAt": "2026-10-16T21:19:44.834Z",
    "lowestSeen": 2147.99,
    "previousPrice": 2299.99,
    "atLowestTracked": false
@@ -862,7 +896,7 @@
    "rating": 4.8,
    "reviewCount": 32,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:15.208Z",
+   "checkedAt": "2026-10-16T21:20:27.240Z",
    "lowestSeen": 1499.99,
    "previousPrice": 1499.99,
    "atLowestTracked": false
@@ -893,7 +927,7 @@
    "rating": 4.3,
    "reviewCount": 18,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:20.254Z",
+   "checkedAt": "2026-10-16T21:20:32.458Z",
    "lowestSeen": 1499.99,
    "previousPrice": 1499.99,
    "atLowestTracked": false
@@ -919,7 +953,7 @@
    "rating": 4.4,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:49.807Z",
+   "checkedAt": "2026-10-16T21:20:29.906Z",
    "lowestSeen": 4999.99,
    "previousPrice": 5999.99,
    "atLowestTracked": true
@@ -950,7 +984,7 @@
    "rating": 4.9,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:49.807Z",
+   "checkedAt": "2026-10-16T21:21:16.812Z",
    "lowestSeen": 4999.99,
    "previousPrice": 5499.99,
    "atLowestTracked": false
@@ -976,7 +1010,7 @@
    "rating": 4.6,
    "reviewCount": 257,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:47.467Z",
+   "checkedAt": "2026-10-16T21:20:59.794Z",
    "lowestSeen": 479.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1002,7 +1036,7 @@
    "rating": 4.8,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:22.506Z",
+   "checkedAt": "2026-10-16T21:19:27.117Z",
    "lowestSeen": 479.99,
    "previousPrice": 479.99,
    "atLowestTracked": false
@@ -1028,7 +1062,7 @@
    "rating": 4.8,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:12.885Z",
+   "checkedAt": "2026-10-16T21:20:46.906Z",
    "lowestSeen": 529.99,
    "previousPrice": 529.99,
    "atLowestTracked": false
@@ -1052,9 +1086,9 @@
    "freeGiftOffers": 3,
    "availability": "SEE_ALL_OPTIONS",
    "rating": 4.7,
-   "reviewCount": 490,
+   "reviewCount": 491,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:42.325Z",
+   "checkedAt": "2026-10-16T21:20:54.609Z",
    "lowestSeen": 559.99,
    "previousPrice": 559.99,
    "atLowestTracked": false
@@ -1080,7 +1114,7 @@
    "rating": 4.7,
    "reviewCount": 560,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:32.292Z",
+   "checkedAt": "2026-10-16T21:20:49.556Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1106,7 +1140,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:22.825Z",
+   "checkedAt": "2026-10-16T21:19:52.403Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1132,7 +1166,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:30.047Z",
+   "checkedAt": "2026-10-16T21:19:34.686Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1153,12 +1187,12 @@
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 3,
+   "freeGiftOffers": 0,
    "availability": "ADD_TO_CART",
    "rating": 4.7,
    "reviewCount": 467,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:09.949Z",
+   "checkedAt": "2026-10-16T21:20:41.849Z",
    "lowestSeen": 849.99,
    "previousPrice": 899.99,
    "atLowestTracked": true
@@ -1184,7 +1218,7 @@
    "rating": 4.7,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:15.208Z",
+   "checkedAt": "2026-10-16T21:20:27.240Z",
    "lowestSeen": 1199.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1210,7 +1244,7 @@
    "rating": 4.7,
    "reviewCount": 376,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:47.467Z",
+   "checkedAt": "2026-10-16T21:20:59.794Z",
    "lowestSeen": 1234.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1241,7 +1275,7 @@
    "rating": 4.6,
    "reviewCount": 15,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:22.506Z",
+   "checkedAt": "2026-10-16T21:20:49.556Z",
    "lowestSeen": 629.99,
    "previousPrice": 629.99,
    "atLowestTracked": false
@@ -1267,7 +1301,7 @@
    "rating": 4.3,
    "reviewCount": 40,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:42.917Z",
+   "checkedAt": "2026-10-16T21:20:57.086Z",
    "lowestSeen": 1299.99,
    "previousPrice": 1699.99,
    "atLowestTracked": true
@@ -1293,7 +1327,7 @@
    "rating": 4.8,
    "reviewCount": 123,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:44.928Z",
+   "checkedAt": "2026-10-16T21:20:59.794Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1319,7 +1353,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:14.569Z",
+   "checkedAt": "2026-10-16T21:21:26.647Z",
    "lowestSeen": 1199.99,
    "previousPrice": 1199.99,
    "atLowestTracked": false
@@ -1350,7 +1384,7 @@
    "rating": 4.8,
    "reviewCount": 42,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:09.949Z",
+   "checkedAt": "2026-10-16T21:20:21.899Z",
    "lowestSeen": 1499.99,
    "previousPrice": 1499.99,
    "atLowestTracked": false
@@ -1376,7 +1410,7 @@
    "rating": 4.8,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:45.396Z",
+   "checkedAt": "2026-10-16T21:19:49.964Z",
    "lowestSeen": 1199.99,
    "previousPrice": 1499.99,
    "atLowestTracked": false
@@ -1405,9 +1439,9 @@
    "freeGiftOffers": 2,
    "availability": "ADD_TO_CART",
    "rating": 4.7,
-   "reviewCount": 64,
+   "reviewCount": 65,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:04.797Z",
+   "checkedAt": "2026-10-16T21:21:16.812Z",
    "lowestSeen": 1199.99,
    "previousPrice": 1199.99,
    "atLowestTracked": false
@@ -1433,7 +1467,7 @@
    "rating": 4.7,
    "reviewCount": 11,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:17.657Z",
+   "checkedAt": "2026-10-16T21:20:19.530Z",
    "lowestSeen": 2999.99,
    "previousPrice": 3999.99,
    "atLowestTracked": true
@@ -1459,7 +1493,7 @@
    "rating": 5,
    "reviewCount": 3,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:29.865Z",
+   "checkedAt": "2026-10-16T21:20:44.305Z",
    "lowestSeen": 279.99,
    "previousPrice": 279.99,
    "atLowestTracked": false
@@ -1485,35 +1519,9 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:12.079Z",
+   "checkedAt": "2026-10-16T21:21:24.263Z",
    "lowestSeen": 349.99,
    "previousPrice": 349.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6579449",
-   "kind": "tv",
-   "name": "TCL - 65\" Class Q6-Series 4K UHD QLED Smart Google TV (2024)",
-   "modelNumber": "65Q651G",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-q6-series-4k-uhd-qled-smart-google-tv-2024/J36QYTWHHC/sku/6579449",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/a858d9f9-d2cb-42a5-be26-a7edb0de3b01.jpg",
-   "screenSize": 65,
-   "regularPrice": 429.99,
-   "salePrice": 399.99,
-   "onSale": true,
-   "dollarSavings": 30,
-   "percentSavings": 6,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 3,
-   "availability": "ADD_TO_CART",
-   "rating": 4.6,
-   "reviewCount": 864,
-   "bundles": [],
-   "checkedAt": "2026-10-16T18:09:29.865Z",
-   "lowestSeen": 399.99,
-   "previousPrice": null,
    "atLowestTracked": false
   },
   {
@@ -1537,9 +1545,35 @@
    "rating": 4.9,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:32.292Z",
+   "checkedAt": "2026-10-16T21:21:19.436Z",
    "lowestSeen": 379.99,
    "previousPrice": 379.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6579449",
+   "kind": "tv",
+   "name": "TCL - 65\" Class Q6-Series 4K UHD QLED Smart Google TV (2024)",
+   "modelNumber": "65Q651G",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-q6-series-4k-uhd-qled-smart-google-tv-2024/J36QYTWHHC/sku/6579449",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/a858d9f9-d2cb-42a5-be26-a7edb0de3b01.jpg",
+   "screenSize": 65,
+   "regularPrice": 429.99,
+   "salePrice": 399.99,
+   "onSale": true,
+   "dollarSavings": 30,
+   "percentSavings": 6,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 3,
+   "availability": "ADD_TO_CART",
+   "rating": 4.6,
+   "reviewCount": 864,
+   "bundles": [],
+   "checkedAt": "2026-10-16T21:20:46.906Z",
+   "lowestSeen": 399.99,
+   "previousPrice": null,
    "atLowestTracked": false
   },
   {
@@ -1563,7 +1597,7 @@
    "rating": 4.9,
    "reviewCount": 20,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:09.949Z",
+   "checkedAt": "2026-10-16T21:20:21.899Z",
    "lowestSeen": 449.99,
    "previousPrice": 449.99,
    "atLowestTracked": false
@@ -1589,7 +1623,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:59.833Z",
+   "checkedAt": "2026-10-16T21:20:34.908Z",
    "lowestSeen": 549.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1610,12 +1644,12 @@
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 0,
+   "freeGiftOffers": 3,
    "availability": "ADD_TO_CART",
    "rating": 4.7,
    "reviewCount": 951,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:47.857Z",
+   "checkedAt": "2026-10-16T21:20:44.305Z",
    "lowestSeen": 649.99,
    "previousPrice": 699.99,
    "atLowestTracked": true
@@ -1641,7 +1675,7 @@
    "rating": 4.6,
    "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:27.595Z",
+   "checkedAt": "2026-10-16T21:19:32.240Z",
    "lowestSeen": 695.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1667,7 +1701,7 @@
    "rating": 4.7,
    "reviewCount": 264,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:37.809Z",
+   "checkedAt": "2026-10-16T21:20:52.044Z",
    "lowestSeen": 899.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1693,7 +1727,7 @@
    "rating": 4.7,
    "reviewCount": 54,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:42.917Z",
+   "checkedAt": "2026-10-16T21:20:57.086Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1719,7 +1753,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:14.569Z",
+   "checkedAt": "2026-10-16T21:21:24.263Z",
    "lowestSeen": 899.99,
    "previousPrice": 899.99,
    "atLowestTracked": false
@@ -1745,40 +1779,9 @@
    "rating": 4.1,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:45.396Z",
+   "checkedAt": "2026-10-16T21:21:04.523Z",
    "lowestSeen": 849.99,
    "previousPrice": 999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6590123",
-   "kind": "tv",
-   "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
-   "modelNumber": "65A300W",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
-   "screenSize": 65,
-   "regularPrice": 1299.99,
-   "salePrice": 1299.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 899.99,
-    "highPrice": null,
-    "savings": 400,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": true,
-   "offers": [],
-   "freeGiftOffers": 3,
-   "availability": "CHECK_STORES",
-   "rating": 4.6,
-   "reviewCount": 301,
-   "bundles": [],
-   "checkedAt": "2026-10-16T18:09:15.208Z",
-   "lowestSeen": 849.99,
-   "previousPrice": 899.99,
    "atLowestTracked": false
   },
   {
@@ -1802,9 +1805,40 @@
    "rating": 4.9,
    "reviewCount": 40,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:47.857Z",
+   "checkedAt": "2026-10-16T21:19:47.488Z",
    "lowestSeen": 1077.99,
    "previousPrice": 1199.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6590123",
+   "kind": "tv",
+   "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
+   "modelNumber": "65A300W",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
+   "screenSize": 65,
+   "regularPrice": 1299.99,
+   "salePrice": 1299.99,
+   "onSale": false,
+   "dollarSavings": 0,
+   "percentSavings": 0,
+   "memberPrice": {
+    "price": 899.99,
+    "highPrice": null,
+    "savings": 400,
+    "tier": "My Best Buy Plus & Total"
+   },
+   "memberDealTagged": true,
+   "offers": [],
+   "freeGiftOffers": 0,
+   "availability": "CHECK_STORES",
+   "rating": 4.6,
+   "reviewCount": 301,
+   "bundles": [],
+   "checkedAt": "2026-10-16T21:20:41.849Z",
+   "lowestSeen": 849.99,
+   "previousPrice": 899.99,
    "atLowestTracked": false
   },
   {
@@ -1833,7 +1867,7 @@
    "rating": 4.7,
    "reviewCount": 40,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:07.338Z",
+   "checkedAt": "2026-10-16T21:20:19.530Z",
    "lowestSeen": 899.99,
    "previousPrice": 899.99,
    "atLowestTracked": false
@@ -1859,7 +1893,7 @@
    "rating": 4.7,
    "reviewCount": 136,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:17.657Z",
+   "checkedAt": "2026-10-16T21:20:46.906Z",
    "lowestSeen": 199.99,
    "previousPrice": 239.99,
    "atLowestTracked": true
@@ -1885,7 +1919,7 @@
    "rating": 4.5,
    "reviewCount": 2587,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:44.928Z",
+   "checkedAt": "2026-10-16T21:20:59.794Z",
    "lowestSeen": 239.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1911,7 +1945,7 @@
    "rating": 4.6,
    "reviewCount": 449,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:57.302Z",
+   "checkedAt": "2026-10-16T21:21:11.941Z",
    "lowestSeen": 265.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1937,36 +1971,10 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:24.924Z",
+   "checkedAt": "2026-10-16T21:21:02.112Z",
    "lowestSeen": 249.99,
    "previousPrice": 259.99,
    "atLowestTracked": false
-  },
-  {
-   "sku": "6579457",
-   "kind": "tv",
-   "name": "TCL - 55\" Class Q6-Series 4K UHD QLED Smart Google TV (2024)",
-   "modelNumber": "55Q651G",
-   "url": "https://www.bestbuy.com/product/tcl-55-class-q6-series-4k-uhd-qled-smart-google-tv-2024/J36QYTWHQP/sku/6579457",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1b524759-8f06-4397-b44d-7dd6feb22f3e.jpg",
-   "screenSize": 55,
-   "regularPrice": 319.99,
-   "salePrice": 299.99,
-   "onSale": true,
-   "dollarSavings": 20,
-   "percentSavings": 6,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 3,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 983,
-   "bundles": [],
-   "checkedAt": "2026-10-16T18:09:12.885Z",
-   "lowestSeen": 299.99,
-   "previousPrice": 319.99,
-   "atLowestTracked": true
   },
   {
    "sku": "6684139",
@@ -1989,10 +1997,36 @@
    "rating": 4.6,
    "reviewCount": 29,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:32.292Z",
+   "checkedAt": "2026-10-16T21:20:44.305Z",
    "lowestSeen": 289.99,
    "previousPrice": 289.99,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6579457",
+   "kind": "tv",
+   "name": "TCL - 55\" Class Q6-Series 4K UHD QLED Smart Google TV (2024)",
+   "modelNumber": "55Q651G",
+   "url": "https://www.bestbuy.com/product/tcl-55-class-q6-series-4k-uhd-qled-smart-google-tv-2024/J36QYTWHQP/sku/6579457",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1b524759-8f06-4397-b44d-7dd6feb22f3e.jpg",
+   "screenSize": 55,
+   "regularPrice": 319.99,
+   "salePrice": 299.99,
+   "onSale": true,
+   "dollarSavings": 20,
+   "percentSavings": 6,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 3,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 984,
+   "bundles": [],
+   "checkedAt": "2026-10-16T21:20:24.664Z",
+   "lowestSeen": 299.99,
+   "previousPrice": 319.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6693210",
@@ -2015,7 +2049,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:22.825Z",
+   "checkedAt": "2026-10-16T21:20:34.908Z",
    "lowestSeen": 449.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2041,7 +2075,7 @@
    "rating": 4.7,
    "reviewCount": 539,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:37.809Z",
+   "checkedAt": "2026-10-16T21:19:52.403Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2067,7 +2101,7 @@
    "rating": 4.7,
    "reviewCount": 206,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:17.657Z",
+   "checkedAt": "2026-10-16T21:19:44.834Z",
    "lowestSeen": 699.99,
    "previousPrice": 999.99,
    "atLowestTracked": true
@@ -2098,7 +2132,7 @@
    "rating": 4.7,
    "reviewCount": 21,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:39.830Z",
+   "checkedAt": "2026-10-16T21:19:52.403Z",
    "lowestSeen": 379.99,
    "previousPrice": 379.99,
    "atLowestTracked": false
@@ -2124,7 +2158,7 @@
    "rating": 4.8,
    "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:42.325Z",
+   "checkedAt": "2026-10-16T21:20:54.609Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2150,7 +2184,7 @@
    "rating": 4.4,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:49.807Z",
+   "checkedAt": "2026-10-16T21:21:02.112Z",
    "lowestSeen": 699.99,
    "previousPrice": 799.99,
    "atLowestTracked": false
@@ -2176,7 +2210,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:52.426Z",
+   "checkedAt": "2026-10-16T21:21:29.464Z",
    "lowestSeen": 699.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -2199,10 +2233,10 @@
    "offers": [],
    "freeGiftOffers": 0,
    "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
+   "rating": 4,
+   "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:44.928Z",
+   "checkedAt": "2026-10-16T21:20:57.086Z",
    "lowestSeen": 799.99,
    "previousPrice": 799.99,
    "atLowestTracked": false
@@ -2231,9 +2265,9 @@
    "freeGiftOffers": 2,
    "availability": "ADD_TO_CART",
    "rating": 4.8,
-   "reviewCount": 57,
+   "reviewCount": 59,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:12.885Z",
+   "checkedAt": "2026-10-16T21:20:24.664Z",
    "lowestSeen": 699.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -2259,7 +2293,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:39.830Z",
+   "checkedAt": "2026-10-16T21:20:52.044Z",
    "lowestSeen": 239.99,
    "previousPrice": 239.99,
    "atLowestTracked": false
@@ -2285,7 +2319,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:34.794Z",
+   "checkedAt": "2026-10-16T21:20:49.556Z",
    "lowestSeen": 259.99,
    "previousPrice": 259.99,
    "atLowestTracked": false
@@ -2311,7 +2345,7 @@
    "rating": 4.6,
    "reviewCount": 492,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:37.809Z",
+   "checkedAt": "2026-10-16T21:20:24.664Z",
    "lowestSeen": 279.99,
    "previousPrice": 279.99,
    "atLowestTracked": false
@@ -2337,7 +2371,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:32.292Z",
+   "checkedAt": "2026-10-16T21:19:22.149Z",
    "lowestSeen": 329.99,
    "previousPrice": 329.99,
    "atLowestTracked": false
@@ -2363,7 +2397,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:22.825Z",
+   "checkedAt": "2026-10-16T21:20:34.908Z",
    "lowestSeen": 399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2389,7 +2423,7 @@
    "rating": 4.9,
    "reviewCount": 15,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:34.794Z",
+   "checkedAt": "2026-10-16T21:19:22.149Z",
    "lowestSeen": 417.99,
    "previousPrice": 479.99,
    "atLowestTracked": false
@@ -2415,7 +2449,7 @@
    "rating": 4.7,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:59.833Z",
+   "checkedAt": "2026-10-16T21:20:52.044Z",
    "lowestSeen": 199.99,
    "previousPrice": 199.99,
    "atLowestTracked": false
@@ -2441,7 +2475,7 @@
    "rating": 4.6,
    "reviewCount": 936,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:29.865Z",
+   "checkedAt": "2026-10-16T21:20:44.305Z",
    "lowestSeen": 229.99,
    "previousPrice": 229.99,
    "atLowestTracked": false
@@ -2467,7 +2501,7 @@
    "rating": 4.4,
    "reviewCount": 11,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:07.279Z",
+   "checkedAt": "2026-10-16T21:20:46.906Z",
    "lowestSeen": 219.99,
    "previousPrice": 229.99,
    "atLowestTracked": false
@@ -2493,7 +2527,7 @@
    "rating": 4.4,
    "reviewCount": 1300,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:27.595Z",
+   "checkedAt": "2026-10-16T21:19:32.240Z",
    "lowestSeen": 119.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2516,10 +2550,10 @@
    "offers": [],
    "freeGiftOffers": 0,
    "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
+   "rating": 5,
+   "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:15.208Z",
+   "checkedAt": "2026-10-16T21:20:27.240Z",
    "lowestSeen": 149.99,
    "previousPrice": 299.99,
    "atLowestTracked": true
@@ -2543,9 +2577,9 @@
    "freeGiftOffers": 3,
    "availability": "ADD_TO_CART",
    "rating": 4.5,
-   "reviewCount": 625,
+   "reviewCount": 626,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:09:29.865Z",
+   "checkedAt": "2026-10-16T21:20:21.899Z",
    "lowestSeen": 159.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2568,10 +2602,10 @@
    "offers": [],
    "freeGiftOffers": 1,
    "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
+   "rating": 5,
+   "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:08:20.124Z",
+   "checkedAt": "2026-10-16T21:21:21.714Z",
    "lowestSeen": 169.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2597,7 +2631,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:09.617Z",
+   "checkedAt": "2026-10-16T21:19:24.779Z",
    "lowestSeen": 149.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2626,9 +2660,9 @@
    "freeGiftOffers": 3,
    "availability": "ADD_TO_CART",
    "rating": 4.4,
-   "reviewCount": 334,
+   "reviewCount": 336,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:07.279Z",
+   "checkedAt": "2026-10-16T21:21:19.436Z",
    "lowestSeen": 139.99,
    "previousPrice": 139.99,
    "atLowestTracked": false
@@ -2655,8 +2689,11 @@
    "availability": "ADD_TO_CART",
    "rating": 4.6,
    "reviewCount": 209,
-   "bundles": [],
-   "checkedAt": "2026-10-16T18:10:02.425Z",
+   "bundles": [
+    "8079d3db-509a-4dc6-84ee-eff6c1380e8f",
+    "5f8d5c82-3b60-4a64-a482-835404b690e5"
+   ],
+   "checkedAt": "2026-10-16T21:21:14.366Z",
    "lowestSeen": 319.99,
    "previousPrice": 349.99,
    "atLowestTracked": true
@@ -2682,7 +2719,7 @@
    "rating": 4.5,
    "reviewCount": 28,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:02.425Z",
+   "checkedAt": "2026-10-16T21:21:14.366Z",
    "lowestSeen": 399.99,
    "previousPrice": 499.99,
    "atLowestTracked": true
@@ -2708,10 +2745,13 @@
    "rating": 4.3,
    "reviewCount": 137,
    "bundles": [
+    "2762a7bf-8fe8-439b-be2c-c255808197cd",
+    "d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
     "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
-    "2762a7bf-8fe8-439b-be2c-c255808197cd"
+    "13d44083-9338-4902-a75c-c1f45466fc39",
+    "cf1bc74c-fd96-45cd-be17-a5a377503362"
    ],
-   "checkedAt": "2026-10-16T18:09:59.833Z",
+   "checkedAt": "2026-10-16T21:21:11.941Z",
    "lowestSeen": 597.99,
    "previousPrice": 597.99,
    "atLowestTracked": false
@@ -2737,7 +2777,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:02.425Z",
+   "checkedAt": "2026-10-16T21:21:14.366Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2763,13 +2803,170 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-16T18:10:21.995Z",
+   "checkedAt": "2026-10-16T21:21:34.595Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
   }
  ],
  "bundles": [
+  {
+   "id": "e01fde87-9232-4eb5-84f5-d5d7cd31d1b2",
+   "name": "Package - TCL - S45H S Class 2.0 Channel Sound Bar with Dolby Atmos, DTS Virtual:X, and Bluetooth Music Streaming and 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/e01fde87-9232-4eb5-84f5-d5d7cd31d1b2",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580779_sd.jpg",
+   "packagePrice": 629.98,
+   "separateTotal": 629.98,
+   "regularTotal": 929.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 300,
+   "memberTotal": 579.98,
+   "items": [
+    {
+     "sku": "6580779",
+     "name": "TCL - S45H S Class 2.0 Channel Sound Bar with Dolby Atmos, DTS Virtual:X, and Bluetooth Music Streaming - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s45h-s-class-2-0-channel-sound-bar-with-dolby-atmos-dts-virtualx-and-bluetooth-music-streaming-black/J36QYTWZ5J/sku/6580779",
+     "regularPrice": 129.99,
+     "salePrice": 79.99,
+     "packageItemPrice": 79.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617496",
+     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
+     "regularPrice": 799.99,
+     "salePrice": 549.99,
+     "packageItemPrice": 549.99,
+     "memberPrice": 499.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:22:04.069Z"
+  },
+  {
+   "id": "b1b2daa8-f20b-45ed-8b31-373359686c17",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/b1b2daa8-f20b-45ed-8b31-373359686c17",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
+   "packagePrice": 669.98,
+   "separateTotal": 669.98,
+   "regularTotal": 959.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 290,
+   "memberTotal": 608.98,
+   "items": [
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 119.99,
+     "packageItemPrice": 119.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6617496",
+     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
+     "regularPrice": 799.99,
+     "salePrice": 549.99,
+     "packageItemPrice": 549.99,
+     "memberPrice": 499.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:46.723Z"
+  },
+  {
+   "id": "3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
+   "packagePrice": 769.98,
+   "separateTotal": 769.98,
+   "regularTotal": 1159.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 390,
+   "memberTotal": 758.98,
+   "items": [
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 119.99,
+     "packageItemPrice": 119.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6617498",
+     "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
+     "regularPrice": 999.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 649.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:41.942Z"
+  },
+  {
+   "id": "8079d3db-509a-4dc6-84ee-eff6c1380e8f",
+   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/8079d3db-509a-4dc6-84ee-eff6c1380e8f",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
+   "packagePrice": 819.98,
+   "separateTotal": 869.98,
+   "regularTotal": 1199.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 380,
+   "memberTotal": 819.98,
+   "items": [
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 319.99,
+     "packageItemPrice": 269.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617496",
+     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
+     "regularPrice": 799.99,
+     "salePrice": 549.99,
+     "packageItemPrice": 549.99,
+     "memberPrice": 499.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:39.139Z"
+  },
   {
    "id": "4aca7f70-9c7a-424b-95a0-f585640aacbd",
    "name": "Package - TCL - S-Class S65K 5.1 Channel Dolby Atmos Soundbar with Wireless Subwoofer (2026) - Charcoal and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
@@ -2807,7 +3004,125 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-16T18:10:27.269Z"
+   "checkedAt": "2026-10-16T21:22:06.472Z"
+  },
+  {
+   "id": "03944b01-1403-4b68-aa11-f4fa32f39c0f",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/03944b01-1403-4b68-aa11-f4fa32f39c0f",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
+   "packagePrice": 969.98,
+   "separateTotal": 969.98,
+   "regularTotal": 1447.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 478,
+   "memberTotal": 958.98,
+   "items": [
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 119.99,
+     "packageItemPrice": 119.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
+     "salePrice": 849.99,
+     "packageItemPrice": 849.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:49.059Z"
+  },
+  {
+   "id": "135c08ee-7297-4a8e-a662-7abdafd7d002",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/135c08ee-7297-4a8e-a662-7abdafd7d002",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
+   "packagePrice": 1019.98,
+   "separateTotal": 1019.98,
+   "regularTotal": 1835.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 816,
+   "memberTotal": 1008.98,
+   "items": [
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 119.99,
+     "packageItemPrice": 119.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6617500",
+     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
+     "regularPrice": 1675.99,
+     "salePrice": 899.99,
+     "packageItemPrice": 899.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:51.590Z"
+  },
+  {
+   "id": "5f8d5c82-3b60-4a64-a482-835404b690e5",
+   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/5f8d5c82-3b60-4a64-a482-835404b690e5",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
+   "packagePrice": 1119.98,
+   "separateTotal": 1169.98,
+   "regularTotal": 1687.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 568,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 319.99,
+     "packageItemPrice": 269.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
+     "salePrice": 849.99,
+     "packageItemPrice": 849.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:44.290Z"
   },
   {
    "id": "2762a7bf-8fe8-439b-be2c-c255808197cd",
@@ -2847,7 +3162,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-16T18:10:29.727Z"
+   "checkedAt": "2026-10-16T21:21:36.721Z"
   },
   {
    "id": "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
@@ -2887,7 +3202,164 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-16T18:10:25.043Z"
+   "checkedAt": "2026-10-16T21:21:56.600Z"
+  },
+  {
+   "id": "67f75c0f-5003-4464-8fed-28f4c2709a17",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 98\" Class Q6-Series 4K UHD QLED Smart Google TV (2024) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/67f75c0f-5003-4464-8fed-28f4c2709a17",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
+   "packagePrice": 1419.98,
+   "separateTotal": 1419.98,
+   "regularTotal": 2313.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 894,
+   "memberTotal": 1408.98,
+   "items": [
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 119.99,
+     "packageItemPrice": 119.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6579447",
+     "name": "TCL - 98\" Class Q6-Series 4K UHD QLED Smart Google TV (2024)",
+     "url": "https://www.bestbuy.com/product/tcl-98-class-q6-series-4k-uhd-qled-smart-google-tv-2024/J36QYTWZWH/sku/6579447",
+     "regularPrice": 2153.99,
+     "salePrice": 1299.99,
+     "packageItemPrice": 1299.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:58.963Z"
+  },
+  {
+   "id": "13d44083-9338-4902-a75c-c1f45466fc39",
+   "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/13d44083-9338-4902-a75c-c1f45466fc39",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
+   "packagePrice": 1499.98,
+   "separateTotal": 1549.98,
+   "regularTotal": 2375.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 876,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6580777",
+     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
+     "regularPrice": 699.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 599.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617500",
+     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
+     "regularPrice": 1675.99,
+     "salePrice": 899.99,
+     "packageItemPrice": 899.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:22:01.496Z"
+  },
+  {
+   "id": "d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
+   "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
+   "packagePrice": 2199.98,
+   "separateTotal": 2249.98,
+   "regularTotal": 3699.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 1500,
+   "memberTotal": 2179.98,
+   "items": [
+    {
+     "sku": "6580777",
+     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
+     "regularPrice": 699.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 599.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6672672",
+     "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
+     "regularPrice": 2999.99,
+     "salePrice": 1599.99,
+     "packageItemPrice": 1599.99,
+     "memberPrice": 1529.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:21:54.012Z"
+  },
+  {
+   "id": "cf1bc74c-fd96-45cd-be17-a5a377503362",
+   "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/cf1bc74c-fd96-45cd-be17-a5a377503362",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
+   "packagePrice": 4599.98,
+   "separateTotal": 4649.98,
+   "regularTotal": 4699.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 100,
+   "memberTotal": 2849.98,
+   "items": [
+    {
+     "sku": "6580777",
+     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
+     "regularPrice": 699.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 599.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6672673",
+     "name": "TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+     "url": "https://www.bestbuy.com/product/tcl-98-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH8GG/sku/6672673",
+     "regularPrice": 3999.99,
+     "salePrice": 3999.99,
+     "packageItemPrice": 3999.99,
+     "memberPrice": 2199.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-16T21:22:09.067Z"
   }
  ],
  "warnings": [
