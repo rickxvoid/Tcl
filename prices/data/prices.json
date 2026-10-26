@@ -1,28 +1,24 @@
 {
- "checkedAt": "2026-10-26T01:20:55.124Z",
+ "checkedAt": "2026-10-26T06:31:23.125Z",
  "source": "bestbuy.com",
  "counts": {
-  "tvs": 98,
+  "tvs": 95,
   "soundbars": 8,
   "bundles": 34
  },
  "marketplaceSkipped": [
-  "13101652",
+  "13101663",
   "13101661",
-  "13101802",
-  "13101658",
-  "13101651",
-  "12376855",
+  "11915383",
   "12376821",
-  "12294327",
   "12254953",
+  "12294327",
   "12889515",
   "11915389",
   "12019043",
   "10367793",
   "11915386",
   "12294330",
-  "11915383",
   "13074654",
   "12139690"
  ],
@@ -46,8 +42,8 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 3,
@@ -55,7 +51,7 @@
    "rating": 4.3,
    "reviewCount": 9,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:02.845Z",
+   "checkedAt": "2026-10-26T06:29:33.194Z",
    "lowestSeen": 11999.99,
    "previousPrice": 17999.99,
    "atLowestTracked": true
@@ -69,23 +65,18 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0b85aaf1-d390-4738-bfae-5fc0d83213d0.jpg",
    "screenSize": 115,
    "regularPrice": 17999.99,
-   "salePrice": 17999.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 13999.99,
-    "highPrice": null,
-    "savings": 4000,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": true,
+   "salePrice": 13999.99,
+   "onSale": true,
+   "dollarSavings": 4000,
+   "percentSavings": 22,
+   "memberPrice": null,
+   "memberDealTagged": false,
    "offers": [
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 3,
@@ -93,9 +84,9 @@
    "rating": 4.5,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:22.735Z",
+   "checkedAt": "2026-10-26T06:28:50.682Z",
    "lowestSeen": 9999.99,
-   "previousPrice": 9999.99,
+   "previousPrice": 17999.99,
    "atLowestTracked": false
   },
   {
@@ -115,10 +106,10 @@
    "memberDealTagged": false,
    "offers": [
     {
-     "text": "Free installation",
-     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "text": "Free installation and haul-away",
+     "url": "https://www.bestbuy.com/site/promo/select-install-with-select-rgb-oled-tvs-offer",
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 2,
@@ -126,7 +117,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:13.086Z",
+   "checkedAt": "2026-10-26T06:27:53.261Z",
    "lowestSeen": 19999.99,
    "previousPrice": 24999.99,
    "atLowestTracked": true
@@ -152,7 +143,7 @@
    "rating": 4.6,
    "reviewCount": 185,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:27.858Z",
+   "checkedAt": "2026-10-26T06:29:54.773Z",
    "lowestSeen": 1199.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -178,7 +169,7 @@
    "rating": 4.7,
    "reviewCount": 578,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:40.654Z",
+   "checkedAt": "2026-10-26T06:29:07.629Z",
    "lowestSeen": 1299.99,
    "previousPrice": 2153.99,
    "atLowestTracked": true
@@ -204,7 +195,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:25.340Z",
+   "checkedAt": "2026-10-26T06:29:20.195Z",
    "lowestSeen": 1399.99,
    "previousPrice": 2499.99,
    "atLowestTracked": true
@@ -230,9 +221,42 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:31.610Z",
+   "checkedAt": "2026-10-26T06:28:57.669Z",
    "lowestSeen": 1599.99,
    "previousPrice": null,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6617499",
+   "kind": "tv",
+   "name": "TCL - 98\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+   "modelNumber": "98QM6K",
+   "url": "https://www.bestbuy.com/product/tcl-98-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQ5JG/sku/6617499",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2e7ec123-e23d-4fb4-a088-c0f7a9c496de.jpg",
+   "screenSize": 98,
+   "regularPrice": 2799.99,
+   "salePrice": 2199.99,
+   "onSale": true,
+   "dollarSavings": 600,
+   "percentSavings": 21,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [
+    {
+     "text": "Free installation",
+     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
+    }
+   ],
+   "freeGiftOffers": 3,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 179,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:28:32.658Z",
+   "lowestSeen": 1799.99,
+   "previousPrice": 2799.99,
    "atLowestTracked": false
   },
   {
@@ -254,8 +278,8 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 2,
@@ -263,9 +287,42 @@
    "rating": 4.6,
    "reviewCount": 43,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:22.737Z",
+   "checkedAt": "2026-10-26T06:29:50.084Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6672673",
+   "kind": "tv",
+   "name": "TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "98QM7L",
+   "url": "https://www.bestbuy.com/product/tcl-98-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH8GG/sku/6672673",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9c76b983-4e30-4d9a-a760-0fa0756f2ce6.jpg",
+   "screenSize": 98,
+   "regularPrice": 3999.99,
+   "salePrice": 2499.99,
+   "onSale": true,
+   "dollarSavings": 1500,
+   "percentSavings": 37,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [
+    {
+     "text": "Free installation",
+     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
+    }
+   ],
+   "freeGiftOffers": 2,
+   "availability": "ADD_TO_CART",
+   "rating": 4.8,
+   "reviewCount": 27,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:28:42.809Z",
+   "lowestSeen": 2199.99,
+   "previousPrice": 3999.99,
    "atLowestTracked": false
   },
   {
@@ -287,8 +344,8 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 3,
@@ -296,47 +353,9 @@
    "rating": 4.8,
    "reviewCount": 483,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:13.086Z",
+   "checkedAt": "2026-10-26T06:29:17.977Z",
    "lowestSeen": 1999.99,
    "previousPrice": 1999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6617499",
-   "kind": "tv",
-   "name": "TCL - 98\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-   "modelNumber": "98QM6K",
-   "url": "https://www.bestbuy.com/product/tcl-98-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQ5JG/sku/6617499",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2e7ec123-e23d-4fb4-a088-c0f7a9c496de.jpg",
-   "screenSize": 98,
-   "regularPrice": 2799.99,
-   "salePrice": 2799.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 2199.99,
-    "highPrice": null,
-    "savings": 600,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": true,
-   "offers": [
-    {
-     "text": "Free installation",
-     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
-    }
-   ],
-   "freeGiftOffers": 3,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 179,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:05.804Z",
-   "lowestSeen": 1799.99,
-   "previousPrice": 2199.99,
    "atLowestTracked": false
   },
   {
@@ -348,9 +367,9 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/f9e51c53-01a8-44f4-83ab-e993fce8e94c.jpg",
    "screenSize": 98,
    "regularPrice": 5999.99,
-   "salePrice": 3499.9,
+   "salePrice": 3499.99,
    "onSale": true,
-   "dollarSavings": 2500.09,
+   "dollarSavings": 2500,
    "percentSavings": 41,
    "memberPrice": null,
    "memberDealTagged": false,
@@ -358,19 +377,18 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 2,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
    "availability": "ADD_TO_CART",
    "rating": 4.4,
    "reviewCount": 15,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:10.205Z",
+   "checkedAt": "2026-10-26T06:28:05.293Z",
    "lowestSeen": 2999.99,
-   "previousPrice": 3499.99,
+   "previousPrice": 3499.9,
    "atLowestTracked": false
   },
   {
@@ -392,8 +410,8 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 3,
@@ -401,47 +419,9 @@
    "rating": 4.6,
    "reviewCount": 166,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:22.463Z",
+   "checkedAt": "2026-10-26T06:29:35.366Z",
    "lowestSeen": 2999.99,
    "previousPrice": 2999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6672673",
-   "kind": "tv",
-   "name": "TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "98QM7L",
-   "url": "https://www.bestbuy.com/product/tcl-98-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH8GG/sku/6672673",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9c76b983-4e30-4d9a-a760-0fa0756f2ce6.jpg",
-   "screenSize": 98,
-   "regularPrice": 3999.99,
-   "salePrice": 3999.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 2799.99,
-    "highPrice": null,
-    "savings": 1200,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": true,
-   "offers": [
-    {
-     "text": "Free installation",
-     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
-    }
-   ],
-   "freeGiftOffers": 2,
-   "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 27,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:19:30.483Z",
-   "lowestSeen": 2199.99,
-   "previousPrice": 2199.99,
    "atLowestTracked": false
   },
   {
@@ -465,7 +445,7 @@
    "rating": 5,
    "reviewCount": 8,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:25.200Z",
+   "checkedAt": "2026-10-26T06:29:54.773Z",
    "lowestSeen": 5099.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -487,10 +467,10 @@
    "memberDealTagged": false,
    "offers": [
     {
-     "text": "Free installation",
-     "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "text": "Free installation and haul-away",
+     "url": "https://www.bestbuy.com/site/promo/select-install-with-select-rgb-oled-tvs-offer",
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 2,
@@ -498,7 +478,7 @@
    "rating": 4.8,
    "reviewCount": 5,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:00.453Z",
+   "checkedAt": "2026-10-26T06:29:27.662Z",
    "lowestSeen": 5999.99,
    "previousPrice": 8499.99,
    "atLowestTracked": true
@@ -522,8 +502,8 @@
     {
      "text": "Free installation",
      "url": "https://www.bestbuy.com/site/promo/save-select-install-with-select-tv-offer",
-     "startDate": "2026-10-05T05:00Z",
-     "endDate": "2026-10-26T04:45Z"
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
     }
    ],
    "freeGiftOffers": 2,
@@ -531,7 +511,7 @@
    "rating": 5,
    "reviewCount": 13,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:20.299Z",
+   "checkedAt": "2026-10-26T06:29:20.195Z",
    "lowestSeen": 7639.99,
    "previousPrice": 7639.99,
    "atLowestTracked": false
@@ -557,7 +537,7 @@
    "rating": 4.6,
    "reviewCount": 304,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:00.453Z",
+   "checkedAt": "2026-10-26T06:27:48.025Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -583,7 +563,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:15.140Z",
+   "checkedAt": "2026-10-26T06:29:44.960Z",
    "lowestSeen": 679.99,
    "previousPrice": 1199.99,
    "atLowestTracked": true
@@ -609,36 +589,9 @@
    "rating": 4.7,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:50.518Z",
+   "checkedAt": "2026-10-26T06:29:17.977Z",
    "lowestSeen": 679.99,
    "previousPrice": 679.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6684128",
-   "kind": "tv",
-   "name": "TCL - 85\" Class Q6LR Series 4K UHD HDR QLED Smart TV with Roku TV (2026)",
-   "modelNumber": "85Q6LR",
-   "url": "https://www.bestbuy.com/product/tcl-85-class-q6lr-series-4k-uhd-hdr-qled-smart-tv-with-roku-tv-2026/J36QYTHWY2/sku/6684128",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/664ba108-8561-4cda-86c0-b43361493c75.jpg",
-   "screenSize": 85,
-   "regularPrice": 999.99,
-   "salePrice": 749.99,
-   "onSale": true,
-   "dollarSavings": 250,
-   "percentSavings": 25,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
-   "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 17,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:17:10.205Z",
-   "lowestSeen": 729.99,
-   "previousPrice": 729.99,
    "atLowestTracked": false
   },
   {
@@ -662,7 +615,7 @@
    "rating": 4.6,
    "reviewCount": 164,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:28.135Z",
+   "checkedAt": "2026-10-26T06:28:55.314Z",
    "lowestSeen": 749.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -688,7 +641,7 @@
    "rating": 4.7,
    "reviewCount": 601,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:48.281Z",
+   "checkedAt": "2026-10-26T06:28:52.828Z",
    "lowestSeen": 799.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -714,7 +667,7 @@
    "rating": 4.5,
    "reviewCount": 57,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:50.518Z",
+   "checkedAt": "2026-10-26T06:27:40.913Z",
    "lowestSeen": 849.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -740,9 +693,66 @@
    "rating": 5,
    "reviewCount": 2,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:42.649Z",
+   "checkedAt": "2026-10-26T06:28:00.640Z",
    "lowestSeen": 799.99,
    "previousPrice": 1699.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6684128",
+   "kind": "tv",
+   "name": "TCL - 85\" Class Q6LR Series 4K UHD HDR QLED Smart TV with Roku TV (2026)",
+   "modelNumber": "85Q6LR",
+   "url": "https://www.bestbuy.com/product/tcl-85-class-q6lr-series-4k-uhd-hdr-qled-smart-tv-with-roku-tv-2026/J36QYTHWY2/sku/6684128",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/664ba108-8561-4cda-86c0-b43361493c75.jpg",
+   "screenSize": 85,
+   "regularPrice": 999.99,
+   "salePrice": 999.99,
+   "onSale": false,
+   "dollarSavings": 0,
+   "percentSavings": 0,
+   "memberPrice": {
+    "price": 749.99,
+    "highPrice": null,
+    "savings": 250,
+    "tier": "My Best Buy Plus & Total"
+   },
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 4.8,
+   "reviewCount": 17,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:28:32.658Z",
+   "lowestSeen": 729.99,
+   "previousPrice": 749.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6617500",
+   "kind": "tv",
+   "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+   "modelNumber": "85QM6K",
+   "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
+   "screenSize": 85,
+   "regularPrice": 1675.99,
+   "salePrice": 1199.99,
+   "onSale": true,
+   "dollarSavings": 476,
+   "percentSavings": 28,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 0,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 645,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:00.214Z",
+   "lowestSeen": 899.99,
+   "previousPrice": 1675.99,
    "atLowestTracked": false
   },
   {
@@ -766,40 +776,9 @@
    "rating": 4.7,
    "reviewCount": 171,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:55.490Z",
+   "checkedAt": "2026-10-26T06:29:27.662Z",
    "lowestSeen": 999.99,
    "previousPrice": 999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6617500",
-   "kind": "tv",
-   "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-   "modelNumber": "85QM6K",
-   "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
-   "screenSize": 85,
-   "regularPrice": 1675.99,
-   "salePrice": 1675.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 1199.99,
-    "highPrice": null,
-    "savings": 476,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 0,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 645,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:32.833Z",
-   "lowestSeen": 899.99,
-   "previousPrice": 899.99,
    "atLowestTracked": false
   },
   {
@@ -811,10 +790,10 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6e7e52b9-8645-4cd5-a29d-fe4330aa7eba.jpg",
    "screenSize": 85,
    "regularPrice": 1999.99,
-   "salePrice": 1799.99,
+   "salePrice": 1599.99,
    "onSale": true,
-   "dollarSavings": 200,
-   "percentSavings": 10,
+   "dollarSavings": 400,
+   "percentSavings": 20,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
@@ -823,10 +802,10 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:42.742Z",
+   "checkedAt": "2026-10-26T06:29:47.435Z",
    "lowestSeen": 1599.99,
-   "previousPrice": 1599.99,
-   "atLowestTracked": false
+   "previousPrice": 1799.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6635428",
@@ -849,7 +828,7 @@
    "rating": 4.3,
    "reviewCount": 37,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:38.747Z",
+   "checkedAt": "2026-10-26T06:28:55.314Z",
    "lowestSeen": 1999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -875,7 +854,7 @@
    "rating": 4.3,
    "reviewCount": 18,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:17.541Z",
+   "checkedAt": "2026-10-26T06:27:45.478Z",
    "lowestSeen": 1499.99,
    "previousPrice": 2799.99,
    "atLowestTracked": false
@@ -901,37 +880,43 @@
    "rating": 5,
    "reviewCount": 2,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:28.135Z",
+   "checkedAt": "2026-10-26T06:29:33.194Z",
    "lowestSeen": 2299.99,
    "previousPrice": null,
    "atLowestTracked": false
   },
   {
-   "sku": "6672677",
+   "sku": "6673199",
    "kind": "tv",
-   "name": "TCL - 85\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "85QM8L",
-   "url": "https://www.bestbuy.com/product/tcl-85-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FS/sku/6672677",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9e4713e-a4cb-4451-bf14-cd398c34f741.jpg",
+   "name": "TCL - 85\" Class RM9L Series 4K UHD HDR RGB-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "85RM9L",
+   "url": "https://www.bestbuy.com/product/tcl-85-class-rm9l-series-4k-uhd-hdr-rgb-mini-led-smart-tv-with-google-tv-2026/J36QYTH8S6/sku/6673199",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/01019520-4870-481e-9c0f-50e4e6fa42b0.jpg",
    "screenSize": 85,
-   "regularPrice": 3999.99,
-   "salePrice": 2499.99,
+   "regularPrice": 5999.99,
+   "salePrice": 4999.99,
    "onSale": true,
-   "dollarSavings": 1500,
-   "percentSavings": 37,
+   "dollarSavings": 1000,
+   "percentSavings": 16,
    "memberPrice": null,
    "memberDealTagged": false,
-   "offers": [],
+   "offers": [
+    {
+     "text": "Free installation and haul-away",
+     "url": "https://www.bestbuy.com/site/promo/select-install-with-select-rgb-oled-tvs-offer",
+     "startDate": "2026-10-26T05:00Z",
+     "endDate": "2026-11-19T05:45Z"
+    }
+   ],
    "freeGiftOffers": 2,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
    "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 16,
+   "rating": 4.4,
+   "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:20.568Z",
-   "lowestSeen": 2147.99,
-   "previousPrice": 2299.99,
-   "atLowestTracked": false
+   "checkedAt": "2026-10-26T06:29:30.210Z",
+   "lowestSeen": 4999.99,
+   "previousPrice": 5999.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6668232",
@@ -954,35 +939,9 @@
    "rating": 4.9,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:28.135Z",
+   "checkedAt": "2026-10-26T06:28:55.314Z",
    "lowestSeen": 4999.99,
    "previousPrice": 7999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673199",
-   "kind": "tv",
-   "name": "TCL - 85\" Class RM9L Series 4K UHD HDR RGB-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "85RM9L",
-   "url": "https://www.bestbuy.com/product/tcl-85-class-rm9l-series-4k-uhd-hdr-rgb-mini-led-smart-tv-with-google-tv-2026/J36QYTH8S6/sku/6673199",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/01019520-4870-481e-9c0f-50e4e6fa42b0.jpg",
-   "screenSize": 85,
-   "regularPrice": 5999.99,
-   "salePrice": 5999.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "ADD_TO_CART",
-   "rating": 4.4,
-   "reviewCount": 10,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:25.340Z",
-   "lowestSeen": 4999.99,
-   "previousPrice": 4999.99,
    "atLowestTracked": false
   },
   {
@@ -1006,7 +965,7 @@
    "rating": 4.6,
    "reviewCount": 257,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:20.321Z",
+   "checkedAt": "2026-10-26T06:29:25.127Z",
    "lowestSeen": 479.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1032,10 +991,36 @@
    "rating": 4.8,
    "reviewCount": 10,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:57.982Z",
+   "checkedAt": "2026-10-26T06:29:25.127Z",
    "lowestSeen": 479.99,
    "previousPrice": 479.99,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6690251",
+   "kind": "tv",
+   "name": "TCL - 75\" S4CF Series 4K UHD HDR LED Smart TV with Fire TV (2026)",
+   "modelNumber": "75S4CF",
+   "url": "https://www.bestbuy.com/product/tcl-75-s4cf-series-4k-uhd-hdr-led-smart-tv-with-fire-tv-2026/J36QYTQKF7/sku/6690251",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5b252740-98a3-430f-afc1-50ac8dfcc26e.jpg",
+   "screenSize": 75,
+   "regularPrice": 799.99,
+   "salePrice": 499.99,
+   "onSale": true,
+   "dollarSavings": 300,
+   "percentSavings": 37,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 0,
+   "availability": "COMING_SOON",
+   "rating": 0,
+   "reviewCount": 0,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:57.423Z",
+   "lowestSeen": 499.99,
+   "previousPrice": 799.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6684133",
@@ -1058,7 +1043,7 @@
    "rating": 4.8,
    "reviewCount": 14,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:30.289Z",
+   "checkedAt": "2026-10-26T06:29:15.217Z",
    "lowestSeen": 529.99,
    "previousPrice": 529.99,
    "atLowestTracked": false
@@ -1084,7 +1069,7 @@
    "rating": 4.7,
    "reviewCount": 492,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:52.844Z",
+   "checkedAt": "2026-10-26T06:29:20.195Z",
    "lowestSeen": 559.99,
    "previousPrice": 559.99,
    "atLowestTracked": false
@@ -1110,7 +1095,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:31.610Z",
+   "checkedAt": "2026-10-26T06:28:57.669Z",
    "lowestSeen": 669.99,
    "previousPrice": 799.99,
    "atLowestTracked": true
@@ -1136,7 +1121,7 @@
    "rating": 4.6,
    "reviewCount": 16,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:42.742Z",
+   "checkedAt": "2026-10-26T06:27:40.913Z",
    "lowestSeen": 629.99,
    "previousPrice": 1299.99,
    "atLowestTracked": false
@@ -1162,62 +1147,62 @@
    "rating": 4.7,
    "reviewCount": 569,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:42.649Z",
+   "checkedAt": "2026-10-26T06:28:47.657Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
    "atLowestTracked": false
   },
   {
-   "sku": "6690251",
+   "sku": "6617497",
    "kind": "tv",
-   "name": "TCL - 75\" S4CF Series 4K UHD HDR LED Smart TV with Fire TV (2026)",
-   "modelNumber": "75S4CF",
-   "url": "https://www.bestbuy.com/product/tcl-75-s4cf-series-4k-uhd-hdr-led-smart-tv-with-fire-tv-2026/J36QYTQKF7/sku/6690251",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5b252740-98a3-430f-afc1-50ac8dfcc26e.jpg",
+   "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+   "modelNumber": "75QM6K",
+   "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
    "screenSize": 75,
-   "regularPrice": 799.99,
-   "salePrice": 799.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
+   "regularPrice": 1287.99,
+   "salePrice": 899.99,
+   "onSale": true,
+   "dollarSavings": 388,
+   "percentSavings": 30,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 0,
-   "availability": "COMING_SOON",
-   "rating": 0,
-   "reviewCount": 0,
+   "freeGiftOffers": 3,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 472,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:08.545Z",
-   "lowestSeen": 799.99,
-   "previousPrice": null,
+   "checkedAt": "2026-10-26T06:29:15.217Z",
+   "lowestSeen": 849.99,
+   "previousPrice": 1287.99,
    "atLowestTracked": false
   },
   {
-   "sku": "6635429",
+   "sku": "6686903",
    "kind": "tv",
-   "name": "TCL - 75\" Class QM9K Series 4K UHD HDR QD-Mini LED Smart TV with Google TV (2025)",
-   "modelNumber": "75QM9K",
-   "url": "https://www.bestbuy.com/product/tcl-75-class-qm9k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQZ25/sku/6635429",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/e31e3b70-b1cb-47ca-bce0-9d87a1f31750.jpg",
+   "name": "TCL - 75\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
+   "modelNumber": "75A400U",
+   "url": "https://www.bestbuy.com/product/tcl-75-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHP2S/sku/6686903",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
    "screenSize": 75,
-   "regularPrice": 2299.99,
+   "regularPrice": 1599.99,
    "salePrice": 1199.99,
    "onSale": true,
-   "dollarSavings": 1100,
-   "percentSavings": 47,
+   "dollarSavings": 400,
+   "percentSavings": 25,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "SOLD_OUT",
-   "rating": 4.7,
-   "reviewCount": 38,
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 0,
+   "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:40.743Z",
+   "checkedAt": "2026-10-26T06:29:52.384Z",
    "lowestSeen": 1199.99,
-   "previousPrice": null,
-   "atLowestTracked": false
+   "previousPrice": 1399.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6621474",
@@ -1240,40 +1225,9 @@
    "rating": 4.7,
    "reviewCount": 377,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:16.043Z",
+   "checkedAt": "2026-10-26T06:28:52.828Z",
    "lowestSeen": 1234.99,
    "previousPrice": null,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6617497",
-   "kind": "tv",
-   "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-   "modelNumber": "75QM6K",
-   "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "screenSize": 75,
-   "regularPrice": 1287.99,
-   "salePrice": 1287.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 899.99,
-    "highPrice": null,
-    "savings": 388,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 0,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 472,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:40.654Z",
-   "lowestSeen": 849.99,
-   "previousPrice": 849.99,
    "atLowestTracked": false
   },
   {
@@ -1297,7 +1251,7 @@
    "rating": 4.3,
    "reviewCount": 40,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:20.321Z",
+   "checkedAt": "2026-10-26T06:29:25.127Z",
    "lowestSeen": 1299.99,
    "previousPrice": 1699.99,
    "atLowestTracked": true
@@ -1323,63 +1277,10 @@
    "rating": 4.8,
    "reviewCount": 124,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:55.490Z",
+   "checkedAt": "2026-10-26T06:29:25.127Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
-  },
-  {
-   "sku": "6686903",
-   "kind": "tv",
-   "name": "TCL - 75\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
-   "modelNumber": "75A400U",
-   "url": "https://www.bestbuy.com/product/tcl-75-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHP2S/sku/6686903",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
-   "screenSize": 75,
-   "regularPrice": 1599.99,
-   "salePrice": 1399.99,
-   "onSale": true,
-   "dollarSavings": 200,
-   "percentSavings": 12,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:17:20.321Z",
-   "lowestSeen": 1199.99,
-   "previousPrice": 1199.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6672672",
-   "kind": "tv",
-   "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "75QM8L",
-   "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9e4713e-a4cb-4451-bf14-cd398c34f741.jpg",
-   "screenSize": 75,
-   "regularPrice": 2999.99,
-   "salePrice": 1499.99,
-   "onSale": true,
-   "dollarSavings": 1500,
-   "percentSavings": 50,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 2,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
-   "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 48,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:18.620Z",
-   "lowestSeen": 1499.99,
-   "previousPrice": 1599.99,
-   "atLowestTracked": true
   },
   {
    "sku": "6673195",
@@ -1390,10 +1291,10 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
    "screenSize": 75,
    "regularPrice": 1999.99,
-   "salePrice": 1599.99,
+   "salePrice": 1399.99,
    "onSale": true,
-   "dollarSavings": 400,
-   "percentSavings": 20,
+   "dollarSavings": 600,
+   "percentSavings": 30,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
@@ -1402,9 +1303,9 @@
    "rating": 4.8,
    "reviewCount": 11,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:52.844Z",
+   "checkedAt": "2026-10-26T06:28:52.828Z",
    "lowestSeen": 1199.99,
-   "previousPrice": 1699.99,
+   "previousPrice": 1599.99,
    "atLowestTracked": false
   },
   {
@@ -1416,26 +1317,52 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
    "screenSize": 75,
    "regularPrice": 1999.99,
-   "salePrice": 1999.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
+   "salePrice": 1499.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 25,
    "memberPrice": {
     "price": 1199.99,
     "highPrice": null,
-    "savings": 800,
+    "savings": 300,
     "tier": "My Best Buy Plus & Total"
    },
-   "memberDealTagged": true,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 0,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 70,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:07.629Z",
+   "lowestSeen": 1199.99,
+   "previousPrice": 1999.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6672672",
+   "kind": "tv",
+   "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "75QM8L",
+   "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9e4713e-a4cb-4451-bf14-cd398c34f741.jpg",
+   "screenSize": 75,
+   "regularPrice": 2999.99,
+   "salePrice": 1599.99,
+   "onSale": true,
+   "dollarSavings": 1400,
+   "percentSavings": 46,
+   "memberPrice": null,
+   "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 2,
    "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 69,
+   "rating": 4.8,
+   "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:12.953Z",
-   "lowestSeen": 1199.99,
-   "previousPrice": 1199.99,
+   "checkedAt": "2026-10-26T06:28:45.191Z",
+   "lowestSeen": 1499.99,
+   "previousPrice": 1499.99,
    "atLowestTracked": false
   },
   {
@@ -1459,63 +1386,10 @@
    "rating": 4.7,
    "reviewCount": 11,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:15.129Z",
+   "checkedAt": "2026-10-26T06:28:42.809Z",
    "lowestSeen": 2999.99,
    "previousPrice": 3999.99,
    "atLowestTracked": true
-  },
-  {
-   "sku": "6687112",
-   "kind": "tv",
-   "name": "TCL - 65\" S4CF Series 4K UHD HDR Smart TV with Fire TV (2026)",
-   "modelNumber": "65S4CF",
-   "url": "https://www.bestbuy.com/product/tcl-65-s4cf-series-4k-uhd-hdr-smart-tv-with-fire-tv-2026/J36QYTHZVP/sku/6687112",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/f6d8443e-1c71-4ca6-8cc6-880d6d0bd6a2.jpg",
-   "screenSize": 65,
-   "regularPrice": 469.99,
-   "salePrice": 279.99,
-   "onSale": true,
-   "dollarSavings": 190,
-   "percentSavings": 40,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 0,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
-   "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 13,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:17:07.817Z",
-   "lowestSeen": 279.99,
-   "previousPrice": 349.99,
-   "atLowestTracked": true
-  },
-  {
-   "sku": "6625836",
-   "kind": "tv",
-   "name": "TCL - 65\" Class F35-Series 4K UHD HDR LED Smart Fire TV (2025)",
-   "modelNumber": "65F35",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-f35-series-4k-uhd-hdr-led-smart-fire-tv-2025/J36QYTQ59Q/sku/6625836",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/29d88038-332f-48c7-a8b1-ea1d3db536dc.jpg",
-   "screenSize": 65,
-   "regularPrice": 399.99,
-   "salePrice": 349.99,
-   "onSale": true,
-   "dollarSavings": 50,
-   "percentSavings": 12,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "SOLD_OUT",
-   "rating": 4.6,
-   "reviewCount": 327,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:17:40.743Z",
-   "lowestSeen": 349.99,
-   "previousPrice": null,
-   "atLowestTracked": false
   },
   {
    "sku": "6684134",
@@ -1538,7 +1412,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:38.747Z",
+   "checkedAt": "2026-10-26T06:29:30.210Z",
    "lowestSeen": 349.99,
    "previousPrice": 349.99,
    "atLowestTracked": false
@@ -1564,7 +1438,7 @@
    "rating": 4.9,
    "reviewCount": 15,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:15.140Z",
+   "checkedAt": "2026-10-26T06:29:42.191Z",
    "lowestSeen": 349.99,
    "previousPrice": 349.99,
    "atLowestTracked": false
@@ -1590,7 +1464,7 @@
    "rating": 4.7,
    "reviewCount": 866,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:22.735Z",
+   "checkedAt": "2026-10-26T06:29:12.722Z",
    "lowestSeen": 399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -1616,7 +1490,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:31.610Z",
+   "checkedAt": "2026-10-26T06:28:57.669Z",
    "lowestSeen": 469.99,
    "previousPrice": 549.99,
    "atLowestTracked": true
@@ -1640,9 +1514,9 @@
    "freeGiftOffers": 1,
    "availability": "ADD_TO_CART",
    "rating": 4.8,
-   "reviewCount": 23,
+   "reviewCount": 24,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:18.620Z",
+   "checkedAt": "2026-10-26T06:28:45.191Z",
    "lowestSeen": 449.99,
    "previousPrice": 799.99,
    "atLowestTracked": false
@@ -1656,23 +1530,22 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
    "screenSize": 65,
    "regularPrice": 999.99,
-   "salePrice": 649.99,
+   "salePrice": 679.99,
    "onSale": true,
-   "dollarSavings": 350,
-   "percentSavings": 35,
+   "dollarSavings": 320,
+   "percentSavings": 32,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 3,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
+   "freeGiftOffers": 0,
    "availability": "ADD_TO_CART",
    "rating": 4.7,
-   "reviewCount": 957,
+   "reviewCount": 958,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:42.649Z",
+   "checkedAt": "2026-10-26T06:29:07.629Z",
    "lowestSeen": 649.99,
-   "previousPrice": 699.99,
-   "atLowestTracked": true
+   "previousPrice": 649.99,
+   "atLowestTracked": false
   },
   {
    "sku": "6625874",
@@ -1695,36 +1568,9 @@
    "rating": 4.7,
    "reviewCount": 507,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:00.453Z",
+   "checkedAt": "2026-10-26T06:29:30.210Z",
    "lowestSeen": 449.99,
    "previousPrice": 499.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6590123",
-   "kind": "tv",
-   "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
-   "modelNumber": "65A300W",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
-   "screenSize": 65,
-   "regularPrice": 1299.99,
-   "salePrice": 899.99,
-   "onSale": true,
-   "dollarSavings": 400,
-   "percentSavings": 30,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 3,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
-   "availability": "CHECK_STORES",
-   "rating": 4.6,
-   "reviewCount": 303,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:18:45.435Z",
-   "lowestSeen": 849.99,
-   "previousPrice": 1299.99,
    "atLowestTracked": false
   },
   {
@@ -1748,10 +1594,36 @@
    "rating": 4.7,
    "reviewCount": 268,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:25.340Z",
+   "checkedAt": "2026-10-26T06:29:17.977Z",
    "lowestSeen": 899.99,
    "previousPrice": null,
    "atLowestTracked": false
+  },
+  {
+   "sku": "6686905",
+   "kind": "tv",
+   "name": "TCL - 65\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
+   "modelNumber": "65A400U",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHPTZ/sku/6686905",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
+   "screenSize": 65,
+   "regularPrice": 1399.99,
+   "salePrice": 899.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 35,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 0,
+   "reviewCount": 0,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:52.384Z",
+   "lowestSeen": 899.99,
+   "previousPrice": 1199.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6621470",
@@ -1774,7 +1646,7 @@
    "rating": 4.8,
    "reviewCount": 321,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:16.043Z",
+   "checkedAt": "2026-10-26T06:28:52.828Z",
    "lowestSeen": 699.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -1800,9 +1672,61 @@
    "rating": 4.7,
    "reviewCount": 56,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:16.043Z",
+   "checkedAt": "2026-10-26T06:29:22.653Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6673197",
+   "kind": "tv",
+   "name": "TCL - 65\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
+   "modelNumber": "65A300L",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCQ/sku/6673197",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
+   "screenSize": 65,
+   "regularPrice": 1499.99,
+   "salePrice": 999.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 33,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 4.1,
+   "reviewCount": 10,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:33.194Z",
+   "lowestSeen": 849.99,
+   "previousPrice": 1199.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6673185",
+   "kind": "tv",
+   "name": "TCL - 65\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "65QM7L",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHL6R/sku/6673185",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
+   "screenSize": 65,
+   "regularPrice": 1499.99,
+   "salePrice": 999.99,
+   "onSale": true,
+   "dollarSavings": 500,
+   "percentSavings": 33,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 2,
+   "availability": "ADD_TO_CART",
+   "rating": 4.7,
+   "reviewCount": 43,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:28:42.809Z",
+   "lowestSeen": 899.99,
+   "previousPrice": 1499.99,
    "atLowestTracked": false
   },
   {
@@ -1826,91 +1750,39 @@
    "rating": 4.9,
    "reviewCount": 50,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:18.620Z",
+   "checkedAt": "2026-10-26T06:28:11.036Z",
    "lowestSeen": 1077.99,
    "previousPrice": 1299.99,
    "atLowestTracked": false
   },
   {
-   "sku": "6686905",
+   "sku": "6590123",
    "kind": "tv",
-   "name": "TCL - 65\" Class A400U Designer Series 4K UHD HDR QD-Mini LED Smart TV with Google TV, Art Library, and Flush Wall Mount (2026)",
-   "modelNumber": "65A400U",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a400u-designer-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-art-library-and-flush-wall-mount-2026/J36QYTHPTZ/sku/6686905",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
+   "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
+   "modelNumber": "65A300W",
+   "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
    "screenSize": 65,
-   "regularPrice": 1399.99,
-   "salePrice": 1199.99,
-   "onSale": true,
-   "dollarSavings": 200,
-   "percentSavings": 14,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 0,
-   "reviewCount": 0,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:19:22.737Z",
-   "lowestSeen": 899.99,
-   "previousPrice": 899.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673197",
-   "kind": "tv",
-   "name": "TCL - 65\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
-   "modelNumber": "65A300L",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCQ/sku/6673197",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
-   "screenSize": 65,
-   "regularPrice": 1499.99,
-   "salePrice": 1199.99,
-   "onSale": true,
-   "dollarSavings": 300,
-   "percentSavings": 20,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 4.1,
-   "reviewCount": 10,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:19:02.845Z",
-   "lowestSeen": 849.99,
-   "previousPrice": 999.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673185",
-   "kind": "tv",
-   "name": "TCL - 65\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "65QM7L",
-   "url": "https://www.bestbuy.com/product/tcl-65-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHL6R/sku/6673185",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
-   "screenSize": 65,
-   "regularPrice": 1499.99,
-   "salePrice": 1499.99,
+   "regularPrice": 1299.99,
+   "salePrice": 1299.99,
    "onSale": false,
    "dollarSavings": 0,
    "percentSavings": 0,
    "memberPrice": {
-    "price": 1199.99,
+    "price": 899.99,
     "highPrice": null,
-    "savings": 300,
+    "savings": 400,
     "tier": "My Best Buy Plus & Total"
    },
-   "memberDealTagged": true,
+   "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "ADD_TO_CART",
-   "rating": 4.7,
-   "reviewCount": 43,
+   "freeGiftOffers": 3,
+   "availability": "CHECK_STORES",
+   "rating": 4.6,
+   "reviewCount": 303,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:15.129Z",
-   "lowestSeen": 899.99,
+   "checkedAt": "2026-10-26T06:28:32.658Z",
+   "lowestSeen": 849.99,
    "previousPrice": 899.99,
    "atLowestTracked": false
   },
@@ -1935,7 +1807,7 @@
    "rating": 4.6,
    "reviewCount": 325,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:25.340Z",
+   "checkedAt": "2026-10-26T06:29:50.084Z",
    "lowestSeen": 269.99,
    "previousPrice": 269.99,
    "atLowestTracked": false
@@ -1961,7 +1833,7 @@
    "rating": 4.7,
    "reviewCount": 137,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:48.281Z",
+   "checkedAt": "2026-10-26T06:28:50.682Z",
    "lowestSeen": 199.99,
    "previousPrice": 239.99,
    "atLowestTracked": true
@@ -1987,7 +1859,7 @@
    "rating": 4.5,
    "reviewCount": 2589,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:28.135Z",
+   "checkedAt": "2026-10-26T06:28:55.314Z",
    "lowestSeen": 239.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2013,7 +1885,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:48.281Z",
+   "checkedAt": "2026-10-26T06:29:17.977Z",
    "lowestSeen": 249.99,
    "previousPrice": 259.99,
    "atLowestTracked": false
@@ -2037,9 +1909,9 @@
    "freeGiftOffers": 1,
    "availability": "ADD_TO_CART",
    "rating": 4.6,
-   "reviewCount": 36,
+   "reviewCount": 37,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:18.620Z",
+   "checkedAt": "2026-10-26T06:28:45.191Z",
    "lowestSeen": 279.99,
    "previousPrice": 279.99,
    "atLowestTracked": false
@@ -2065,7 +1937,7 @@
    "rating": 4.7,
    "reviewCount": 987,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:35.516Z",
+   "checkedAt": "2026-10-26T06:29:12.722Z",
    "lowestSeen": 299.99,
    "previousPrice": 299.99,
    "atLowestTracked": false
@@ -2091,7 +1963,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:57.982Z",
+   "checkedAt": "2026-10-26T06:29:27.662Z",
    "lowestSeen": 399.99,
    "previousPrice": 449.99,
    "atLowestTracked": true
@@ -2117,7 +1989,7 @@
    "rating": 4.7,
    "reviewCount": 23,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:20.568Z",
+   "checkedAt": "2026-10-26T06:28:47.657Z",
    "lowestSeen": 379.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -2138,12 +2010,12 @@
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
-   "freeGiftOffers": 0,
+   "freeGiftOffers": 3,
    "availability": "ADD_TO_CART",
    "rating": 4.8,
    "reviewCount": 748,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:32.833Z",
+   "checkedAt": "2026-10-26T06:29:10.054Z",
    "lowestSeen": 498,
    "previousPrice": 498,
    "atLowestTracked": false
@@ -2167,9 +2039,9 @@
    "freeGiftOffers": 3,
    "availability": "SEE_ALL_OPTIONS",
    "rating": 4.7,
-   "reviewCount": 539,
+   "reviewCount": 540,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:15.129Z",
+   "checkedAt": "2026-10-26T06:29:12.722Z",
    "lowestSeen": 599.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2195,7 +2067,7 @@
    "rating": 4.7,
    "reviewCount": 206,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:45.435Z",
+   "checkedAt": "2026-10-26T06:29:12.722Z",
    "lowestSeen": 699.99,
    "previousPrice": 999.99,
    "atLowestTracked": true
@@ -2221,35 +2093,9 @@
    "rating": 4.8,
    "reviewCount": 49,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:50.518Z",
+   "checkedAt": "2026-10-26T06:29:20.195Z",
    "lowestSeen": 699.99,
    "previousPrice": null,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673196",
-   "kind": "tv",
-   "name": "TCL - 55\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
-   "modelNumber": "55A300L",
-   "url": "https://www.bestbuy.com/product/tcl-55-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCL/sku/6673196",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
-   "screenSize": 55,
-   "regularPrice": 999.99,
-   "salePrice": 899.99,
-   "onSale": true,
-   "dollarSavings": 100,
-   "percentSavings": 10,
-   "memberPrice": null,
-   "memberDealTagged": false,
-   "offers": [],
-   "freeGiftOffers": 1,
-   "availability": "ADD_TO_CART",
-   "rating": 4.4,
-   "reviewCount": 10,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:19:02.845Z",
-   "lowestSeen": 699.99,
-   "previousPrice": 799.99,
    "atLowestTracked": false
   },
   {
@@ -2261,10 +2107,10 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/040e832f-6b7c-40a9-8827-e27418b25fc9.jpg",
    "screenSize": 55,
    "regularPrice": 999.99,
-   "salePrice": 899.99,
+   "salePrice": 699.99,
    "onSale": true,
-   "dollarSavings": 100,
-   "percentSavings": 10,
+   "dollarSavings": 300,
+   "percentSavings": 30,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
@@ -2273,9 +2119,61 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:05.514Z",
+   "checkedAt": "2026-10-26T06:28:07.994Z",
    "lowestSeen": 699.99,
-   "previousPrice": 699.99,
+   "previousPrice": 899.99,
+   "atLowestTracked": true
+  },
+  {
+   "sku": "6673196",
+   "kind": "tv",
+   "name": "TCL - 55\" Class A300L Designer Series 4K QLED TV with Ultra Matte Screen and Flush Wall Mount (2026)",
+   "modelNumber": "55A300L",
+   "url": "https://www.bestbuy.com/product/tcl-55-class-a300l-designer-series-4k-qled-tv-with-ultra-matte-screen-and-flush-wall-mount-2026/J36QYTHSCL/sku/6673196",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02701e6e-0c69-49fe-a61c-0beb9c3b63d7.jpg",
+   "screenSize": 55,
+   "regularPrice": 999.99,
+   "salePrice": 749.99,
+   "onSale": true,
+   "dollarSavings": 250,
+   "percentSavings": 25,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 4.4,
+   "reviewCount": 10,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:33.194Z",
+   "lowestSeen": 699.99,
+   "previousPrice": 899.99,
+   "atLowestTracked": false
+  },
+  {
+   "sku": "6673190",
+   "kind": "tv",
+   "name": "TCL - 55\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+   "modelNumber": "55QM7L",
+   "url": "https://www.bestbuy.com/product/tcl-55-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHLR6/sku/6673190",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
+   "screenSize": 55,
+   "regularPrice": 1199.99,
+   "salePrice": 799.99,
+   "onSale": true,
+   "dollarSavings": 400,
+   "percentSavings": 33,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 2,
+   "availability": "ADD_TO_CART",
+   "rating": 4.8,
+   "reviewCount": 65,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:29:15.217Z",
+   "lowestSeen": 699.99,
+   "previousPrice": 1199.99,
    "atLowestTracked": false
   },
   {
@@ -2299,40 +2197,9 @@
    "rating": 4,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:55.490Z",
+   "checkedAt": "2026-10-26T06:29:22.653Z",
    "lowestSeen": 799.99,
    "previousPrice": 799.99,
-   "atLowestTracked": false
-  },
-  {
-   "sku": "6673190",
-   "kind": "tv",
-   "name": "TCL - 55\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-   "modelNumber": "55QM7L",
-   "url": "https://www.bestbuy.com/product/tcl-55-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHLR6/sku/6673190",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
-   "screenSize": 55,
-   "regularPrice": 1199.99,
-   "salePrice": 1199.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
-   "memberPrice": {
-    "price": 799.99,
-    "highPrice": null,
-    "savings": 400,
-    "tier": "My Best Buy Plus & Total"
-   },
-   "memberDealTagged": true,
-   "offers": [],
-   "freeGiftOffers": 2,
-   "availability": "ADD_TO_CART",
-   "rating": 4.8,
-   "reviewCount": 65,
-   "bundles": [],
-   "checkedAt": "2026-10-26T01:19:11.011Z",
-   "lowestSeen": 699.99,
-   "previousPrice": 699.99,
    "atLowestTracked": false
   },
   {
@@ -2356,7 +2223,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:20.299Z",
+   "checkedAt": "2026-10-26T06:29:22.653Z",
    "lowestSeen": 239.99,
    "previousPrice": 239.99,
    "atLowestTracked": false
@@ -2382,7 +2249,7 @@
    "rating": 5,
    "reviewCount": 1,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:45.435Z",
+   "checkedAt": "2026-10-26T06:27:38.015Z",
    "lowestSeen": 259.99,
    "previousPrice": 259.99,
    "atLowestTracked": false
@@ -2408,7 +2275,7 @@
    "rating": 4.6,
    "reviewCount": 492,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:46.078Z",
+   "checkedAt": "2026-10-26T06:27:45.478Z",
    "lowestSeen": 279.99,
    "previousPrice": 279.99,
    "atLowestTracked": false
@@ -2434,7 +2301,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:31.610Z",
+   "checkedAt": "2026-10-26T06:29:40.513Z",
    "lowestSeen": 349.99,
    "previousPrice": 399.99,
    "atLowestTracked": true
@@ -2460,7 +2327,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:10.205Z",
+   "checkedAt": "2026-10-26T06:29:42.191Z",
    "lowestSeen": 329.99,
    "previousPrice": 659.99,
    "atLowestTracked": false
@@ -2486,7 +2353,7 @@
    "rating": 4.9,
    "reviewCount": 18,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:45.435Z",
+   "checkedAt": "2026-10-26T06:29:10.054Z",
    "lowestSeen": 417.99,
    "previousPrice": 479.99,
    "atLowestTracked": false
@@ -2512,7 +2379,7 @@
    "rating": 4.7,
    "reviewCount": 12,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:22.735Z",
+   "checkedAt": "2026-10-26T06:28:50.682Z",
    "lowestSeen": 199.99,
    "previousPrice": 199.99,
    "atLowestTracked": false
@@ -2538,7 +2405,7 @@
    "rating": 4.6,
    "reviewCount": 942,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:46.078Z",
+   "checkedAt": "2026-10-26T06:29:10.054Z",
    "lowestSeen": 229.99,
    "previousPrice": 229.99,
    "atLowestTracked": false
@@ -2564,7 +2431,7 @@
    "rating": 4.5,
    "reviewCount": 16,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:42.649Z",
+   "checkedAt": "2026-10-26T06:29:10.054Z",
    "lowestSeen": 219.99,
    "previousPrice": 229.99,
    "atLowestTracked": false
@@ -2578,23 +2445,22 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02d91052-a48d-45a7-aaa7-63ecf69907dd.jpg",
    "screenSize": 40,
    "regularPrice": 299.99,
-   "salePrice": 139.99,
+   "salePrice": 149.99,
    "onSale": true,
-   "dollarSavings": 160,
-   "percentSavings": 53,
+   "dollarSavings": 150,
+   "percentSavings": 50,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 0,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
    "availability": "ADD_TO_CART",
    "rating": 5,
-   "reviewCount": 2,
+   "reviewCount": 4,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:07.817Z",
+   "checkedAt": "2026-10-26T06:27:35.353Z",
    "lowestSeen": 139.99,
-   "previousPrice": 149.99,
-   "atLowestTracked": true
+   "previousPrice": 139.99,
+   "atLowestTracked": false
   },
   {
    "sku": "6538126",
@@ -2617,7 +2483,7 @@
    "rating": 4.4,
    "reviewCount": 1303,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:55.490Z",
+   "checkedAt": "2026-10-26T06:29:22.653Z",
    "lowestSeen": 119.99,
    "previousPrice": 119.99,
    "atLowestTracked": false
@@ -2641,9 +2507,9 @@
    "freeGiftOffers": 3,
    "availability": "ADD_TO_CART",
    "rating": 4.5,
-   "reviewCount": 631,
+   "reviewCount": 632,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:10.205Z",
+   "checkedAt": "2026-10-26T06:28:42.809Z",
    "lowestSeen": 159.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2657,10 +2523,10 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ccaa2a1b-9b0d-4465-b383-9846b088e375.jpg",
    "screenSize": 40,
    "regularPrice": 179.99,
-   "salePrice": 179.99,
-   "onSale": false,
-   "dollarSavings": 0,
-   "percentSavings": 0,
+   "salePrice": 169.99,
+   "onSale": true,
+   "dollarSavings": 10,
+   "percentSavings": 5,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
@@ -2669,10 +2535,10 @@
    "rating": 5,
    "reviewCount": 2,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:17.798Z",
+   "checkedAt": "2026-10-26T06:29:44.960Z",
    "lowestSeen": 169.99,
-   "previousPrice": 169.99,
-   "atLowestTracked": false
+   "previousPrice": 179.99,
+   "atLowestTracked": true
   },
   {
    "sku": "6625838",
@@ -2695,9 +2561,35 @@
    "rating": 4.4,
    "reviewCount": 341,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:17:35.516Z",
+   "checkedAt": "2026-10-26T06:28:11.036Z",
    "lowestSeen": 139.99,
    "previousPrice": 179.99,
+   "atLowestTracked": true
+  },
+  {
+   "sku": "6684138",
+   "kind": "tv",
+   "name": "TCL - 32\" Class Q3L Series 1080P FHD QLED Smart TV with Fire TV (2026)",
+   "modelNumber": "32Q3L",
+   "url": "https://www.bestbuy.com/product/tcl-32-class-q3l-series-1080p-fhd-qled-smart-tv-with-fire-tv-2026/J36QYTHZZS/sku/6684138",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0942e6a2-2bd3-4ced-9050-282bda39fd4a.jpg",
+   "screenSize": 32,
+   "regularPrice": 159.99,
+   "salePrice": 149.99,
+   "onSale": true,
+   "dollarSavings": 10,
+   "percentSavings": 6,
+   "memberPrice": null,
+   "memberDealTagged": false,
+   "offers": [],
+   "freeGiftOffers": 1,
+   "availability": "ADD_TO_CART",
+   "rating": 0,
+   "reviewCount": 0,
+   "bundles": [],
+   "checkedAt": "2026-10-26T06:28:50.682Z",
+   "lowestSeen": 149.99,
+   "previousPrice": 159.99,
    "atLowestTracked": true
   }
  ],
@@ -2731,7 +2623,7 @@
     "e01fde87-9232-4eb5-84f5-d5d7cd31d1b2",
     "d128ec37-ce2f-4cc0-8378-32453fc97e37"
    ],
-   "checkedAt": "2026-10-26T01:18:35.222Z",
+   "checkedAt": "2026-10-26T06:29:00.214Z",
    "lowestSeen": 79.99,
    "previousPrice": 79.99,
    "atLowestTracked": false
@@ -2760,26 +2652,26 @@
    "freeGiftOffers": 0,
    "availability": "ADD_TO_CART",
    "rating": 4.6,
-   "reviewCount": 713,
+   "reviewCount": 714,
    "bundles": [
-    "3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
     "b1b2daa8-f20b-45ed-8b31-373359686c17",
+    "3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
     "c4ddeeaf-2451-427b-a175-de5027c98a86",
     "135c08ee-7297-4a8e-a662-7abdafd7d002",
     "1477451c-70df-4959-82f0-4b6a78439aa8",
     "03944b01-1403-4b68-aa11-f4fa32f39c0f",
-    "67f75c0f-5003-4464-8fed-28f4c2709a17",
-    "436a2b35-7295-4971-8cd7-87746d53c2ea",
     "14a7d2c8-01ed-49a6-9de9-c1215a72dbb1",
-    "eea77844-804b-44ca-bb57-f0d909e7879b",
-    "36e2e075-3710-4354-b2e0-a50c152a0fe4",
-    "7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
     "10845936-0dc5-472d-83e7-3282d47ad6f8",
-    "375698c7-5a79-417e-85af-c4ffe4e2921f",
+    "ad2deeb4-d4ce-4d30-af68-1bde844b4e55",
+    "67f75c0f-5003-4464-8fed-28f4c2709a17",
+    "7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
+    "436a2b35-7295-4971-8cd7-87746d53c2ea",
+    "eea77844-804b-44ca-bb57-f0d909e7879b",
     "c2a16918-71b5-4170-8271-11a7245911d5",
-    "ad2deeb4-d4ce-4d30-af68-1bde844b4e55"
+    "36e2e075-3710-4354-b2e0-a50c152a0fe4",
+    "375698c7-5a79-417e-85af-c4ffe4e2921f"
    ],
-   "checkedAt": "2026-10-26T01:18:40.654Z",
+   "checkedAt": "2026-10-26T06:29:07.629Z",
    "lowestSeen": 109.99,
    "previousPrice": 119.99,
    "atLowestTracked": false
@@ -2805,7 +2697,7 @@
    "rating": 4.5,
    "reviewCount": 35,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:18:35.222Z",
+   "checkedAt": "2026-10-26T06:29:02.431Z",
    "lowestSeen": 169.99,
    "previousPrice": 169.99,
    "atLowestTracked": false
@@ -2819,31 +2711,31 @@
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
    "screenSize": null,
    "regularPrice": 399.99,
-   "salePrice": 249.99,
+   "salePrice": 349.99,
    "onSale": true,
-   "dollarSavings": 150,
-   "percentSavings": 37,
+   "dollarSavings": 50,
+   "percentSavings": 12,
    "memberPrice": null,
    "memberDealTagged": false,
    "offers": [],
    "freeGiftOffers": 0,
-   "dealEnds": "2026-10-25T23:59:59 CDT",
+   "dealEnds": "2026-10-26T23:59:59 CDT",
    "availability": "ADD_TO_CART",
    "rating": 4.6,
    "reviewCount": 209,
    "bundles": [
     "029257f8-d3ee-4dcf-a12e-fddfbccd3416",
-    "5c5a662e-7c68-46a8-9068-f8fa9dcf49bb",
+    "8079d3db-509a-4dc6-84ee-eff6c1380e8f",
     "3f4bc65a-05e0-4f77-b943-49689ba6790f",
-    "e4099128-7d5e-42fe-bbe3-66774d307317",
-    "5f8d5c82-3b60-4a64-a482-835404b690e5",
     "1417d77d-3461-426c-ab92-9609a54635a7",
-    "8079d3db-509a-4dc6-84ee-eff6c1380e8f"
+    "5f8d5c82-3b60-4a64-a482-835404b690e5",
+    "e4099128-7d5e-42fe-bbe3-66774d307317",
+    "5c5a662e-7c68-46a8-9068-f8fa9dcf49bb"
    ],
-   "checkedAt": "2026-10-26T01:18:40.654Z",
+   "checkedAt": "2026-10-26T06:29:07.629Z",
    "lowestSeen": 249.99,
-   "previousPrice": 399.99,
-   "atLowestTracked": true
+   "previousPrice": 249.99,
+   "atLowestTracked": false
   },
   {
    "sku": "6674826",
@@ -2866,7 +2758,7 @@
    "rating": 4.5,
    "reviewCount": 29,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:11.011Z",
+   "checkedAt": "2026-10-26T06:28:30.755Z",
    "lowestSeen": 399.99,
    "previousPrice": 399.99,
    "atLowestTracked": false
@@ -2895,13 +2787,13 @@
     "d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
     "13d44083-9338-4902-a75c-c1f45466fc39",
     "cf1bc74c-fd96-45cd-be17-a5a377503362",
+    "2762a7bf-8fe8-439b-be2c-c255808197cd",
+    "d9ca3c87-d1cd-46be-9983-139e82202d41",
     "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
     "b3a16a26-8e1e-47ac-b62a-ed7b7a84abcc",
-    "2762a7bf-8fe8-439b-be2c-c255808197cd",
-    "17cfc078-ecb1-419d-9fe8-1ae7d32e019b",
-    "d9ca3c87-d1cd-46be-9983-139e82202d41"
+    "17cfc078-ecb1-419d-9fe8-1ae7d32e019b"
    ],
-   "checkedAt": "2026-10-26T01:18:38.515Z",
+   "checkedAt": "2026-10-26T06:29:04.899Z",
    "lowestSeen": 597.99,
    "previousPrice": 699.99,
    "atLowestTracked": false
@@ -2927,7 +2819,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:30.483Z",
+   "checkedAt": "2026-10-26T06:29:40.513Z",
    "lowestSeen": 999.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2953,7 +2845,7 @@
    "rating": 0,
    "reviewCount": 0,
    "bundles": [],
-   "checkedAt": "2026-10-26T01:19:27.858Z",
+   "checkedAt": "2026-10-26T06:29:57.423Z",
    "lowestSeen": 1399.99,
    "previousPrice": null,
    "atLowestTracked": false
@@ -2997,7 +2889,7 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:38.314Z"
+   "checkedAt": "2026-10-26T06:30:04.964Z"
   },
   {
    "id": "d128ec37-ce2f-4cc0-8378-32453fc97e37",
@@ -3036,7 +2928,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:47.327Z"
+   "checkedAt": "2026-10-26T06:30:29.895Z"
   },
   {
    "id": "b1b2daa8-f20b-45ed-8b31-373359686c17",
@@ -3075,7 +2967,7 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:34.984Z"
+   "checkedAt": "2026-10-26T06:30:00.131Z"
   },
   {
    "id": "ad2deeb4-d4ce-4d30-af68-1bde844b4e55",
@@ -3114,99 +3006,19 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:37.680Z"
-  },
-  {
-   "id": "1417d77d-3461-426c-ab92-9609a54635a7",
-   "name": "Package - TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/1417d77d-3461-426c-ab92-9609a54635a7",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 749.98,
-   "separateTotal": 799.98,
-   "regularTotal": 1199.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 450,
-   "memberTotal": null,
-   "items": [
-    {
-     "sku": "6617496",
-     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
-     "regularPrice": 799.99,
-     "salePrice": 549.99,
-     "packageItemPrice": 549.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    },
-    {
-     "sku": "6630470",
-     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
-     "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
-     "memberPrice": null,
-     "offers": []
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:40.162Z"
-  },
-  {
-   "id": "8079d3db-509a-4dc6-84ee-eff6c1380e8f",
-   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/8079d3db-509a-4dc6-84ee-eff6c1380e8f",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
-   "packagePrice": 749.98,
-   "separateTotal": 799.98,
-   "regularTotal": 1199.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 450,
-   "memberTotal": null,
-   "items": [
-    {
-     "sku": "6630470",
-     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
-     "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
-     "memberPrice": null,
-     "offers": []
-    },
-    {
-     "sku": "6617496",
-     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
-     "regularPrice": 799.99,
-     "salePrice": 549.99,
-     "packageItemPrice": 549.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:42.455Z"
+   "checkedAt": "2026-10-26T06:30:37.304Z"
   },
   {
    "id": "3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
    "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
    "url": "https://www.bestbuy.com/site/combo/sound-bars/3be7e412-d67d-479e-83c0-6d0d9b6ddeb4",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
-   "packagePrice": 789.98,
-   "separateTotal": 789.98,
+   "packagePrice": 819.98,
+   "separateTotal": 819.98,
    "regularTotal": 1159.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 370,
-   "memberTotal": 758.98,
+   "savingsVsRegular": 340,
+   "memberTotal": 788.98,
    "items": [
     {
      "sku": "6580778",
@@ -3223,8 +3035,8 @@
      "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
      "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
      "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
@@ -3233,27 +3045,27 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:33.693Z"
+   "checkedAt": "2026-10-26T06:30:03.435Z"
   },
   {
    "id": "c2a16918-71b5-4170-8271-11a7245911d5",
    "name": "Package - TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/c2a16918-71b5-4170-8271-11a7245911d5",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 789.98,
-   "separateTotal": 789.98,
+   "packagePrice": 819.98,
+   "separateTotal": 819.98,
    "regularTotal": 1159.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 370,
-   "memberTotal": 758.98,
+   "savingsVsRegular": 340,
+   "memberTotal": 788.98,
    "items": [
     {
      "sku": "6617498",
      "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
      "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
      "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
@@ -3272,7 +3084,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:35.050Z"
+   "checkedAt": "2026-10-26T06:31:09.663Z"
   },
   {
    "id": "14a7d2c8-01ed-49a6-9de9-c1215a72dbb1",
@@ -3311,7 +3123,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:20.210Z"
+   "checkedAt": "2026-10-26T06:30:32.488Z"
   },
   {
    "id": "10845936-0dc5-472d-83e7-3282d47ad6f8",
@@ -3350,58 +3162,18 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:30.512Z"
+   "checkedAt": "2026-10-26T06:30:34.589Z"
   },
   {
-   "id": "029257f8-d3ee-4dcf-a12e-fddfbccd3416",
-   "name": "Package - TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/029257f8-d3ee-4dcf-a12e-fddfbccd3416",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 849.98,
-   "separateTotal": 899.98,
-   "regularTotal": 1399.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 550,
-   "memberTotal": null,
-   "items": [
-    {
-     "sku": "6617498",
-     "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
-     "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    },
-    {
-     "sku": "6630470",
-     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
-     "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
-     "memberPrice": null,
-     "offers": []
-    }
-   ],
-   "checkedAt": "2026-10-26T01:19:47.462Z"
-  },
-  {
-   "id": "5c5a662e-7c68-46a8-9068-f8fa9dcf49bb",
-   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/5c5a662e-7c68-46a8-9068-f8fa9dcf49bb",
+   "id": "8079d3db-509a-4dc6-84ee-eff6c1380e8f",
+   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/8079d3db-509a-4dc6-84ee-eff6c1380e8f",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
    "packagePrice": 849.98,
    "separateTotal": 899.98,
-   "regularTotal": 1399.98,
+   "regularTotal": 1199.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 550,
+   "savingsVsRegular": 350,
    "memberTotal": null,
    "items": [
     {
@@ -3409,18 +3181,18 @@
      "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
      "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
      "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
      "memberPrice": null,
      "offers": []
     },
     {
-     "sku": "6617498",
-     "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
-     "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
+     "sku": "6617496",
+     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
+     "regularPrice": 799.99,
+     "salePrice": 549.99,
+     "packageItemPrice": 549.99,
      "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
@@ -3430,18 +3202,58 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:20:00.545Z"
+   "checkedAt": "2026-10-26T06:30:42.270Z"
+  },
+  {
+   "id": "1417d77d-3461-426c-ab92-9609a54635a7",
+   "name": "Package - TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/1417d77d-3461-426c-ab92-9609a54635a7",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
+   "packagePrice": 849.98,
+   "separateTotal": 899.98,
+   "regularTotal": 1199.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 350,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6617496",
+     "name": "TCL - 55\" QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-55-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5C/sku/6617496",
+     "regularPrice": 799.99,
+     "salePrice": 549.99,
+     "packageItemPrice": 549.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    },
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
+     "memberPrice": null,
+     "offers": []
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:52.463Z"
   },
   {
    "id": "4aca7f70-9c7a-424b-95a0-f585640aacbd",
    "name": "Package - TCL - S-Class S65K 5.1 Channel Dolby Atmos Soundbar with Wireless Subwoofer (2026) - Charcoal and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
    "url": "https://www.bestbuy.com/site/combo/sound-bars/4aca7f70-9c7a-424b-95a0-f585640aacbd",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1ff11843-032a-4eb8-9a0f-3a893e4051bc.jpg",
-   "packagePrice": 879.98,
-   "separateTotal": 929.98,
+   "packagePrice": 929.98,
+   "separateTotal": 979.98,
    "regularTotal": 1299.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 420,
+   "savingsVsRegular": 370,
    "memberTotal": null,
    "items": [
     {
@@ -3449,8 +3261,8 @@
      "name": "TCL - S-Class S65K 5.1 Channel Dolby Atmos Soundbar with Wireless Subwoofer (2026) - Charcoal",
      "url": "https://www.bestbuy.com/product/tcl-s-class-s65k-5-1-channel-dolby-atmos-soundbar-with-wireless-subwoofer-2026-charcoal/J36QYTH9JH/sku/6681104",
      "regularPrice": 299.99,
-     "salePrice": 279.99,
-     "packageItemPrice": 229.99,
+     "salePrice": 299.99,
+     "packageItemPrice": 249.99,
      "memberPrice": null,
      "offers": []
     },
@@ -3459,8 +3271,8 @@
      "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
      "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
      "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
@@ -3469,25 +3281,144 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:20:44.880Z"
+   "checkedAt": "2026-10-26T06:31:17.501Z"
   },
   {
-   "id": "436a2b35-7295-4971-8cd7-87746d53c2ea",
-   "name": "Package - TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024) - White and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/frame-tvs/436a2b35-7295-4971-8cd7-87746d53c2ea",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
+   "id": "029257f8-d3ee-4dcf-a12e-fddfbccd3416",
+   "name": "Package - TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/029257f8-d3ee-4dcf-a12e-fddfbccd3416",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
+   "packagePrice": 979.98,
+   "separateTotal": 1029.98,
+   "regularTotal": 1399.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 420,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6617498",
+     "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
+     "regularPrice": 999.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    },
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
+     "memberPrice": null,
+     "offers": []
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:15.265Z"
+  },
+  {
+   "id": "5c5a662e-7c68-46a8-9068-f8fa9dcf49bb",
+   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/5c5a662e-7c68-46a8-9068-f8fa9dcf49bb",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
+   "packagePrice": 979.98,
+   "separateTotal": 1029.98,
+   "regularTotal": 1399.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 420,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617498",
+     "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
+     "regularPrice": 999.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-26T06:31:12.537Z"
+  },
+  {
+   "id": "03944b01-1403-4b68-aa11-f4fa32f39c0f",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/03944b01-1403-4b68-aa11-f4fa32f39c0f",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
    "packagePrice": 1039.98,
    "separateTotal": 1039.98,
-   "regularTotal": 1459.98,
+   "regularTotal": 1447.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 420,
+   "savingsVsRegular": 408,
    "memberTotal": 1008.98,
    "items": [
     {
-     "sku": "6590123",
-     "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
-     "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
-     "regularPrice": 1299.99,
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 139.99,
+     "packageItemPrice": 139.99,
+     "memberPrice": 108.99,
+     "offers": []
+    },
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
+     "salePrice": 899.99,
+     "packageItemPrice": 899.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:24.824Z"
+  },
+  {
+   "id": "eea77844-804b-44ca-bb57-f0d909e7879b",
+   "name": "Package - TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/eea77844-804b-44ca-bb57-f0d909e7879b",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
+   "packagePrice": 1039.98,
+   "separateTotal": 1039.98,
+   "regularTotal": 1447.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 408,
+   "memberTotal": 1008.98,
+   "items": [
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
      "salePrice": 899.99,
      "packageItemPrice": 899.99,
      "memberPrice": null,
@@ -3508,46 +3439,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:14.868Z"
-  },
-  {
-   "id": "36e2e075-3710-4354-b2e0-a50c152a0fe4",
-   "name": "Package - TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024) - White and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/frame-tvs/36e2e075-3710-4354-b2e0-a50c152a0fe4",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
-   "packagePrice": 1039.98,
-   "separateTotal": 1039.98,
-   "regularTotal": 1459.98,
-   "bundleSavings": 0,
-   "savingsVsRegular": 420,
-   "memberTotal": 1008.98,
-   "items": [
-    {
-     "sku": "6590123",
-     "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
-     "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
-     "regularPrice": 1299.99,
-     "salePrice": 899.99,
-     "packageItemPrice": 899.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium"
-     ]
-    },
-    {
-     "sku": "6580778",
-     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
-     "regularPrice": 159.99,
-     "salePrice": 139.99,
-     "packageItemPrice": 139.99,
-     "memberPrice": 108.99,
-     "offers": []
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:25.414Z"
+   "checkedAt": "2026-10-26T06:31:07.412Z"
   },
   {
    "id": "2762a7bf-8fe8-439b-be2c-c255808197cd",
@@ -3587,18 +3479,98 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:49.983Z"
+   "checkedAt": "2026-10-26T06:30:27.204Z"
+  },
+  {
+   "id": "5f8d5c82-3b60-4a64-a482-835404b690e5",
+   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/5f8d5c82-3b60-4a64-a482-835404b690e5",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
+   "packagePrice": 1199.98,
+   "separateTotal": 1249.98,
+   "regularTotal": 1687.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 488,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
+     "salePrice": 899.99,
+     "packageItemPrice": 899.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:57.361Z"
+  },
+  {
+   "id": "e4099128-7d5e-42fe-bbe3-66774d307317",
+   "name": "Package - TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/e4099128-7d5e-42fe-bbe3-66774d307317",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
+   "packagePrice": 1199.98,
+   "separateTotal": 1249.98,
+   "regularTotal": 1687.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 488,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6617497",
+     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
+     "regularPrice": 1287.99,
+     "salePrice": 899.99,
+     "packageItemPrice": 899.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    },
+    {
+     "sku": "6630470",
+     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
+     "regularPrice": 399.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
+     "memberPrice": null,
+     "offers": []
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:59.857Z"
   },
   {
    "id": "a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
    "name": "Package - TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/a66b3d0b-6b0d-4d04-a9cc-e0a8a7681b21",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 1249.98,
-   "separateTotal": 1299.98,
+   "packagePrice": 1279.98,
+   "separateTotal": 1329.98,
    "regularTotal": 1699.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 450,
+   "savingsVsRegular": 420,
    "memberTotal": null,
    "items": [
     {
@@ -3606,8 +3578,8 @@
      "name": "TCL - 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K/sku/6617498",
      "regularPrice": 999.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 649.99,
+     "salePrice": 679.99,
+     "packageItemPrice": 679.99,
      "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
@@ -3627,19 +3599,19 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:07.990Z"
+   "checkedAt": "2026-10-26T06:30:54.792Z"
   },
   {
-   "id": "03944b01-1403-4b68-aa11-f4fa32f39c0f",
-   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/03944b01-1403-4b68-aa11-f4fa32f39c0f",
+   "id": "135c08ee-7297-4a8e-a662-7abdafd7d002",
+   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/135c08ee-7297-4a8e-a662-7abdafd7d002",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
-   "packagePrice": 1427.98,
-   "separateTotal": 1427.98,
-   "regularTotal": 1447.98,
+   "packagePrice": 1339.98,
+   "separateTotal": 1339.98,
+   "regularTotal": 1835.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 20,
-   "memberTotal": 1008.98,
+   "savingsVsRegular": 496,
+   "memberTotal": 1308.98,
    "items": [
     {
      "sku": "6580778",
@@ -3652,13 +3624,13 @@
      "offers": []
     },
     {
-     "sku": "6617497",
-     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
-     "regularPrice": 1287.99,
-     "salePrice": 1287.99,
-     "packageItemPrice": 1287.99,
-     "memberPrice": 899.99,
+     "sku": "6617500",
+     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
+     "regularPrice": 1675.99,
+     "salePrice": 1199.99,
+     "packageItemPrice": 1199.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -3666,28 +3638,28 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:57.560Z"
+   "checkedAt": "2026-10-26T06:30:12.466Z"
   },
   {
-   "id": "eea77844-804b-44ca-bb57-f0d909e7879b",
-   "name": "Package - TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/eea77844-804b-44ca-bb57-f0d909e7879b",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 1427.98,
-   "separateTotal": 1427.98,
-   "regularTotal": 1447.98,
+   "id": "7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
+   "name": "Package - TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
+   "packagePrice": 1339.98,
+   "separateTotal": 1339.98,
+   "regularTotal": 1835.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 20,
-   "memberTotal": 1008.98,
+   "savingsVsRegular": 496,
+   "memberTotal": 1308.98,
    "items": [
     {
-     "sku": "6617497",
-     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
-     "regularPrice": 1287.99,
-     "salePrice": 1287.99,
-     "packageItemPrice": 1287.99,
-     "memberPrice": 899.99,
+     "sku": "6617500",
+     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
+     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
+     "regularPrice": 1675.99,
+     "salePrice": 1199.99,
+     "packageItemPrice": 1199.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -3705,7 +3677,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:22.894Z"
+   "checkedAt": "2026-10-26T06:30:49.867Z"
   },
   {
    "id": "c4ddeeaf-2451-427b-a175-de5027c98a86",
@@ -3744,7 +3716,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:19:43.284Z"
+   "checkedAt": "2026-10-26T06:30:09.967Z"
   },
   {
    "id": "67f75c0f-5003-4464-8fed-28f4c2709a17",
@@ -3783,147 +3755,28 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:20:13.074Z"
+   "checkedAt": "2026-10-26T06:30:40.246Z"
   },
   {
-   "id": "e4099128-7d5e-42fe-bbe3-66774d307317",
-   "name": "Package - TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/e4099128-7d5e-42fe-bbe3-66774d307317",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5844bfa9-a52b-4e31-a646-852d853c1098.jpg",
-   "packagePrice": 1487.98,
-   "separateTotal": 1537.98,
-   "regularTotal": 1687.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 200,
-   "memberTotal": 1149.98,
-   "items": [
-    {
-     "sku": "6617497",
-     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
-     "regularPrice": 1287.99,
-     "salePrice": 1287.99,
-     "packageItemPrice": 1287.99,
-     "memberPrice": 899.99,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    },
-    {
-     "sku": "6630470",
-     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
-     "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
-     "memberPrice": null,
-     "offers": []
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:05.623Z"
-  },
-  {
-   "id": "5f8d5c82-3b60-4a64-a482-835404b690e5",
-   "name": "Package - TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer and 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/5f8d5c82-3b60-4a64-a482-835404b690e5",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7f4ef348-5e54-43c5-aea8-f72cb1cf70f3.jpg",
-   "packagePrice": 1487.98,
-   "separateTotal": 1537.98,
-   "regularTotal": 1687.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 200,
-   "memberTotal": 1149.98,
-   "items": [
-    {
-     "sku": "6630470",
-     "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
-     "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
-     "memberPrice": null,
-     "offers": []
-    },
-    {
-     "sku": "6617497",
-     "name": "TCL - 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/6617497",
-     "regularPrice": 1287.99,
-     "salePrice": 1287.99,
-     "packageItemPrice": 1287.99,
-     "memberPrice": 899.99,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:10.474Z"
-  },
-  {
-   "id": "135c08ee-7297-4a8e-a662-7abdafd7d002",
-   "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/135c08ee-7297-4a8e-a662-7abdafd7d002",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
-   "packagePrice": 1815.98,
-   "separateTotal": 1815.98,
-   "regularTotal": 1835.98,
+   "id": "436a2b35-7295-4971-8cd7-87746d53c2ea",
+   "name": "Package - TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024) - White and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/frame-tvs/436a2b35-7295-4971-8cd7-87746d53c2ea",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
+   "packagePrice": 1439.98,
+   "separateTotal": 1439.98,
+   "regularTotal": 1459.98,
    "bundleSavings": 0,
    "savingsVsRegular": 20,
-   "memberTotal": 1308.98,
+   "memberTotal": 1008.98,
    "items": [
     {
-     "sku": "6580778",
-     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
-     "regularPrice": 159.99,
-     "salePrice": 139.99,
-     "packageItemPrice": 139.99,
-     "memberPrice": 108.99,
-     "offers": []
-    },
-    {
-     "sku": "6617500",
-     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
-     "regularPrice": 1675.99,
-     "salePrice": 1675.99,
-     "packageItemPrice": 1675.99,
-     "memberPrice": 1199.99,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "YouTube Premium"
-     ]
-    }
-   ],
-   "checkedAt": "2026-10-26T01:19:45.453Z"
-  },
-  {
-   "id": "7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
-   "name": "Package - TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/7a9d3e1f-f1b9-4b7d-9984-4266706e7a58",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
-   "packagePrice": 1815.98,
-   "separateTotal": 1815.98,
-   "regularTotal": 1835.98,
-   "bundleSavings": 0,
-   "savingsVsRegular": 20,
-   "memberTotal": 1308.98,
-   "items": [
-    {
-     "sku": "6617500",
-     "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
-     "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
-     "regularPrice": 1675.99,
-     "salePrice": 1675.99,
-     "packageItemPrice": 1675.99,
-     "memberPrice": 1199.99,
+     "sku": "6590123",
+     "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
+     "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
+     "regularPrice": 1299.99,
+     "salePrice": 1299.99,
+     "packageItemPrice": 1299.99,
+     "memberPrice": 899.99,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -3941,28 +3794,67 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:27.848Z"
+   "checkedAt": "2026-10-26T06:31:02.693Z"
+  },
+  {
+   "id": "36e2e075-3710-4354-b2e0-a50c152a0fe4",
+   "name": "Package - TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024) - White and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+   "url": "https://www.bestbuy.com/site/combo/frame-tvs/36e2e075-3710-4354-b2e0-a50c152a0fe4",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ff41ad86-884f-4cea-adf0-f4fb8189665a.jpg",
+   "packagePrice": 1439.98,
+   "separateTotal": 1439.98,
+   "regularTotal": 1459.98,
+   "bundleSavings": 0,
+   "savingsVsRegular": 20,
+   "memberTotal": 1008.98,
+   "items": [
+    {
+     "sku": "6590123",
+     "name": "TCL - 65\" Class A300W NXTVISION Series 4K QLED Art TV with Magnetic Frame, Ultra Matte Screen and Flush Wall Mount (2024)",
+     "url": "https://www.bestbuy.com/product/tcl-65-class-a300w-nxtvision-series-4k-qled-art-tv-with-magnetic-frame-ultra-matte-screen-and-flush-wall-mount-2024/J36QYTK3HH/sku/6590123",
+     "regularPrice": 1299.99,
+     "salePrice": 1299.99,
+     "packageItemPrice": 1299.99,
+     "memberPrice": 899.99,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "YouTube Premium"
+     ]
+    },
+    {
+     "sku": "6580778",
+     "name": "TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
+     "url": "https://www.bestbuy.com/product/tcl-s-class-s55h-2-1-channel-s-class-soundbar-with-wireless-subwoofer-dolby-atmos-2025-black/J36QYTWZ5Q/sku/6580778",
+     "regularPrice": 159.99,
+     "salePrice": 139.99,
+     "packageItemPrice": 139.99,
+     "memberPrice": 108.99,
+     "offers": []
+    }
+   ],
+   "checkedAt": "2026-10-26T06:31:14.535Z"
   },
   {
    "id": "3f4bc65a-05e0-4f77-b943-49689ba6790f",
    "name": "Package - TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/3f4bc65a-05e0-4f77-b943-49689ba6790f",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
-   "packagePrice": 1875.98,
-   "separateTotal": 1925.98,
+   "packagePrice": 1499.98,
+   "separateTotal": 1549.98,
    "regularTotal": 2075.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 200,
-   "memberTotal": 1449.98,
+   "savingsVsRegular": 576,
+   "memberTotal": null,
    "items": [
     {
      "sku": "6617500",
      "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
      "regularPrice": 1675.99,
-     "salePrice": 1675.99,
-     "packageItemPrice": 1675.99,
-     "memberPrice": 1199.99,
+     "salePrice": 1199.99,
+     "packageItemPrice": 1199.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -3975,102 +3867,24 @@
      "name": "TCL - Q Class Q65H 5.1 Channel Soundbar with Dolby Atmos, Ray Danz Technology, and Wireless Subwoofer - Black",
      "url": "https://www.bestbuy.com/product/tcl-q-class-q65h-5-1-channel-soundbar-with-dolby-atmos-ray-danz-technology-and-wireless-subwoofer-black/J36QYTQ5V3/sku/6630470",
      "regularPrice": 399.99,
-     "salePrice": 249.99,
-     "packageItemPrice": 199.99,
+     "salePrice": 349.99,
+     "packageItemPrice": 299.99,
      "memberPrice": null,
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:02.996Z"
-  },
-  {
-   "id": "d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
-   "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
-   "url": "https://www.bestbuy.com/site/combo/sound-bars/d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
-   "packagePrice": 2099.98,
-   "separateTotal": 2149.98,
-   "regularTotal": 3699.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 1600,
-   "memberTotal": null,
-   "items": [
-    {
-     "sku": "6580777",
-     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
-     "regularPrice": 699.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 599.99,
-     "memberPrice": null,
-     "offers": []
-    },
-    {
-     "sku": "6672672",
-     "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
-     "regularPrice": 2999.99,
-     "salePrice": 1499.99,
-     "packageItemPrice": 1499.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    }
-   ],
-   "checkedAt": "2026-10-26T01:19:40.942Z"
-  },
-  {
-   "id": "17cfc078-ecb1-419d-9fe8-1ae7d32e019b",
-   "name": "Package - TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) and Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
-   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/17cfc078-ecb1-419d-9fe8-1ae7d32e019b",
-   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9e4713e-a4cb-4451-bf14-cd398c34f741.jpg",
-   "packagePrice": 2099.98,
-   "separateTotal": 2149.98,
-   "regularTotal": 3699.98,
-   "bundleSavings": 50,
-   "savingsVsRegular": 1600,
-   "memberTotal": null,
-   "items": [
-    {
-     "sku": "6672672",
-     "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
-     "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
-     "regularPrice": 2999.99,
-     "salePrice": 1499.99,
-     "packageItemPrice": 1499.99,
-     "memberPrice": null,
-     "offers": [
-      "Fubo with select TV Purchase",
-      "Apple TV Up to 1 Month",
-      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
-     ]
-    },
-    {
-     "sku": "6580777",
-     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
-     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
-     "regularPrice": 699.99,
-     "salePrice": 649.99,
-     "packageItemPrice": 599.99,
-     "memberPrice": null,
-     "offers": []
-    }
-   ],
-   "checkedAt": "2026-10-26T01:20:52.443Z"
+   "checkedAt": "2026-10-26T06:30:47.397Z"
   },
   {
    "id": "1477451c-70df-4959-82f0-4b6a78439aa8",
    "name": "Package - TCL - S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) and 75\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
    "url": "https://www.bestbuy.com/site/combo/sound-bars/1477451c-70df-4959-82f0-4b6a78439aa8",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580778_sd.jpg",
-   "packagePrice": 2139.98,
-   "separateTotal": 2139.98,
+   "packagePrice": 1639.98,
+   "separateTotal": 1639.98,
    "regularTotal": 2159.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 20,
+   "savingsVsRegular": 520,
    "memberTotal": 1308.98,
    "items": [
     {
@@ -4088,8 +3902,8 @@
      "name": "TCL - 75\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
      "url": "https://www.bestbuy.com/product/tcl-75-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHL6G/sku/6672674",
      "regularPrice": 1999.99,
-     "salePrice": 1999.99,
-     "packageItemPrice": 1999.99,
+     "salePrice": 1499.99,
+     "packageItemPrice": 1499.99,
      "memberPrice": 1199.99,
      "offers": [
       "Fubo with select TV Purchase",
@@ -4097,18 +3911,18 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:55.516Z"
+   "checkedAt": "2026-10-26T06:30:22.298Z"
   },
   {
    "id": "375698c7-5a79-417e-85af-c4ffe4e2921f",
    "name": "Package - TCL - 75\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) and S-Class S55H 2.1 Channel S-Class Soundbar with Wireless Subwoofer, Dolby Atmos (2025) - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/375698c7-5a79-417e-85af-c4ffe4e2921f",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fb1e490-4c04-4bb8-b5a8-9be67aa7ef27.jpg",
-   "packagePrice": 2139.98,
-   "separateTotal": 2139.98,
+   "packagePrice": 1639.98,
+   "separateTotal": 1639.98,
    "regularTotal": 2159.98,
    "bundleSavings": 0,
-   "savingsVsRegular": 20,
+   "savingsVsRegular": 520,
    "memberTotal": 1308.98,
    "items": [
     {
@@ -4116,8 +3930,8 @@
      "name": "TCL - 75\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
      "url": "https://www.bestbuy.com/product/tcl-75-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHL6G/sku/6672674",
      "regularPrice": 1999.99,
-     "salePrice": 1999.99,
-     "packageItemPrice": 1999.99,
+     "salePrice": 1499.99,
+     "packageItemPrice": 1499.99,
      "memberPrice": 1199.99,
      "offers": [
       "Fubo with select TV Purchase",
@@ -4135,19 +3949,19 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:32.529Z"
+   "checkedAt": "2026-10-26T06:31:19.947Z"
   },
   {
    "id": "13d44083-9338-4902-a75c-c1f45466fc39",
    "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) - Black",
    "url": "https://www.bestbuy.com/site/combo/sound-bars/13d44083-9338-4902-a75c-c1f45466fc39",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
-   "packagePrice": 2275.98,
-   "separateTotal": 2325.98,
+   "packagePrice": 1799.98,
+   "separateTotal": 1849.98,
    "regularTotal": 2375.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 100,
-   "memberTotal": 1849.98,
+   "savingsVsRegular": 576,
+   "memberTotal": null,
    "items": [
     {
      "sku": "6580777",
@@ -4164,9 +3978,9 @@
      "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
      "regularPrice": 1675.99,
-     "salePrice": 1675.99,
-     "packageItemPrice": 1675.99,
-     "memberPrice": 1199.99,
+     "salePrice": 1199.99,
+     "packageItemPrice": 1199.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -4175,28 +3989,28 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:50.214Z"
+   "checkedAt": "2026-10-26T06:30:17.517Z"
   },
   {
    "id": "d9ca3c87-d1cd-46be-9983-139e82202d41",
    "name": "Package - TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) and Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/d9ca3c87-d1cd-46be-9983-139e82202d41",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2206c43f-09bf-4a96-8a87-22062b015182.jpg",
-   "packagePrice": 2275.98,
-   "separateTotal": 2325.98,
+   "packagePrice": 1799.98,
+   "separateTotal": 1849.98,
    "regularTotal": 2375.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 100,
-   "memberTotal": 1849.98,
+   "savingsVsRegular": 576,
+   "memberTotal": null,
    "items": [
     {
      "sku": "6617500",
      "name": "TCL - 85\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025)",
      "url": "https://www.bestbuy.com/product/tcl-85-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFL/sku/6617500",
      "regularPrice": 1675.99,
-     "salePrice": 1675.99,
-     "packageItemPrice": 1675.99,
-     "memberPrice": 1199.99,
+     "salePrice": 1199.99,
+     "packageItemPrice": 1199.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -4215,19 +4029,97 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:55.122Z"
+   "checkedAt": "2026-10-26T06:30:44.840Z"
+  },
+  {
+   "id": "d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
+   "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
+   "url": "https://www.bestbuy.com/site/combo/sound-bars/d256232d-a5ee-4e2d-be24-0ed5a8895ec7",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
+   "packagePrice": 2199.98,
+   "separateTotal": 2249.98,
+   "regularTotal": 3699.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 1500,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6580777",
+     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
+     "regularPrice": 699.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 599.99,
+     "memberPrice": null,
+     "offers": []
+    },
+    {
+     "sku": "6672672",
+     "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
+     "regularPrice": 2999.99,
+     "salePrice": 1599.99,
+     "packageItemPrice": 1599.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    }
+   ],
+   "checkedAt": "2026-10-26T06:30:07.371Z"
+  },
+  {
+   "id": "17cfc078-ecb1-419d-9fe8-1ae7d32e019b",
+   "name": "Package - TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) and Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+   "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/17cfc078-ecb1-419d-9fe8-1ae7d32e019b",
+   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9e4713e-a4cb-4451-bf14-cd398c34f741.jpg",
+   "packagePrice": 2199.98,
+   "separateTotal": 2249.98,
+   "regularTotal": 3699.98,
+   "bundleSavings": 50,
+   "savingsVsRegular": 1500,
+   "memberTotal": null,
+   "items": [
+    {
+     "sku": "6672672",
+     "name": "TCL - 75\" Class QM8L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
+     "url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672",
+     "regularPrice": 2999.99,
+     "salePrice": 1599.99,
+     "packageItemPrice": 1599.99,
+     "memberPrice": null,
+     "offers": [
+      "Fubo with select TV Purchase",
+      "Apple TV Up to 1 Month",
+      "Save an extra $50 on TCL Q-Series Soundbar w/purchase of any 65inch+ TCL QLED or QD-MiniLED TV"
+     ]
+    },
+    {
+     "sku": "6580777",
+     "name": "TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
+     "url": "https://www.bestbuy.com/product/tcl-q85h-q-class-7-1-4-channel-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-surround-speakers-black/J36QYTWZF6/sku/6580777",
+     "regularPrice": 699.99,
+     "salePrice": 649.99,
+     "packageItemPrice": 599.99,
+     "memberPrice": null,
+     "offers": []
+    }
+   ],
+   "checkedAt": "2026-10-26T06:31:23.123Z"
   },
   {
    "id": "cf1bc74c-fd96-45cd-be17-a5a377503362",
    "name": "Package - TCL - Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers and 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) - Black",
    "url": "https://www.bestbuy.com/site/combo/sound-bars/cf1bc74c-fd96-45cd-be17-a5a377503362",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ae7ce3c5-2f63-4500-a0ea-2cfa1ec5ef0b.jpg",
-   "packagePrice": 4599.98,
-   "separateTotal": 4649.98,
+   "packagePrice": 3099.98,
+   "separateTotal": 3149.98,
    "regularTotal": 4699.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 100,
-   "memberTotal": 3449.98,
+   "savingsVsRegular": 1600,
+   "memberTotal": null,
    "items": [
     {
      "sku": "6580777",
@@ -4244,9 +4136,9 @@
      "name": "TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
      "url": "https://www.bestbuy.com/product/tcl-98-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH8GG/sku/6672673",
      "regularPrice": 3999.99,
-     "salePrice": 3999.99,
-     "packageItemPrice": 3999.99,
-     "memberPrice": 2799.99,
+     "salePrice": 2499.99,
+     "packageItemPrice": 2499.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -4254,28 +4146,28 @@
      ]
     }
    ],
-   "checkedAt": "2026-10-26T01:19:52.886Z"
+   "checkedAt": "2026-10-26T06:30:20.028Z"
   },
   {
    "id": "b3a16a26-8e1e-47ac-b62a-ed7b7a84abcc",
    "name": "Package - TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026) and Q85H Q Class 7.1.4 Channel Sound Bar with Dolby Atmos, Wireless Subwoofer, and Wireless Surround Speakers - Black",
    "url": "https://www.bestbuy.com/site/combo/all-flat-screen-tvs/b3a16a26-8e1e-47ac-b62a-ed7b7a84abcc",
    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9c76b983-4e30-4d9a-a760-0fa0756f2ce6.jpg",
-   "packagePrice": 4599.98,
-   "separateTotal": 4649.98,
+   "packagePrice": 3099.98,
+   "separateTotal": 3149.98,
    "regularTotal": 4699.98,
    "bundleSavings": 50,
-   "savingsVsRegular": 100,
-   "memberTotal": 3449.98,
+   "savingsVsRegular": 1600,
+   "memberTotal": null,
    "items": [
     {
      "sku": "6672673",
      "name": "TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV with Google TV (2026)",
      "url": "https://www.bestbuy.com/product/tcl-98-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH8GG/sku/6672673",
      "regularPrice": 3999.99,
-     "salePrice": 3999.99,
-     "packageItemPrice": 3999.99,
-     "memberPrice": 2799.99,
+     "salePrice": 2499.99,
+     "packageItemPrice": 2499.99,
+     "memberPrice": null,
      "offers": [
       "Fubo with select TV Purchase",
       "Apple TV Up to 1 Month",
@@ -4293,7 +4185,7 @@
      "offers": []
     }
    ],
-   "checkedAt": "2026-10-26T01:20:17.581Z"
+   "checkedAt": "2026-10-26T06:31:05.239Z"
   }
  ],
  "warnings": [
