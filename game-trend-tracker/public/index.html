@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Trend Tracker — What's Hot Right Now</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <h1>Game Trend Tracker</h1>
+    </div>
+    <div class="topbar-right">
+      <span id="demo-badge" class="demo-badge hidden">DEMO DATA</span>
+      <span id="last-updated" class="last-updated">loading…</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="spotlight" class="spotlight hidden">
+      <!-- #1 trending game rendered here -->
+    </section>
+
+    <section id="breakout" class="breakout hidden">
+      <!-- Breakout Radar rendered here -->
+    </section>
+
+    <section id="game-list" class="game-list">
+      <div class="loading">Fetching live trend data…</div>
+    </section>
+  </main>
+
+  <footer class="footnote">
+    <p><strong>About earnings figures:</strong>
+    <span id="methodology">All earnings are estimates from public signals; real payouts are private.</span></p>
+    <p><strong>About breakout scores:</strong>
+    <span id="breakout-note">Breakout scores are heuristic early signals, not guarantees.</span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
